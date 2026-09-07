@@ -1,0 +1,14 @@
+node_modules
+.expo
+.claude
+
+# Stray scaffold folder, holds nothing but a .gitattributes
+A2 App/
+dist
+web-build
+.DS_Store
+Thumbs.db
+*.local
+
+# Goethe-Institut publication — the source of the word list, not ours to redistribute
+Goethe_A2_Vocabulary.pdf

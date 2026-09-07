@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "A2 Deutsch Vokabeln",
+    "slug": "a2-deutsch-vokabeln",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.nadimghazal71.a2deutschvokabeln"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "22ad26d9-b24c-4fa0-ba06-0cad6d656ee0"
+      }
+    }
+  }
+}
