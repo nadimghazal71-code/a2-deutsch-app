@@ -4,8 +4,15 @@ import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { colors } from './src/theme';
-import { VOCAB } from './src/vocabData';
-import { loadProgress, saveProgress, buildStudyWordList, shuffle, bumpLessonCount, getLessonCount } from './src/logic';
+import {
+  buildFlashWordList,
+  buildStudyWordList,
+  getLessonCount,
+  loadProgress,
+  saveActiveLevel,
+  saveLevelProgress,
+  withBumpedLesson,
+} from './src/logic';
 
 import HomeScreen from './src/screens/HomeScreen';
 import StudySetupScreen from './src/screens/StudySetupScreen';
@@ -24,46 +31,59 @@ export default function App() {
 function AppContent() {
   const insets = useSafeAreaInsets();
   const [loading, setLoading] = useState(true);
-  const [progress, setProgress] = useState({});
+  // Progress is held per level: { A1: {...}, A2: {...} }. The two never mix.
+  const [progress, setProgress] = useState({ A1: {}, A2: {} });
+  const [activeLevel, setActiveLevel] = useState('A1');
   const [screen, setScreen] = useState('home');
-  const [session, setSession] = useState(null); // { mode, direction, words, sessionLevels }
+  const [session, setSession] = useState(null);
 
   useEffect(() => {
-    loadProgress().then(p => {
-      setProgress(p);
+    loadProgress().then(({ byLevel, activeLevel: stored }) => {
+      setProgress(byLevel);
+      setActiveLevel(stored);
       setLoading(false);
     });
   }, []);
 
-  const persistProgress = useCallback(updated => {
-    setProgress(updated);
-    saveProgress(updated);
+  const persistLevel = useCallback((levelId, levelProgress) => {
+    setProgress(prev => ({ ...prev, [levelId]: levelProgress }));
+    saveLevelProgress(levelId, levelProgress);
+  }, []);
+
+  const selectLevel = useCallback(levelId => {
+    setActiveLevel(levelId);
+    saveActiveLevel(levelId);
   }, []);
 
   function goHome() {
     setScreen('home');
   }
 
-  function resetProgress() {
-    persistProgress({});
+  function resetLevel(levelId) {
+    persistLevel(levelId, {});
   }
 
   function startStudy(length, direction) {
+    const levelId = activeLevel;
     // Starting a Study session always counts as one "lesson" - bump the counter
     // first so this session's word selection and ratings are stamped with it.
-    const bumped = bumpLessonCount(progress);
+    const bumped = withBumpedLesson(progress[levelId] || {});
     const currentLesson = getLessonCount(bumped);
-    persistProgress(bumped);
+    persistLevel(levelId, bumped);
 
-    const words = buildStudyWordList(VOCAB, bumped, length, currentLesson);
-    setSession({ mode: 'study', direction, words, currentLesson });
+    setSession({
+      mode: 'study',
+      levelId,
+      direction,
+      words: buildStudyWordList(levelId, bumped, length, currentLesson),
+      currentLesson,
+    });
     setScreen('session');
   }
 
-  function startFlash(direction, order) {
-    let ids = VOCAB.map(e => e.id);
-    ids = order === 'shuffle' ? shuffle(ids) : ids.slice().sort((a, b) => VOCAB[a].word.localeCompare(VOCAB[b].word, 'de'));
-    setSession({ mode: 'flash', direction, words: ids });
+  // Flashcards carry their own level, chosen on their setup screen.
+  function startFlash(levelId, direction, order) {
+    setSession({ mode: 'flash', levelId, direction, words: buildFlashWordList(levelId, order) });
     setScreen('session');
   }
 
@@ -85,34 +105,42 @@ function AppContent() {
       <View
         style={[
           styles.container,
-          { paddingTop: insets.top, paddingBottom: insets.bottom + 16, paddingLeft: insets.left, paddingRight: insets.right },
+          {
+            paddingTop: insets.top,
+            paddingBottom: insets.bottom + 16,
+            paddingLeft: insets.left,
+            paddingRight: insets.right,
+          },
         ]}
       >
         {screen === 'home' && (
           <HomeScreen
             progress={progress}
-            onResetProgress={resetProgress}
+            activeLevel={activeLevel}
+            onSelectLevel={selectLevel}
+            onResetProgress={resetLevel}
             onGoStudy={() => setScreen('studySetup')}
             onGoFlash={() => setScreen('flashSetup')}
           />
         )}
 
         {screen === 'studySetup' && (
-          <StudySetupScreen onBack={goHome} onStart={startStudy} />
+          <StudySetupScreen levelId={activeLevel} onBack={goHome} onStart={startStudy} />
         )}
 
         {screen === 'flashSetup' && (
-          <FlashSetupScreen onBack={goHome} onStart={startFlash} />
+          <FlashSetupScreen levelId={activeLevel} onBack={goHome} onStart={startFlash} />
         )}
 
         {screen === 'session' && session && (
           <SessionScreen
             mode={session.mode}
+            levelId={session.levelId}
             direction={session.direction}
             words={session.words}
             currentLesson={session.currentLesson}
-            progress={progress}
-            onProgressChange={persistProgress}
+            levelProgress={progress[session.levelId] || {}}
+            onProgressChange={persistLevel}
             onExit={goHome}
             onFinish={finishStudy}
           />
@@ -120,7 +148,8 @@ function AppContent() {
 
         {screen === 'summary' && session && (
           <SummaryScreen
-            progress={progress}
+            levelId={session.levelId}
+            levelProgress={progress[session.levelId] || {}}
             words={session.words}
             sessionLevels={session.sessionLevels || {}}
             onStudyAgain={() => setScreen('studySetup')}

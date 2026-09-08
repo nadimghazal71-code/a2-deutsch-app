@@ -6,7 +6,7 @@ separate track with its own words and its own progress:
 | Level | Words | Source |
 | --- | --- | --- |
 | **A1** | 760 | Start Deutsch 1 Wortliste |
-| **A2** | 606 | Goethe-Zertifikat A2 Wortliste |
+| **A2** | 606 | Start Deutsch A2 Wortliste |
 
 Built while studying for the exams.
 
@@ -14,8 +14,8 @@ Two front-ends:
 
 - **Web** — plain HTML, CSS and JavaScript, no build step and no dependencies.
   Live at [ghazalcode.ch/projects/deutsch](https://ghazalcode.ch/projects/deutsch/).
-- **Mobile** — React Native via Expo, in [`mobile/`](mobile). Note that it
-  carries its own copy of the word list and currently only covers A2.
+- **Mobile** — React Native via Expo, in [`mobile/`](mobile). Same two levels,
+  the same scheduler, and progress kept in AsyncStorage under the same keys.
 
 ## Features
 
@@ -31,7 +31,9 @@ Two front-ends:
   reappears once its level's cooldown has passed — every lesson at level 0,
   every third at level 2, every tenth at level 4, and never again at level 5.
   Progress is kept in `localStorage`.
-- **Flashcards** for quick review, outside the scheduler.
+- **Flashcards** for quick review, outside the scheduler. They carry their own
+  level picker, so flicking through the other list does not change what Study
+  is working on.
 - Nouns are drilled with their article, A1 nouns also with their plural, and A2
   verbs with their Partizip II, since that is where the marks are actually lost.
 
@@ -73,6 +75,19 @@ written in the source as `-Ä` (meaning "add an umlaut") are spelled out, so
 `der Apfel, -Ä` becomes `der Apfel (Pl. Äpfel)`.
 
 Neither Institut PDF is redistributed here.
+
+## Keeping the two front-ends in step
+
+The web app loads its word lists as plain `<script>` tags defining globals,
+which Metro cannot consume, so the mobile copy is generated rather than
+maintained by hand:
+
+```bash
+node tools/build-mobile-vocab.mjs
+```
+
+Run it after editing either list. It rewrites `mobile/src/vocabData.js` and
+checks that every entry's `id` still equals its index, which both apps rely on.
 
 ## Adding a level
 
