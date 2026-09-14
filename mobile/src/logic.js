@@ -1,6 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-import { VOCAB_A1, VOCAB_A2 } from './vocabData';
+import { VOCAB_A1, VOCAB_A2, VOCAB_B1 } from './vocabData';
 
 /**
  * The scheduler and progress rules, kept deliberately identical to the web
@@ -15,9 +15,10 @@ import { VOCAB_A1, VOCAB_A2 } from './vocabData';
 export const LEVELS = {
   A1: { id: 'A1', label: 'A1', name: 'Start Deutsch 1', words: VOCAB_A1, storageKey: 'a1vocab_progress_v1' },
   A2: { id: 'A2', label: 'A2', name: 'Start Deutsch A2', words: VOCAB_A2, storageKey: 'a2vocab_progress_v1' },
+  B1: { id: 'B1', label: 'B1', name: 'Zertifikat Deutsch B1', words: VOCAB_B1, storageKey: 'b1vocab_progress_v1' },
 };
 
-export const LEVEL_ORDER = ['A1', 'A2'];
+export const LEVEL_ORDER = ['A1', 'A2', 'B1'];
 const ACTIVE_LEVEL_KEY = 'deutsch_active_level_v1';
 
 export function wordsOf(levelId) {

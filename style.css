@@ -247,9 +247,10 @@ html, body {
 /* Setup screens */
 .setup-group { margin-bottom: 24px; }
 .setup-group h3 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-soft); margin: 0 0 10px; }
-.option-row { display: flex; gap: 10px; }
+.option-row { display: flex; flex-wrap: wrap; gap: 10px; }
 .option-btn {
   flex: 1;
+  min-width: 92px;
   background: var(--surface);
   border: 1.5px solid var(--border);
   color: var(--ink);

@@ -17,9 +17,16 @@ const LEVELS = {
     words: VOCAB_A2,
     storageKey: 'a2vocab_progress_v1',
   },
+  B1: {
+    id: 'B1',
+    label: 'B1',
+    name: 'Zertifikat Deutsch B1',
+    words: VOCAB_B1,
+    storageKey: 'b1vocab_progress_v1',
+  },
 };
 
-const LEVEL_ORDER = ['A1', 'A2'];
+const LEVEL_ORDER = ['A1', 'A2', 'B1'];
 const ACTIVE_LEVEL_KEY = 'deutsch_active_level_v1';
 
 function loadActiveLevel() {

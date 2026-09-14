@@ -31,8 +31,8 @@ export default function App() {
 function AppContent() {
   const insets = useSafeAreaInsets();
   const [loading, setLoading] = useState(true);
-  // Progress is held per level: { A1: {...}, A2: {...} }. The two never mix.
-  const [progress, setProgress] = useState({ A1: {}, A2: {} });
+  // Progress is held per level: { A1: {...}, A2: {...}, B1: {...} }. They never mix.
+  const [progress, setProgress] = useState({ A1: {}, A2: {}, B1: {} });
   const [activeLevel, setActiveLevel] = useState('A1');
   const [screen, setScreen] = useState('home');
   const [session, setSession] = useState(null);

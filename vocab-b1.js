@@ -1,0 +1,16610 @@
+// Goethe-Zertifikat B1 vocabulary.
+// Generated from the official B1 Wortliste (German-English). Words that the
+// list shares with A1 or A2 are left out, so each level stays a distinct set.
+const VOCAB_B1 = [
+  {
+    "id": 0,
+    "word": "abbiegen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to turn off / to turn (a corner)",
+    "partizipII": "abgebogen"
+  },
+  {
+    "id": 1,
+    "word": "Abbildung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "illustration / figure",
+    "partizipII": null
+  },
+  {
+    "id": 2,
+    "word": "Abenteuer",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "adventure",
+    "partizipII": null
+  },
+  {
+    "id": 3,
+    "word": "Abfall",
+    "note": "Pl. Abfälle",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "waste / rubbish",
+    "partizipII": null
+  },
+  {
+    "id": 4,
+    "word": "Abfalleimer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "rubbish bin / trash can",
+    "partizipII": null
+  },
+  {
+    "id": 5,
+    "word": "abhängen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to depend (von = on)",
+    "partizipII": "abgehangen"
+  },
+  {
+    "id": 6,
+    "word": "abhängig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "dependent (von = on)",
+    "partizipII": null
+  },
+  {
+    "id": 7,
+    "word": "abheben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to withdraw (money) / to lift off",
+    "partizipII": "abgehoben"
+  },
+  {
+    "id": 8,
+    "word": "Abitur",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "school-leaving exam (D)",
+    "partizipII": null
+  },
+  {
+    "id": 9,
+    "word": "ablehnen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to reject / to turn down",
+    "partizipII": "abgelehnt"
+  },
+  {
+    "id": 10,
+    "word": "abmachen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to agree / to arrange / to take off",
+    "partizipII": "abgemacht"
+  },
+  {
+    "id": 11,
+    "word": "abnehmen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to lose weight / to take off / to decrease",
+    "partizipII": "abgenommen"
+  },
+  {
+    "id": 12,
+    "word": "Abonnement",
+    "note": "Pl. -s/",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "subscription",
+    "partizipII": null
+  },
+  {
+    "id": 13,
+    "word": "abonnieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to subscribe to",
+    "partizipII": "abonniert"
+  },
+  {
+    "id": 14,
+    "word": "absagen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to cancel / to call off",
+    "partizipII": "abgesagt"
+  },
+  {
+    "id": 15,
+    "word": "Abschied",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "farewell / parting",
+    "partizipII": null
+  },
+  {
+    "id": 16,
+    "word": "Abschluss",
+    "note": "Pl. Abschlüsse",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "completion / qualification / conclusion",
+    "partizipII": null
+  },
+  {
+    "id": 17,
+    "word": "Abschnitt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "section / paragraph",
+    "partizipII": null
+  },
+  {
+    "id": 18,
+    "word": "abschreiben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to copy (from someone) / to write off",
+    "partizipII": "abgeschrieben"
+  },
+  {
+    "id": 19,
+    "word": "Absenderin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "sender (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 20,
+    "word": "Absicht",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "intention / purpose",
+    "partizipII": null
+  },
+  {
+    "id": 21,
+    "word": "absolut",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "absolute / absolutely",
+    "partizipII": null
+  },
+  {
+    "id": 22,
+    "word": "abstimmen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to vote / to coordinate",
+    "partizipII": "abgestimmt"
+  },
+  {
+    "id": 23,
+    "word": "Abteilung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "department / section",
+    "partizipII": null
+  },
+  {
+    "id": 24,
+    "word": "Abwart",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "caretaker / janitor (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 25,
+    "word": "Abwartin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "caretaker / janitor (f., CH)",
+    "partizipII": null
+  },
+  {
+    "id": 26,
+    "word": "abwärts",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "downwards / down",
+    "partizipII": null
+  },
+  {
+    "id": 27,
+    "word": "abwaschen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to wash up / to do the dishes",
+    "partizipII": "abgewaschen"
+  },
+  {
+    "id": 28,
+    "word": "abwesend",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "absent",
+    "partizipII": null
+  },
+  {
+    "id": 29,
+    "word": "achten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to pay attention (auf = to) / to respect",
+    "partizipII": "geachtet"
+  },
+  {
+    "id": 30,
+    "word": "ähnlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "similar / alike",
+    "partizipII": null
+  },
+  {
+    "id": 31,
+    "word": "Aktion",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "campaign / special offer / action",
+    "partizipII": null
+  },
+  {
+    "id": 32,
+    "word": "Aktivität",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "activity",
+    "partizipII": null
+  },
+  {
+    "id": 33,
+    "word": "akzeptieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to accept",
+    "partizipII": "akzeptiert"
+  },
+  {
+    "id": 34,
+    "word": "Alarm",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "alarm",
+    "partizipII": null
+  },
+  {
+    "id": 35,
+    "word": "Alkohol",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "alcohol",
+    "partizipII": null
+  },
+  {
+    "id": 36,
+    "word": "all-",
+    "note": null,
+    "artikel": null,
+    "type": "Indefinitpronomen",
+    "english": "all / every",
+    "partizipII": null
+  },
+  {
+    "id": 37,
+    "word": "aller-",
+    "note": null,
+    "artikel": null,
+    "type": "Affix",
+    "english": "very / most (intensifier, e.g. allerbest-)",
+    "partizipII": null
+  },
+  {
+    "id": 38,
+    "word": "allerdings",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "however / admittedly",
+    "partizipII": null
+  },
+  {
+    "id": 39,
+    "word": "allgemein",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "general / universal",
+    "partizipII": null
+  },
+  {
+    "id": 40,
+    "word": "Alltag",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "everyday life",
+    "partizipII": null
+  },
+  {
+    "id": 41,
+    "word": "alltäglich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "everyday / ordinary",
+    "partizipII": null
+  },
+  {
+    "id": 42,
+    "word": "Alphabet",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "alphabet",
+    "partizipII": null
+  },
+  {
+    "id": 43,
+    "word": "als ob",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "as if / as though",
+    "partizipII": null
+  },
+  {
+    "id": 44,
+    "word": "Altenheim",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "old people's home",
+    "partizipII": null
+  },
+  {
+    "id": 45,
+    "word": "alternativ",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "alternative",
+    "partizipII": null
+  },
+  {
+    "id": 46,
+    "word": "Alternative",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "alternative",
+    "partizipII": null
+  },
+  {
+    "id": 47,
+    "word": "Altersheim",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "old people's home",
+    "partizipII": null
+  },
+  {
+    "id": 48,
+    "word": "Amt",
+    "note": "Pl. Ämter",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "office / public authority",
+    "partizipII": null
+  },
+  {
+    "id": 49,
+    "word": "amüsieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to enjoy oneself / to have fun (sich ~)",
+    "partizipII": "amüsiert"
+  },
+  {
+    "id": 50,
+    "word": "analysieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to analyse",
+    "partizipII": "analysiert"
+  },
+  {
+    "id": 51,
+    "word": "Anbieter",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "provider / supplier",
+    "partizipII": null
+  },
+  {
+    "id": 52,
+    "word": "andererseits",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "on the other hand",
+    "partizipII": null
+  },
+  {
+    "id": 53,
+    "word": "Änderung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "change / alteration",
+    "partizipII": null
+  },
+  {
+    "id": 54,
+    "word": "anerkennen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to recognise / to acknowledge",
+    "partizipII": "anerkannt"
+  },
+  {
+    "id": 55,
+    "word": "anfangs",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "at first / initially",
+    "partizipII": null
+  },
+  {
+    "id": 56,
+    "word": "Angabe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "statement / detail / information",
+    "partizipII": null
+  },
+  {
+    "id": 57,
+    "word": "angeben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to state / to specify / to show off",
+    "partizipII": "angegeben"
+  },
+  {
+    "id": 58,
+    "word": "Angehörige",
+    "note": "Pl. -n",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "relative / family member",
+    "partizipII": null
+  },
+  {
+    "id": 59,
+    "word": "angenehm",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "pleasant / agreeable",
+    "partizipII": null
+  },
+  {
+    "id": 60,
+    "word": "Angestellte",
+    "note": "Pl. -n",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "employee",
+    "partizipII": null
+  },
+  {
+    "id": 61,
+    "word": "ängstlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "anxious / fearful",
+    "partizipII": null
+  },
+  {
+    "id": 62,
+    "word": "anhaben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to have on / to be wearing",
+    "partizipII": "angehabt"
+  },
+  {
+    "id": 63,
+    "word": "ankündigen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to announce",
+    "partizipII": "angekündigt"
+  },
+  {
+    "id": 64,
+    "word": "Anlage",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "facility / system / enclosure / investment",
+    "partizipII": null
+  },
+  {
+    "id": 65,
+    "word": "Anleitung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "instructions / guide",
+    "partizipII": null
+  },
+  {
+    "id": 66,
+    "word": "annehmen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to accept / to assume",
+    "partizipII": "angenommen"
+  },
+  {
+    "id": 67,
+    "word": "Annonce",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "advertisement / classified ad",
+    "partizipII": null
+  },
+  {
+    "id": 68,
+    "word": "anschaffen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to purchase / to acquire",
+    "partizipII": "angeschafft"
+  },
+  {
+    "id": 69,
+    "word": "anschließen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to connect / to plug in",
+    "partizipII": "angeschlossen"
+  },
+  {
+    "id": 70,
+    "word": "anschnallen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to fasten one's seatbelt",
+    "partizipII": "angeschnallt"
+  },
+  {
+    "id": 71,
+    "word": "ansprechen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to speak to / to address",
+    "partizipII": "angesprochen"
+  },
+  {
+    "id": 72,
+    "word": "Anspruch",
+    "note": "Pl. Ansprüche",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "claim / entitlement / demand",
+    "partizipII": null
+  },
+  {
+    "id": 73,
+    "word": "anstellen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to employ / to switch on / to queue up",
+    "partizipII": "angestellt"
+  },
+  {
+    "id": 74,
+    "word": "anstrengen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to exert oneself / to make an effort (sich ~)",
+    "partizipII": "angestrengt"
+  },
+  {
+    "id": 75,
+    "word": "anstrengend",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "tiring / strenuous",
+    "partizipII": null
+  },
+  {
+    "id": 76,
+    "word": "Antrag",
+    "note": "Pl. Anträge",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "application / motion",
+    "partizipII": null
+  },
+  {
+    "id": 77,
+    "word": "Anwalt",
+    "note": "Pl. Anwälte",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "lawyer / attorney",
+    "partizipII": null
+  },
+  {
+    "id": 78,
+    "word": "Anwältin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "lawyer / attorney (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 79,
+    "word": "anwenden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to apply / to use",
+    "partizipII": "angewandt/angewendet"
+  },
+  {
+    "id": 80,
+    "word": "anwesend",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "present / in attendance",
+    "partizipII": null
+  },
+  {
+    "id": 81,
+    "word": "Anzahl",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "number / quantity",
+    "partizipII": null
+  },
+  {
+    "id": 82,
+    "word": "anzeigen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to report (to police) / to display",
+    "partizipII": "angezeigt"
+  },
+  {
+    "id": 83,
+    "word": "Aprikose",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "apricot",
+    "partizipII": null
+  },
+  {
+    "id": 84,
+    "word": "Arbeiter",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "worker / labourer",
+    "partizipII": null
+  },
+  {
+    "id": 85,
+    "word": "Arbeiterin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "worker / labourer (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 86,
+    "word": "Arbeitserlaubnis",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "work permit",
+    "partizipII": null
+  },
+  {
+    "id": 87,
+    "word": "Arbeitslosigkeit",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "unemployment",
+    "partizipII": null
+  },
+  {
+    "id": 88,
+    "word": "Arbeitsstelle",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "job / position",
+    "partizipII": null
+  },
+  {
+    "id": 89,
+    "word": "Architekt",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "architect",
+    "partizipII": null
+  },
+  {
+    "id": 90,
+    "word": "Architektin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "architect (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 91,
+    "word": "Ärger",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "trouble / annoyance",
+    "partizipII": null
+  },
+  {
+    "id": 92,
+    "word": "ärgerlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "annoying / annoyed",
+    "partizipII": null
+  },
+  {
+    "id": 93,
+    "word": "Art",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "kind / type / manner",
+    "partizipII": null
+  },
+  {
+    "id": 94,
+    "word": "Arzt",
+    "note": "Pl. Ärzte",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "doctor / physician",
+    "partizipII": null
+  },
+  {
+    "id": 95,
+    "word": "Ärztin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "doctor / physician (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 96,
+    "word": "Asyl",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "asylum",
+    "partizipII": null
+  },
+  {
+    "id": 97,
+    "word": "Atem",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "breath",
+    "partizipII": null
+  },
+  {
+    "id": 98,
+    "word": "atmen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to breathe",
+    "partizipII": "geatmet"
+  },
+  {
+    "id": 99,
+    "word": "Aufenthalt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "stay / stopover",
+    "partizipII": null
+  },
+  {
+    "id": 100,
+    "word": "auffallen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to stand out / to be noticeable",
+    "partizipII": "aufgefallen"
+  },
+  {
+    "id": 101,
+    "word": "auffordern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to ask / to call upon / to invite",
+    "partizipII": "aufgefordert"
+  },
+  {
+    "id": 102,
+    "word": "Aufforderung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "request / demand",
+    "partizipII": null
+  },
+  {
+    "id": 103,
+    "word": "aufführen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to perform / to stage",
+    "partizipII": "aufgeführt"
+  },
+  {
+    "id": 104,
+    "word": "aufgeben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to give up / to post (a letter)",
+    "partizipII": "aufgegeben"
+  },
+  {
+    "id": 105,
+    "word": "aufhalten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to stop / to hold up / to stay (sich ~)",
+    "partizipII": "aufgehalten"
+  },
+  {
+    "id": 106,
+    "word": "aufheben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to pick up / to keep / to cancel",
+    "partizipII": "aufgehoben"
+  },
+  {
+    "id": 107,
+    "word": "aufladen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to charge / to load up",
+    "partizipII": "aufgeladen"
+  },
+  {
+    "id": 108,
+    "word": "auflösen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to dissolve / to solve / to break up",
+    "partizipII": "aufgelöst"
+  },
+  {
+    "id": 109,
+    "word": "aufmerksam",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "attentive / observant",
+    "partizipII": null
+  },
+  {
+    "id": 110,
+    "word": "Aufnahme",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "recording / admission / photograph",
+    "partizipII": null
+  },
+  {
+    "id": 111,
+    "word": "aufnehmen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to record / to take in / to admit",
+    "partizipII": "aufgenommen"
+  },
+  {
+    "id": 112,
+    "word": "aufschreiben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to write down / to note down",
+    "partizipII": "aufgeschrieben"
+  },
+  {
+    "id": 113,
+    "word": "Auftrag",
+    "note": "Pl. Aufträge",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "order / assignment / commission",
+    "partizipII": null
+  },
+  {
+    "id": 114,
+    "word": "auftreten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to appear / to perform / to occur",
+    "partizipII": "aufgetreten"
+  },
+  {
+    "id": 115,
+    "word": "Auftritt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "appearance / performance",
+    "partizipII": null
+  },
+  {
+    "id": 116,
+    "word": "aufwachen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to wake up",
+    "partizipII": "aufgewacht"
+  },
+  {
+    "id": 117,
+    "word": "aufwärts",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "upwards / up",
+    "partizipII": null
+  },
+  {
+    "id": 118,
+    "word": "Augenblick",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "moment / instant",
+    "partizipII": null
+  },
+  {
+    "id": 119,
+    "word": "Ausdruck",
+    "note": "Pl. Ausdrücke",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "expression / printout",
+    "partizipII": null
+  },
+  {
+    "id": 120,
+    "word": "ausdrucken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to print out",
+    "partizipII": "ausgedruckt"
+  },
+  {
+    "id": 121,
+    "word": "auseinander",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "apart / separated",
+    "partizipII": null
+  },
+  {
+    "id": 122,
+    "word": "außen",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "outside / on the outside",
+    "partizipII": null
+  },
+  {
+    "id": 123,
+    "word": "äußerlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "external / outward",
+    "partizipII": null
+  },
+  {
+    "id": 124,
+    "word": "Ausfahrt",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "exit (motorway) / driveway",
+    "partizipII": null
+  },
+  {
+    "id": 125,
+    "word": "ausfallen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be cancelled / to fall out",
+    "partizipII": "ausgefallen"
+  },
+  {
+    "id": 126,
+    "word": "Ausgabe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "edition / issue / expense",
+    "partizipII": null
+  },
+  {
+    "id": 127,
+    "word": "ausgebildet",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "trained / qualified",
+    "partizipII": null
+  },
+  {
+    "id": 128,
+    "word": "ausgezeichnet",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "excellent / outstanding",
+    "partizipII": null
+  },
+  {
+    "id": 129,
+    "word": "Aushilfe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "temporary help / temp",
+    "partizipII": null
+  },
+  {
+    "id": 130,
+    "word": "Ausländer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "foreigner",
+    "partizipII": null
+  },
+  {
+    "id": 131,
+    "word": "Ausländerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "foreigner (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 132,
+    "word": "ausländisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "foreign",
+    "partizipII": null
+  },
+  {
+    "id": 133,
+    "word": "Ausnahme",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "exception",
+    "partizipII": null
+  },
+  {
+    "id": 134,
+    "word": "ausreichen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be enough / to suffice",
+    "partizipII": "ausgereicht"
+  },
+  {
+    "id": 135,
+    "word": "ausreichend",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "sufficient / adequate",
+    "partizipII": null
+  },
+  {
+    "id": 136,
+    "word": "ausrichten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to pass on (a message) / to align",
+    "partizipII": "ausgerichtet"
+  },
+  {
+    "id": 137,
+    "word": "ausschließen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to exclude / to rule out",
+    "partizipII": "ausgeschlossen"
+  },
+  {
+    "id": 138,
+    "word": "ausschließlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "exclusive / exclusively / only",
+    "partizipII": null
+  },
+  {
+    "id": 139,
+    "word": "Aussicht",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "view / prospect",
+    "partizipII": null
+  },
+  {
+    "id": 140,
+    "word": "Aussprache",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "pronunciation / discussion",
+    "partizipII": null
+  },
+  {
+    "id": 141,
+    "word": "ausstellen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to exhibit / to issue",
+    "partizipII": "ausgestellt"
+  },
+  {
+    "id": 142,
+    "word": "aussuchen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to pick out / to choose",
+    "partizipII": "ausgesucht"
+  },
+  {
+    "id": 143,
+    "word": "Auswahl",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "selection / choice",
+    "partizipII": null
+  },
+  {
+    "id": 144,
+    "word": "auswählen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to select / to choose",
+    "partizipII": "ausgewählt"
+  },
+  {
+    "id": 145,
+    "word": "Autor",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "author",
+    "partizipII": null
+  },
+  {
+    "id": 146,
+    "word": "Autorin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "author (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 147,
+    "word": "Badewanne",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "bathtub",
+    "partizipII": null
+  },
+  {
+    "id": 148,
+    "word": "Ballett",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "ballet",
+    "partizipII": null
+  },
+  {
+    "id": 149,
+    "word": "Bancomat",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "cash machine / ATM (A, CH)",
+    "partizipII": null
+  },
+  {
+    "id": 150,
+    "word": "Bankleitzahl",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "bank sort code",
+    "partizipII": null
+  },
+  {
+    "id": 151,
+    "word": "Bankomat-Karte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "bank card (A)",
+    "partizipII": null
+  },
+  {
+    "id": 152,
+    "word": "Bargeld",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "cash",
+    "partizipII": null
+  },
+  {
+    "id": 153,
+    "word": "Bart",
+    "note": "Pl. Bärte",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "beard",
+    "partizipII": null
+  },
+  {
+    "id": 154,
+    "word": "Batterie",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "battery",
+    "partizipII": null
+  },
+  {
+    "id": 155,
+    "word": "Bau",
+    "note": "Pl. Bauten",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "building / construction",
+    "partizipII": null
+  },
+  {
+    "id": 156,
+    "word": "Bauer",
+    "note": "Pl. -n",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "farmer",
+    "partizipII": null
+  },
+  {
+    "id": 157,
+    "word": "Bauernhof",
+    "note": "Pl. Bauernhöfe",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "farm",
+    "partizipII": null
+  },
+  {
+    "id": 158,
+    "word": "beachten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to observe / to pay attention to",
+    "partizipII": "beachtet"
+  },
+  {
+    "id": 159,
+    "word": "Beamtin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "civil servant / official (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 160,
+    "word": "beantragen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to apply for",
+    "partizipII": "beantragt"
+  },
+  {
+    "id": 161,
+    "word": "Bedarf",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "need / demand / requirement",
+    "partizipII": null
+  },
+  {
+    "id": 162,
+    "word": "Bedeutung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "meaning / significance",
+    "partizipII": null
+  },
+  {
+    "id": 163,
+    "word": "bedienen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to serve / to operate",
+    "partizipII": "bedient"
+  },
+  {
+    "id": 164,
+    "word": "Bedienungsanleitung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "operating instructions / user manual",
+    "partizipII": null
+  },
+  {
+    "id": 165,
+    "word": "Bedingung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "condition / term",
+    "partizipII": null
+  },
+  {
+    "id": 166,
+    "word": "beeinflussen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to influence",
+    "partizipII": "beeinflusst"
+  },
+  {
+    "id": 167,
+    "word": "befinden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be located (sich ~)",
+    "partizipII": "befunden"
+  },
+  {
+    "id": 168,
+    "word": "befreit",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "exempt / freed",
+    "partizipII": null
+  },
+  {
+    "id": 169,
+    "word": "befriedigend",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "satisfactory",
+    "partizipII": null
+  },
+  {
+    "id": 170,
+    "word": "begegnen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to meet / to encounter",
+    "partizipII": "begegnet"
+  },
+  {
+    "id": 171,
+    "word": "begeistert",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "enthusiastic / delighted",
+    "partizipII": null
+  },
+  {
+    "id": 172,
+    "word": "Beginn",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "beginning / start",
+    "partizipII": null
+  },
+  {
+    "id": 173,
+    "word": "begleiten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to accompany",
+    "partizipII": "begleitet"
+  },
+  {
+    "id": 174,
+    "word": "begrenzt",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "limited / restricted",
+    "partizipII": null
+  },
+  {
+    "id": 175,
+    "word": "Begründung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "reason / justification",
+    "partizipII": null
+  },
+  {
+    "id": 176,
+    "word": "begrüßen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to greet / to welcome",
+    "partizipII": "begrüßt"
+  },
+  {
+    "id": 177,
+    "word": "behalten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to keep / to retain",
+    "partizipII": "behalten"
+  },
+  {
+    "id": 178,
+    "word": "behandeln",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to treat",
+    "partizipII": "behandelt"
+  },
+  {
+    "id": 179,
+    "word": "behaupten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to claim / to assert",
+    "partizipII": "behauptet"
+  },
+  {
+    "id": 180,
+    "word": "behindern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to hinder / to obstruct",
+    "partizipII": "behindert"
+  },
+  {
+    "id": 181,
+    "word": "behindert",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "disabled / handicapped",
+    "partizipII": null
+  },
+  {
+    "id": 182,
+    "word": "Behörde",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "authority / public agency",
+    "partizipII": null
+  },
+  {
+    "id": 183,
+    "word": "beid-",
+    "note": null,
+    "artikel": null,
+    "type": "Indefinitpronomen",
+    "english": "both",
+    "partizipII": null
+  },
+  {
+    "id": 184,
+    "word": "beinahe",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "almost / nearly",
+    "partizipII": null
+  },
+  {
+    "id": 185,
+    "word": "beißen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to bite",
+    "partizipII": "gebissen"
+  },
+  {
+    "id": 186,
+    "word": "Beitrag",
+    "note": "Pl. Beiträge",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "contribution / fee / article",
+    "partizipII": null
+  },
+  {
+    "id": 187,
+    "word": "bekannt geben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to announce / to make public",
+    "partizipII": "bekannt gegeben"
+  },
+  {
+    "id": 188,
+    "word": "Beleg",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "receipt / proof",
+    "partizipII": null
+  },
+  {
+    "id": 189,
+    "word": "beleidigen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to insult / to offend",
+    "partizipII": "beleidigt"
+  },
+  {
+    "id": 190,
+    "word": "bemerken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to notice / to remark",
+    "partizipII": "bemerkt"
+  },
+  {
+    "id": 191,
+    "word": "bemühen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to make an effort / to try hard (sich ~)",
+    "partizipII": "bemüht"
+  },
+  {
+    "id": 192,
+    "word": "benötigen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to need / to require",
+    "partizipII": "benötigt"
+  },
+  {
+    "id": 193,
+    "word": "Benzin",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "petrol / gasoline",
+    "partizipII": null
+  },
+  {
+    "id": 194,
+    "word": "beobachten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to observe / to watch",
+    "partizipII": "beobachtet"
+  },
+  {
+    "id": 195,
+    "word": "Beratung",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "advice / consultation",
+    "partizipII": null
+  },
+  {
+    "id": 196,
+    "word": "berechnen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to calculate / to charge",
+    "partizipII": "berechnet"
+  },
+  {
+    "id": 197,
+    "word": "Bereich",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "area / field / sector",
+    "partizipII": null
+  },
+  {
+    "id": 198,
+    "word": "bereit",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "ready / prepared / willing",
+    "partizipII": null
+  },
+  {
+    "id": 199,
+    "word": "bereits",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "already",
+    "partizipII": null
+  },
+  {
+    "id": 200,
+    "word": "Bericht",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "report / account",
+    "partizipII": null
+  },
+  {
+    "id": 201,
+    "word": "beruflich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "professional / work-related",
+    "partizipII": null
+  },
+  {
+    "id": 202,
+    "word": "berufstätig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "working / employed",
+    "partizipII": null
+  },
+  {
+    "id": 203,
+    "word": "beruhigen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to calm down",
+    "partizipII": "beruhigt"
+  },
+  {
+    "id": 204,
+    "word": "beschädigen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to damage",
+    "partizipII": "beschädigt"
+  },
+  {
+    "id": 205,
+    "word": "beschäftigen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to occupy / to employ / to be busy with (sich ~)",
+    "partizipII": "beschäftigt"
+  },
+  {
+    "id": 206,
+    "word": "Beschäftigung",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "employment / occupation / activity",
+    "partizipII": null
+  },
+  {
+    "id": 207,
+    "word": "beschließen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to decide / to resolve",
+    "partizipII": "beschlossen"
+  },
+  {
+    "id": 208,
+    "word": "beschränken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to limit / to restrict",
+    "partizipII": "beschränkt"
+  },
+  {
+    "id": 209,
+    "word": "Beschreibung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "description",
+    "partizipII": null
+  },
+  {
+    "id": 210,
+    "word": "besetzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to occupy / to fill (a post)",
+    "partizipII": "besetzt"
+  },
+  {
+    "id": 211,
+    "word": "besitzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to own / to possess",
+    "partizipII": "besessen"
+  },
+  {
+    "id": 212,
+    "word": "besonder-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "special / particular",
+    "partizipII": null
+  },
+  {
+    "id": 213,
+    "word": "besorgen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to get / to obtain / to see to",
+    "partizipII": "besorgt"
+  },
+  {
+    "id": 214,
+    "word": "besprechen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to discuss",
+    "partizipII": "besprochen"
+  },
+  {
+    "id": 215,
+    "word": "Besprechung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "meeting / discussion",
+    "partizipII": null
+  },
+  {
+    "id": 216,
+    "word": "Besserung",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "improvement / recovery",
+    "partizipII": null
+  },
+  {
+    "id": 217,
+    "word": "Bestätigung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "confirmation",
+    "partizipII": null
+  },
+  {
+    "id": 218,
+    "word": "bestimmt",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "certain / definite / certainly",
+    "partizipII": null
+  },
+  {
+    "id": 219,
+    "word": "bestrafen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to punish",
+    "partizipII": "bestraft"
+  },
+  {
+    "id": 220,
+    "word": "beteiligen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to take part / to participate (sich ~)",
+    "partizipII": "beteiligt"
+  },
+  {
+    "id": 221,
+    "word": "Betrag",
+    "note": "Pl. Beträge",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "amount / sum",
+    "partizipII": null
+  },
+  {
+    "id": 222,
+    "word": "betreuen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to look after / to supervise",
+    "partizipII": "betreut"
+  },
+  {
+    "id": 223,
+    "word": "Betreuer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "carer / supervisor",
+    "partizipII": null
+  },
+  {
+    "id": 224,
+    "word": "Betreuerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "carer / supervisor (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 225,
+    "word": "Betreuung",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "care / supervision",
+    "partizipII": null
+  },
+  {
+    "id": 226,
+    "word": "Betrieb",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "company / operation",
+    "partizipII": null
+  },
+  {
+    "id": 227,
+    "word": "Betriebsrat",
+    "note": "Pl. Betriebsräte",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "works council / works council member",
+    "partizipII": null
+  },
+  {
+    "id": 228,
+    "word": "Betriebsrätin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "works council member (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 229,
+    "word": "betrügen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to cheat / to deceive",
+    "partizipII": "betrogen"
+  },
+  {
+    "id": 230,
+    "word": "betrunken",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "drunk",
+    "partizipII": null
+  },
+  {
+    "id": 231,
+    "word": "Bevölkerung",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "population",
+    "partizipII": null
+  },
+  {
+    "id": 232,
+    "word": "bevor",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "before",
+    "partizipII": null
+  },
+  {
+    "id": 233,
+    "word": "bewegen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to move",
+    "partizipII": "bewegt"
+  },
+  {
+    "id": 234,
+    "word": "Bewegung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "movement / motion / exercise",
+    "partizipII": null
+  },
+  {
+    "id": 235,
+    "word": "Beweis",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "proof / evidence",
+    "partizipII": null
+  },
+  {
+    "id": 236,
+    "word": "beweisen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to prove",
+    "partizipII": "bewiesen"
+  },
+  {
+    "id": 237,
+    "word": "Bewohner",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "resident / occupant",
+    "partizipII": null
+  },
+  {
+    "id": 238,
+    "word": "Bewohnerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "resident / occupant (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 239,
+    "word": "Beziehung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "relationship / connection",
+    "partizipII": null
+  },
+  {
+    "id": 240,
+    "word": "bieten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to offer",
+    "partizipII": "geboten"
+  },
+  {
+    "id": 241,
+    "word": "Bildschirm",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "screen / monitor",
+    "partizipII": null
+  },
+  {
+    "id": 242,
+    "word": "Billett",
+    "note": "Pl. -e/",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "ticket (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 243,
+    "word": "bio(logisch)",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "organic / biological",
+    "partizipII": null
+  },
+  {
+    "id": 244,
+    "word": "Biologie",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "biology",
+    "partizipII": null
+  },
+  {
+    "id": 245,
+    "word": "bisher",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "so far / up to now",
+    "partizipII": null
+  },
+  {
+    "id": 246,
+    "word": "blass",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "pale",
+    "partizipII": null
+  },
+  {
+    "id": 247,
+    "word": "blind",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "blind",
+    "partizipII": null
+  },
+  {
+    "id": 248,
+    "word": "Blitz",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "lightning / flash",
+    "partizipII": null
+  },
+  {
+    "id": 249,
+    "word": "blitzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to flash / to be lightning",
+    "partizipII": "geblitzt"
+  },
+  {
+    "id": 250,
+    "word": "bloß",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "merely / just / only",
+    "partizipII": null
+  },
+  {
+    "id": 251,
+    "word": "blühen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to bloom / to flourish",
+    "partizipII": "geblüht"
+  },
+  {
+    "id": 252,
+    "word": "Blut",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "blood",
+    "partizipII": null
+  },
+  {
+    "id": 253,
+    "word": "bluten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to bleed",
+    "partizipII": "geblutet"
+  },
+  {
+    "id": 254,
+    "word": "Boden",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "floor / ground / soil",
+    "partizipII": null
+  },
+  {
+    "id": 255,
+    "word": "Boot",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "boat",
+    "partizipII": null
+  },
+  {
+    "id": 256,
+    "word": "Botschaft",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "message / embassy",
+    "partizipII": null
+  },
+  {
+    "id": 257,
+    "word": "brechen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to break",
+    "partizipII": "gebrochen"
+  },
+  {
+    "id": 258,
+    "word": "Breite",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "width / breadth",
+    "partizipII": null
+  },
+  {
+    "id": 259,
+    "word": "Bremse",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "brake",
+    "partizipII": null
+  },
+  {
+    "id": 260,
+    "word": "bremsen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to brake / to slow down",
+    "partizipII": "gebremst"
+  },
+  {
+    "id": 261,
+    "word": "brennen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to burn / to be on fire",
+    "partizipII": "gebrannt"
+  },
+  {
+    "id": 262,
+    "word": "Briefkasten",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "letterbox / mailbox",
+    "partizipII": null
+  },
+  {
+    "id": 263,
+    "word": "Brieftasche",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "wallet",
+    "partizipII": null
+  },
+  {
+    "id": 264,
+    "word": "Briefträger",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "postman / mail carrier",
+    "partizipII": null
+  },
+  {
+    "id": 265,
+    "word": "Briefumschlag",
+    "note": "Pl. Briefumschläge",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "envelope",
+    "partizipII": null
+  },
+  {
+    "id": 266,
+    "word": "Broschüre",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "brochure / leaflet",
+    "partizipII": null
+  },
+  {
+    "id": 267,
+    "word": "Brötli",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "bread roll (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 268,
+    "word": "Brust",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "chest / breast",
+    "partizipII": null
+  },
+  {
+    "id": 269,
+    "word": "Bub",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "boy (A, CH)",
+    "partizipII": null
+  },
+  {
+    "id": 270,
+    "word": "Buchhandlung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "bookshop / bookstore",
+    "partizipII": null
+  },
+  {
+    "id": 271,
+    "word": "Büchse",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "tin / can",
+    "partizipII": null
+  },
+  {
+    "id": 272,
+    "word": "Buffet",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "buffet",
+    "partizipII": null
+  },
+  {
+    "id": 273,
+    "word": "Bühne",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "stage",
+    "partizipII": null
+  },
+  {
+    "id": 274,
+    "word": "Burg",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "castle / fortress",
+    "partizipII": null
+  },
+  {
+    "id": 275,
+    "word": "Bürger",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "citizen",
+    "partizipII": null
+  },
+  {
+    "id": 276,
+    "word": "Bürgerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "citizen (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 277,
+    "word": "Bürste",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "brush",
+    "partizipII": null
+  },
+  {
+    "id": 278,
+    "word": "Chance",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "chance / opportunity",
+    "partizipII": null
+  },
+  {
+    "id": 279,
+    "word": "Chef",
+    "note": "Pl. -s",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "boss / head",
+    "partizipII": null
+  },
+  {
+    "id": 280,
+    "word": "chic/schick",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "chic / smart / stylish",
+    "partizipII": null
+  },
+  {
+    "id": 281,
+    "word": "Chipkarte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "chip card / smart card",
+    "partizipII": null
+  },
+  {
+    "id": 282,
+    "word": "Coiffeur",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "hairdresser (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 283,
+    "word": "Coiffeuse",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "hairdresser (f., CH)",
+    "partizipII": null
+  },
+  {
+    "id": 284,
+    "word": "Couch",
+    "note": "Pl. -s",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "couch / sofa",
+    "partizipII": null
+  },
+  {
+    "id": 285,
+    "word": "Cousin",
+    "note": "Pl. -s",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "cousin (m.)",
+    "partizipII": null
+  },
+  {
+    "id": 286,
+    "word": "Cousine",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "cousin (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 287,
+    "word": "Couvert",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "envelope (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 288,
+    "word": "Creme",
+    "note": "Pl. -n/",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "cream",
+    "partizipII": null
+  },
+  {
+    "id": 289,
+    "word": "Dach",
+    "note": "Pl. Dächer",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "roof",
+    "partizipII": null
+  },
+  {
+    "id": 290,
+    "word": "daher",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "therefore / from there",
+    "partizipII": null
+  },
+  {
+    "id": 291,
+    "word": "dahin",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "there / to that place",
+    "partizipII": null
+  },
+  {
+    "id": 292,
+    "word": "damit",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "so that / with it",
+    "partizipII": null
+  },
+  {
+    "id": 293,
+    "word": "danach",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "afterwards / after that",
+    "partizipII": null
+  },
+  {
+    "id": 294,
+    "word": "Dank",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "thanks / gratitude",
+    "partizipII": null
+  },
+  {
+    "id": 295,
+    "word": "dankbar",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "grateful / thankful",
+    "partizipII": null
+  },
+  {
+    "id": 296,
+    "word": "danke",
+    "note": null,
+    "artikel": null,
+    "type": "Interjektion",
+    "english": "thank you / thanks",
+    "partizipII": null
+  },
+  {
+    "id": 297,
+    "word": "darstellen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to represent / to depict",
+    "partizipII": "dargestellt"
+  },
+  {
+    "id": 298,
+    "word": "Darstellung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "depiction / presentation",
+    "partizipII": null
+  },
+  {
+    "id": 299,
+    "word": "Daten",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "data / details",
+    "partizipII": null
+  },
+  {
+    "id": 300,
+    "word": "Dauer",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "duration / length of time",
+    "partizipII": null
+  },
+  {
+    "id": 301,
+    "word": "dauernd",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "constant / constantly",
+    "partizipII": null
+  },
+  {
+    "id": 302,
+    "word": "Decke",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "blanket / ceiling",
+    "partizipII": null
+  },
+  {
+    "id": 303,
+    "word": "dekorieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to decorate",
+    "partizipII": "dekoriert"
+  },
+  {
+    "id": 304,
+    "word": "Denkmal",
+    "note": "Pl. Denkmäler",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "monument / memorial",
+    "partizipII": null
+  },
+  {
+    "id": 305,
+    "word": "derselbe",
+    "note": "auch: dieselbe, dasselbe",
+    "artikel": null,
+    "type": "Pronomen",
+    "english": "the same",
+    "partizipII": null
+  },
+  {
+    "id": 306,
+    "word": "Dessert",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "dessert",
+    "partizipII": null
+  },
+  {
+    "id": 307,
+    "word": "deswegen",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "therefore / that's why",
+    "partizipII": null
+  },
+  {
+    "id": 308,
+    "word": "Detail",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "detail",
+    "partizipII": null
+  },
+  {
+    "id": 309,
+    "word": "Dialekt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "dialect",
+    "partizipII": null
+  },
+  {
+    "id": 310,
+    "word": "Dialog",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "dialogue",
+    "partizipII": null
+  },
+  {
+    "id": 311,
+    "word": "Diät",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "diet",
+    "partizipII": null
+  },
+  {
+    "id": 312,
+    "word": "dicht",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "dense / tight / close",
+    "partizipII": null
+  },
+  {
+    "id": 313,
+    "word": "Dieb",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "thief",
+    "partizipII": null
+  },
+  {
+    "id": 314,
+    "word": "dienen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to serve",
+    "partizipII": "gedient"
+  },
+  {
+    "id": 315,
+    "word": "Dienst",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "service / duty",
+    "partizipII": null
+  },
+  {
+    "id": 316,
+    "word": "diesmal",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "this time",
+    "partizipII": null
+  },
+  {
+    "id": 317,
+    "word": "digital",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "digital",
+    "partizipII": null
+  },
+  {
+    "id": 318,
+    "word": "Diplom",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "diploma / degree",
+    "partizipII": null
+  },
+  {
+    "id": 319,
+    "word": "Direktor",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "director / headmaster",
+    "partizipII": null
+  },
+  {
+    "id": 320,
+    "word": "Direktorin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "director / headmistress",
+    "partizipII": null
+  },
+  {
+    "id": 321,
+    "word": "Diskothek",
+    "note": "Pl. -en/Disko",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "disco / nightclub",
+    "partizipII": null
+  },
+  {
+    "id": 322,
+    "word": "Diskussion",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "discussion / debate",
+    "partizipII": null
+  },
+  {
+    "id": 323,
+    "word": "Distanz",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "distance",
+    "partizipII": null
+  },
+  {
+    "id": 324,
+    "word": "Doktorin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "doctor (f., title)",
+    "partizipII": null
+  },
+  {
+    "id": 325,
+    "word": "Dokument",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "document",
+    "partizipII": null
+  },
+  {
+    "id": 326,
+    "word": "Donner",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "thunder",
+    "partizipII": null
+  },
+  {
+    "id": 327,
+    "word": "donnern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to thunder",
+    "partizipII": "gedonnert"
+  },
+  {
+    "id": 328,
+    "word": "doppelt",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "double / twice",
+    "partizipII": null
+  },
+  {
+    "id": 329,
+    "word": "dort",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "there",
+    "partizipII": null
+  },
+  {
+    "id": 330,
+    "word": "Dose",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "tin / can",
+    "partizipII": null
+  },
+  {
+    "id": 331,
+    "word": "Dreck",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "dirt / filth",
+    "partizipII": null
+  },
+  {
+    "id": 332,
+    "word": "drehen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to turn / to shoot (a film)",
+    "partizipII": "gedreht"
+  },
+  {
+    "id": 333,
+    "word": "drin",
+    "note": "auch: drinnen",
+    "artikel": null,
+    "type": "Adverb",
+    "english": "inside / indoors",
+    "partizipII": null
+  },
+  {
+    "id": 334,
+    "word": "Droge",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "drug",
+    "partizipII": null
+  },
+  {
+    "id": 335,
+    "word": "Drogerie",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "drugstore / chemist's",
+    "partizipII": null
+  },
+  {
+    "id": 336,
+    "word": "Druck",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "pressure / print",
+    "partizipII": null
+  },
+  {
+    "id": 337,
+    "word": "durcheinander",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "in a mess / mixed up / confused",
+    "partizipII": null
+  },
+  {
+    "id": 338,
+    "word": "Durchschnitt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "average",
+    "partizipII": null
+  },
+  {
+    "id": 339,
+    "word": "durchschnittlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "average / on average",
+    "partizipII": null
+  },
+  {
+    "id": 340,
+    "word": "durstig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "thirsty",
+    "partizipII": null
+  },
+  {
+    "id": 341,
+    "word": "duzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to address informally (with 'du')",
+    "partizipII": "geduzt"
+  },
+  {
+    "id": 342,
+    "word": "e-card",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "health insurance card (A)",
+    "partizipII": null
+  },
+  {
+    "id": 343,
+    "word": "eben",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "just / exactly / flat",
+    "partizipII": null
+  },
+  {
+    "id": 344,
+    "word": "ebenfalls",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "likewise / also",
+    "partizipII": null
+  },
+  {
+    "id": 345,
+    "word": "ebenso",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "just as / equally",
+    "partizipII": null
+  },
+  {
+    "id": 346,
+    "word": "ec-Karte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "debit card / EC card",
+    "partizipII": null
+  },
+  {
+    "id": 347,
+    "word": "Eck",
+    "note": "Pl. -en",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "corner (A)",
+    "partizipII": null
+  },
+  {
+    "id": 348,
+    "word": "eckig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "angular / square",
+    "partizipII": null
+  },
+  {
+    "id": 349,
+    "word": "Ehe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "marriage",
+    "partizipII": null
+  },
+  {
+    "id": 350,
+    "word": "Ehefrau",
+    "note": "Pl. -en/der",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "wife",
+    "partizipII": null
+  },
+  {
+    "id": 351,
+    "word": "Ehepaar",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "married couple",
+    "partizipII": null
+  },
+  {
+    "id": 352,
+    "word": "eher",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "rather / sooner",
+    "partizipII": null
+  },
+  {
+    "id": 353,
+    "word": "ehrlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "honest",
+    "partizipII": null
+  },
+  {
+    "id": 354,
+    "word": "eigen-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "own / separate",
+    "partizipII": null
+  },
+  {
+    "id": 355,
+    "word": "eignen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be suited (sich ~ für)",
+    "partizipII": "geeignet"
+  },
+  {
+    "id": 356,
+    "word": "Eile",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "hurry / haste",
+    "partizipII": null
+  },
+  {
+    "id": 357,
+    "word": "eilen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to hurry / to be urgent",
+    "partizipII": "geeilt"
+  },
+  {
+    "id": 358,
+    "word": "ein bisschen",
+    "note": null,
+    "artikel": null,
+    "type": "Mehrwortausdruck",
+    "english": "a bit / a little",
+    "partizipII": null
+  },
+  {
+    "id": 359,
+    "word": "ein paar",
+    "note": null,
+    "artikel": null,
+    "type": "Indefinitpronomen",
+    "english": "a few / a couple of",
+    "partizipII": null
+  },
+  {
+    "id": 360,
+    "word": "Einbahnstraße",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "one-way street",
+    "partizipII": null
+  },
+  {
+    "id": 361,
+    "word": "einbrechen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to break in / to burgle",
+    "partizipII": "eingebrochen"
+  },
+  {
+    "id": 362,
+    "word": "Einbrecher",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "burglar",
+    "partizipII": null
+  },
+  {
+    "id": 363,
+    "word": "Einbrecherin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "burglar (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 364,
+    "word": "Einbruch",
+    "note": "Pl. Einbrüche",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "burglary / break-in",
+    "partizipII": null
+  },
+  {
+    "id": 365,
+    "word": "eindeutig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "clear / unambiguous",
+    "partizipII": null
+  },
+  {
+    "id": 366,
+    "word": "Eindruck",
+    "note": "Pl. Eindrücke",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "impression",
+    "partizipII": null
+  },
+  {
+    "id": 367,
+    "word": "einerseits",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "on the one hand",
+    "partizipII": null
+  },
+  {
+    "id": 368,
+    "word": "Einfahrt",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "entrance / driveway",
+    "partizipII": null
+  },
+  {
+    "id": 369,
+    "word": "Einfall",
+    "note": "Pl. Einfälle",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "idea / brainwave",
+    "partizipII": null
+  },
+  {
+    "id": 370,
+    "word": "einfallen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to occur to / to come to mind",
+    "partizipII": "eingefallen"
+  },
+  {
+    "id": 371,
+    "word": "Einfluss",
+    "note": "Pl. Einflüsse",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "influence",
+    "partizipII": null
+  },
+  {
+    "id": 372,
+    "word": "einfügen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to insert / to add in",
+    "partizipII": "eingefügt"
+  },
+  {
+    "id": 373,
+    "word": "einführen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to introduce / to import",
+    "partizipII": "eingeführt"
+  },
+  {
+    "id": 374,
+    "word": "Einführung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "introduction",
+    "partizipII": null
+  },
+  {
+    "id": 375,
+    "word": "einheitlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "uniform / standard",
+    "partizipII": null
+  },
+  {
+    "id": 376,
+    "word": "einig-",
+    "note": null,
+    "artikel": null,
+    "type": "Indefinitpronomen",
+    "english": "some / a few",
+    "partizipII": null
+  },
+  {
+    "id": 377,
+    "word": "einigen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to agree / to come to terms (sich ~)",
+    "partizipII": "geeinigt"
+  },
+  {
+    "id": 378,
+    "word": "Einkauf",
+    "note": "Pl. Einkäufe",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "purchase / shopping",
+    "partizipII": null
+  },
+  {
+    "id": 379,
+    "word": "Einkommen",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "income",
+    "partizipII": null
+  },
+  {
+    "id": 380,
+    "word": "Einnahme",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "income / takings / taking (medicine)",
+    "partizipII": null
+  },
+  {
+    "id": 381,
+    "word": "einnehmen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to take (medicine) / to earn",
+    "partizipII": "eingenommen"
+  },
+  {
+    "id": 382,
+    "word": "einrichten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to furnish / to set up",
+    "partizipII": "eingerichtet"
+  },
+  {
+    "id": 383,
+    "word": "Einrichtung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "furnishings / facility / institution",
+    "partizipII": null
+  },
+  {
+    "id": 384,
+    "word": "einsam",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "lonely / solitary",
+    "partizipII": null
+  },
+  {
+    "id": 385,
+    "word": "einschalten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to switch on",
+    "partizipII": "eingeschaltet"
+  },
+  {
+    "id": 386,
+    "word": "einschließlich",
+    "note": null,
+    "artikel": null,
+    "type": "Präposition",
+    "english": "including / inclusive of",
+    "partizipII": null
+  },
+  {
+    "id": 387,
+    "word": "Einschreiben",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "registered letter",
+    "partizipII": null
+  },
+  {
+    "id": 388,
+    "word": "einsetzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to use / to deploy / to stand up for (sich ~)",
+    "partizipII": "eingesetzt"
+  },
+  {
+    "id": 389,
+    "word": "einstellen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to hire / to adjust / to stop",
+    "partizipII": "eingestellt"
+  },
+  {
+    "id": 390,
+    "word": "eintreten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to enter / to join / to occur",
+    "partizipII": "eingetreten"
+  },
+  {
+    "id": 391,
+    "word": "Einwohner",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "inhabitant / resident",
+    "partizipII": null
+  },
+  {
+    "id": 392,
+    "word": "Einwohnerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "inhabitant / resident (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 393,
+    "word": "einzahlen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to pay in / to deposit",
+    "partizipII": "eingezahlt"
+  },
+  {
+    "id": 394,
+    "word": "Einzahlung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "deposit / payment in",
+    "partizipII": null
+  },
+  {
+    "id": 395,
+    "word": "Einzelheit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "detail",
+    "partizipII": null
+  },
+  {
+    "id": 396,
+    "word": "einzig-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "only / single / sole",
+    "partizipII": null
+  },
+  {
+    "id": 397,
+    "word": "Eisenbahn",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "railway / railroad",
+    "partizipII": null
+  },
+  {
+    "id": 398,
+    "word": "elegant",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "elegant / smart",
+    "partizipII": null
+  },
+  {
+    "id": 399,
+    "word": "elektrisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "electric / electrical",
+    "partizipII": null
+  },
+  {
+    "id": 400,
+    "word": "elektronisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "electronic",
+    "partizipII": null
+  },
+  {
+    "id": 401,
+    "word": "Eltern",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "parents",
+    "partizipII": null
+  },
+  {
+    "id": 402,
+    "word": "Empfang",
+    "note": "Pl. Empfänge",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "reception / receipt",
+    "partizipII": null
+  },
+  {
+    "id": 403,
+    "word": "empfangen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to receive / to welcome",
+    "partizipII": "empfangen"
+  },
+  {
+    "id": 404,
+    "word": "Empfehlung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "recommendation",
+    "partizipII": null
+  },
+  {
+    "id": 405,
+    "word": "endgültig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "final / definitive",
+    "partizipII": null
+  },
+  {
+    "id": 406,
+    "word": "Energie",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "energy",
+    "partizipII": null
+  },
+  {
+    "id": 407,
+    "word": "Enkel",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "grandson / grandchild",
+    "partizipII": null
+  },
+  {
+    "id": 408,
+    "word": "Enkelin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "granddaughter",
+    "partizipII": null
+  },
+  {
+    "id": 409,
+    "word": "entdecken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to discover",
+    "partizipII": "entdeckt"
+  },
+  {
+    "id": 410,
+    "word": "entfernen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to remove",
+    "partizipII": "entfernt"
+  },
+  {
+    "id": 411,
+    "word": "Entfernung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "distance",
+    "partizipII": null
+  },
+  {
+    "id": 412,
+    "word": "entgegenkommen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to come towards / to accommodate",
+    "partizipII": "entgegengekommen"
+  },
+  {
+    "id": 413,
+    "word": "enthalten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to contain",
+    "partizipII": "enthalten"
+  },
+  {
+    "id": 414,
+    "word": "entlang",
+    "note": null,
+    "artikel": null,
+    "type": "Präposition",
+    "english": "along",
+    "partizipII": null
+  },
+  {
+    "id": 415,
+    "word": "entlassen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to dismiss / to release",
+    "partizipII": "entlassen"
+  },
+  {
+    "id": 416,
+    "word": "Entlassung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "dismissal / discharge",
+    "partizipII": null
+  },
+  {
+    "id": 417,
+    "word": "entscheiden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to decide",
+    "partizipII": "entschieden"
+  },
+  {
+    "id": 418,
+    "word": "Entscheidung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "decision",
+    "partizipII": null
+  },
+  {
+    "id": 419,
+    "word": "entschließen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to make up one's mind (sich ~)",
+    "partizipII": "entschlossen"
+  },
+  {
+    "id": 420,
+    "word": "entschlossen",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "determined / resolute",
+    "partizipII": null
+  },
+  {
+    "id": 421,
+    "word": "entsorgen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to dispose of",
+    "partizipII": "entsorgt"
+  },
+  {
+    "id": 422,
+    "word": "entspannend",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "relaxing",
+    "partizipII": null
+  },
+  {
+    "id": 423,
+    "word": "entstehen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to arise / to come into being",
+    "partizipII": "entstanden"
+  },
+  {
+    "id": 424,
+    "word": "enttäuschen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to disappoint",
+    "partizipII": "enttäuscht"
+  },
+  {
+    "id": 425,
+    "word": "Enttäuschung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "disappointment",
+    "partizipII": null
+  },
+  {
+    "id": 426,
+    "word": "entweder ... oder",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "either ... or",
+    "partizipII": null
+  },
+  {
+    "id": 427,
+    "word": "entwickeln",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to develop",
+    "partizipII": "entwickelt"
+  },
+  {
+    "id": 428,
+    "word": "Entwicklung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "development",
+    "partizipII": null
+  },
+  {
+    "id": 429,
+    "word": "Erdapfel",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "potato (A)",
+    "partizipII": null
+  },
+  {
+    "id": 430,
+    "word": "Erde",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "earth / soil / ground",
+    "partizipII": null
+  },
+  {
+    "id": 431,
+    "word": "ereignen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to happen / to occur (sich ~)",
+    "partizipII": "ereignet"
+  },
+  {
+    "id": 432,
+    "word": "Ereignis",
+    "note": "Pl. -se",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "event / occurrence",
+    "partizipII": null
+  },
+  {
+    "id": 433,
+    "word": "erfahren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to find out / to experience",
+    "partizipII": "erfahren"
+  },
+  {
+    "id": 434,
+    "word": "erfinden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to invent",
+    "partizipII": "erfunden"
+  },
+  {
+    "id": 435,
+    "word": "Erfindung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "invention",
+    "partizipII": null
+  },
+  {
+    "id": 436,
+    "word": "Erfolg",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "success",
+    "partizipII": null
+  },
+  {
+    "id": 437,
+    "word": "erfolgreich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "successful",
+    "partizipII": null
+  },
+  {
+    "id": 438,
+    "word": "erforderlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "necessary / required",
+    "partizipII": null
+  },
+  {
+    "id": 439,
+    "word": "erfordern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to require / to demand",
+    "partizipII": "erfordert"
+  },
+  {
+    "id": 440,
+    "word": "erfüllen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to fulfil / to meet (a condition)",
+    "partizipII": "erfüllt"
+  },
+  {
+    "id": 441,
+    "word": "ergänzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to complete / to add to",
+    "partizipII": "ergänzt"
+  },
+  {
+    "id": 442,
+    "word": "erhalten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to receive / to preserve",
+    "partizipII": "erhalten"
+  },
+  {
+    "id": 443,
+    "word": "erhöhen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to raise / to increase",
+    "partizipII": "erhöht"
+  },
+  {
+    "id": 444,
+    "word": "Erhöhung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "increase / rise",
+    "partizipII": null
+  },
+  {
+    "id": 445,
+    "word": "erholen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to recover / to relax (sich ~)",
+    "partizipII": "erholt"
+  },
+  {
+    "id": 446,
+    "word": "Erholung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "recovery / relaxation",
+    "partizipII": null
+  },
+  {
+    "id": 447,
+    "word": "Erinnerung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "memory / reminder",
+    "partizipII": null
+  },
+  {
+    "id": 448,
+    "word": "erkälten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to catch a cold (sich ~)",
+    "partizipII": "erkältet"
+  },
+  {
+    "id": 449,
+    "word": "erkältet",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "having a cold",
+    "partizipII": null
+  },
+  {
+    "id": 450,
+    "word": "Erkältung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "cold (illness)",
+    "partizipII": null
+  },
+  {
+    "id": 451,
+    "word": "erkennen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to recognise",
+    "partizipII": "erkannt"
+  },
+  {
+    "id": 452,
+    "word": "Erklärung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "explanation / declaration",
+    "partizipII": null
+  },
+  {
+    "id": 453,
+    "word": "erkundigen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to enquire / to ask about (sich ~)",
+    "partizipII": "erkundigt"
+  },
+  {
+    "id": 454,
+    "word": "erleben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to experience",
+    "partizipII": "erlebt"
+  },
+  {
+    "id": 455,
+    "word": "Erlebnis",
+    "note": "Pl. -se",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "experience",
+    "partizipII": null
+  },
+  {
+    "id": 456,
+    "word": "erledigen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to deal with / to get done",
+    "partizipII": "erledigt"
+  },
+  {
+    "id": 457,
+    "word": "erleichtern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to make easier / to relieve",
+    "partizipII": "erleichtert"
+  },
+  {
+    "id": 458,
+    "word": "ernähren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to feed / to eat (sich ~)",
+    "partizipII": "ernährt"
+  },
+  {
+    "id": 459,
+    "word": "Ernährung",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "nutrition / diet",
+    "partizipII": null
+  },
+  {
+    "id": 460,
+    "word": "ernst",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "serious / earnest",
+    "partizipII": null
+  },
+  {
+    "id": 461,
+    "word": "ernsthaft",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "serious / genuine",
+    "partizipII": null
+  },
+  {
+    "id": 462,
+    "word": "Ernte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "harvest",
+    "partizipII": null
+  },
+  {
+    "id": 463,
+    "word": "eröffnen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to open (a business, an account)",
+    "partizipII": "eröffnet"
+  },
+  {
+    "id": 464,
+    "word": "Eröffnung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "opening",
+    "partizipII": null
+  },
+  {
+    "id": 465,
+    "word": "Ersatz",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "replacement / substitute",
+    "partizipII": null
+  },
+  {
+    "id": 466,
+    "word": "erschöpft",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "exhausted",
+    "partizipII": null
+  },
+  {
+    "id": 467,
+    "word": "erschrecken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to frighten / to be startled",
+    "partizipII": "erschreckt"
+  },
+  {
+    "id": 468,
+    "word": "ersetzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to replace / to reimburse",
+    "partizipII": "ersetzt"
+  },
+  {
+    "id": 469,
+    "word": "erst-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "first",
+    "partizipII": null
+  },
+  {
+    "id": 470,
+    "word": "erstellen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to create / to draw up",
+    "partizipII": "erstellt"
+  },
+  {
+    "id": 471,
+    "word": "erwachsen",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "grown-up / adult",
+    "partizipII": null
+  },
+  {
+    "id": 472,
+    "word": "erwarten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to expect / to await",
+    "partizipII": "erwartet"
+  },
+  {
+    "id": 473,
+    "word": "Erzählung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "story / narrative",
+    "partizipII": null
+  },
+  {
+    "id": 474,
+    "word": "erziehen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to bring up / to educate",
+    "partizipII": "erzogen"
+  },
+  {
+    "id": 475,
+    "word": "Erziehung",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "upbringing / education",
+    "partizipII": null
+  },
+  {
+    "id": 476,
+    "word": "Essig",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "vinegar",
+    "partizipII": null
+  },
+  {
+    "id": 477,
+    "word": "Etage",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "floor / storey",
+    "partizipII": null
+  },
+  {
+    "id": 478,
+    "word": "etwa",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "about / roughly / perhaps",
+    "partizipII": null
+  },
+  {
+    "id": 479,
+    "word": "eventuell",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "possible / possibly / perhaps",
+    "partizipII": null
+  },
+  {
+    "id": 480,
+    "word": "ewig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "eternal / forever",
+    "partizipII": null
+  },
+  {
+    "id": 481,
+    "word": "Experte",
+    "note": "Pl. -n",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "expert",
+    "partizipII": null
+  },
+  {
+    "id": 482,
+    "word": "Export",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "export",
+    "partizipII": null
+  },
+  {
+    "id": 483,
+    "word": "extra",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "extra / separately / on purpose",
+    "partizipII": null
+  },
+  {
+    "id": 484,
+    "word": "extrem",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "extreme / extremely",
+    "partizipII": null
+  },
+  {
+    "id": 485,
+    "word": "Fabrik",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "factory",
+    "partizipII": null
+  },
+  {
+    "id": 486,
+    "word": "Fachfrau",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "expert / specialist (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 487,
+    "word": "Fachleute",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "experts / specialists",
+    "partizipII": null
+  },
+  {
+    "id": 488,
+    "word": "Fachmann",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "expert / specialist",
+    "partizipII": null
+  },
+  {
+    "id": 489,
+    "word": "Fähigkeit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "ability / skill",
+    "partizipII": null
+  },
+  {
+    "id": 490,
+    "word": "Fahrbahn",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "carriageway / lane",
+    "partizipII": null
+  },
+  {
+    "id": 491,
+    "word": "Fähre",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "ferry",
+    "partizipII": null
+  },
+  {
+    "id": 492,
+    "word": "Fahrzeug",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "vehicle",
+    "partizipII": null
+  },
+  {
+    "id": 493,
+    "word": "fair",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "fair",
+    "partizipII": null
+  },
+  {
+    "id": 494,
+    "word": "Faktor",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "factor",
+    "partizipII": null
+  },
+  {
+    "id": 495,
+    "word": "Fall",
+    "note": "Pl. Fälle",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "case / fall",
+    "partizipII": null
+  },
+  {
+    "id": 496,
+    "word": "fällig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "due / payable",
+    "partizipII": null
+  },
+  {
+    "id": 497,
+    "word": "falls",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "if / in case",
+    "partizipII": null
+  },
+  {
+    "id": 498,
+    "word": "fangen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to catch",
+    "partizipII": "gefangen"
+  },
+  {
+    "id": 499,
+    "word": "Fantasie",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "imagination / fantasy",
+    "partizipII": null
+  },
+  {
+    "id": 500,
+    "word": "fantastisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "fantastic",
+    "partizipII": null
+  },
+  {
+    "id": 501,
+    "word": "farbig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "coloured / colourful",
+    "partizipII": null
+  },
+  {
+    "id": 502,
+    "word": "Faschierte",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "minced meat (A)",
+    "partizipII": null
+  },
+  {
+    "id": 503,
+    "word": "Fasching",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "carnival (D, A)",
+    "partizipII": null
+  },
+  {
+    "id": 504,
+    "word": "Fasnacht",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "carnival (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 505,
+    "word": "fassen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to grasp / to take hold of",
+    "partizipII": "gefasst"
+  },
+  {
+    "id": 506,
+    "word": "faulenzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to laze around / to be idle",
+    "partizipII": "gefaulenzt"
+  },
+  {
+    "id": 507,
+    "word": "Fauteuil",
+    "note": "Pl. -s",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "armchair (A, CH)",
+    "partizipII": null
+  },
+  {
+    "id": 508,
+    "word": "Feierabend",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "end of the working day",
+    "partizipII": null
+  },
+  {
+    "id": 509,
+    "word": "Feiertag",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "public holiday",
+    "partizipII": null
+  },
+  {
+    "id": 510,
+    "word": "Feld",
+    "note": "Pl. -er",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "field",
+    "partizipII": null
+  },
+  {
+    "id": 511,
+    "word": "Fernbedienung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "remote control",
+    "partizipII": null
+  },
+  {
+    "id": 512,
+    "word": "Fernseher",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "television set",
+    "partizipII": null
+  },
+  {
+    "id": 513,
+    "word": "festhalten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to hold on to / to record",
+    "partizipII": "festgehalten"
+  },
+  {
+    "id": 514,
+    "word": "festlegen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to set / to fix / to determine",
+    "partizipII": "festgelegt"
+  },
+  {
+    "id": 515,
+    "word": "festnehmen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to arrest / to take into custody",
+    "partizipII": "festgenommen"
+  },
+  {
+    "id": 516,
+    "word": "Festplatte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "hard disk",
+    "partizipII": null
+  },
+  {
+    "id": 517,
+    "word": "festsetzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to fix / to schedule",
+    "partizipII": "festgesetzt"
+  },
+  {
+    "id": 518,
+    "word": "feststehen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be certain / to be settled",
+    "partizipII": "festgestanden"
+  },
+  {
+    "id": 519,
+    "word": "feststellen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to determine / to notice",
+    "partizipII": "festgestellt"
+  },
+  {
+    "id": 520,
+    "word": "feucht",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "damp / moist / humid",
+    "partizipII": null
+  },
+  {
+    "id": 521,
+    "word": "Feuerwehr",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "fire brigade / fire department",
+    "partizipII": null
+  },
+  {
+    "id": 522,
+    "word": "Feuerzeug",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "lighter",
+    "partizipII": null
+  },
+  {
+    "id": 523,
+    "word": "Figur",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "figure / character",
+    "partizipII": null
+  },
+  {
+    "id": 524,
+    "word": "finanziell",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "financial",
+    "partizipII": null
+  },
+  {
+    "id": 525,
+    "word": "finanzieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to finance",
+    "partizipII": "finanziert"
+  },
+  {
+    "id": 526,
+    "word": "Finger",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "finger",
+    "partizipII": null
+  },
+  {
+    "id": 527,
+    "word": "flach",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "flat / shallow",
+    "partizipII": null
+  },
+  {
+    "id": 528,
+    "word": "Fläche",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "area / surface",
+    "partizipII": null
+  },
+  {
+    "id": 529,
+    "word": "Fleck",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "stain / spot",
+    "partizipII": null
+  },
+  {
+    "id": 530,
+    "word": "Fleischhauer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "butcher (A)",
+    "partizipII": null
+  },
+  {
+    "id": 531,
+    "word": "Fleischhauerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "butcher (f., A)",
+    "partizipII": null
+  },
+  {
+    "id": 532,
+    "word": "flexibel",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "flexible",
+    "partizipII": null
+  },
+  {
+    "id": 533,
+    "word": "fliehen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to flee / to escape",
+    "partizipII": "geflohen"
+  },
+  {
+    "id": 534,
+    "word": "fließen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to flow",
+    "partizipII": "geflossen"
+  },
+  {
+    "id": 535,
+    "word": "fließend",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "fluent / running (water)",
+    "partizipII": null
+  },
+  {
+    "id": 536,
+    "word": "Flöte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "flute / recorder",
+    "partizipII": null
+  },
+  {
+    "id": 537,
+    "word": "Flucht",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "escape / flight",
+    "partizipII": null
+  },
+  {
+    "id": 538,
+    "word": "Flur",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "hallway / corridor",
+    "partizipII": null
+  },
+  {
+    "id": 539,
+    "word": "Flüssigkeit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "liquid / fluid",
+    "partizipII": null
+  },
+  {
+    "id": 540,
+    "word": "Folge",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "consequence / result / episode",
+    "partizipII": null
+  },
+  {
+    "id": 541,
+    "word": "folgen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to follow",
+    "partizipII": "gefolgt"
+  },
+  {
+    "id": 542,
+    "word": "folgend",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "following / next",
+    "partizipII": null
+  },
+  {
+    "id": 543,
+    "word": "fordern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to demand",
+    "partizipII": "gefordert"
+  },
+  {
+    "id": 544,
+    "word": "fördern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to promote / to support",
+    "partizipII": "gefördert"
+  },
+  {
+    "id": 545,
+    "word": "Forderung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "demand / claim",
+    "partizipII": null
+  },
+  {
+    "id": 546,
+    "word": "Förderung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "support / funding / promotion",
+    "partizipII": null
+  },
+  {
+    "id": 547,
+    "word": "Form",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "form / shape",
+    "partizipII": null
+  },
+  {
+    "id": 548,
+    "word": "Forschung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "research",
+    "partizipII": null
+  },
+  {
+    "id": 549,
+    "word": "Fortbildung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "further training",
+    "partizipII": null
+  },
+  {
+    "id": 550,
+    "word": "Fortschritt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "progress",
+    "partizipII": null
+  },
+  {
+    "id": 551,
+    "word": "fortsetzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to continue",
+    "partizipII": "fortgesetzt"
+  },
+  {
+    "id": 552,
+    "word": "Fortsetzung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "continuation / sequel",
+    "partizipII": null
+  },
+  {
+    "id": 553,
+    "word": "Forum",
+    "note": "Pl. Foren",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "forum",
+    "partizipII": null
+  },
+  {
+    "id": 554,
+    "word": "Fotograf",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "photographer",
+    "partizipII": null
+  },
+  {
+    "id": 555,
+    "word": "Fotografie",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "photograph / photography",
+    "partizipII": null
+  },
+  {
+    "id": 556,
+    "word": "frech",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "cheeky / impertinent",
+    "partizipII": null
+  },
+  {
+    "id": 557,
+    "word": "Freiheit",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "freedom / liberty",
+    "partizipII": null
+  },
+  {
+    "id": 558,
+    "word": "Fremdsprache",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "foreign language",
+    "partizipII": null
+  },
+  {
+    "id": 559,
+    "word": "fressen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to eat (of animals) / to devour",
+    "partizipII": "gefressen"
+  },
+  {
+    "id": 560,
+    "word": "Freude",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "joy / pleasure",
+    "partizipII": null
+  },
+  {
+    "id": 561,
+    "word": "Freund",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "friend / boyfriend",
+    "partizipII": null
+  },
+  {
+    "id": 562,
+    "word": "Freundschaft",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "friendship",
+    "partizipII": null
+  },
+  {
+    "id": 563,
+    "word": "Friede",
+    "note": "Pl. Frieden",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "peace",
+    "partizipII": null
+  },
+  {
+    "id": 564,
+    "word": "frieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to freeze / to be cold",
+    "partizipII": "gefroren"
+  },
+  {
+    "id": 565,
+    "word": "Friseur",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "hairdresser",
+    "partizipII": null
+  },
+  {
+    "id": 566,
+    "word": "Friseurin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "hairdresser (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 567,
+    "word": "Frist",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "deadline / time limit",
+    "partizipII": null
+  },
+  {
+    "id": 568,
+    "word": "Frisur",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "hairstyle",
+    "partizipII": null
+  },
+  {
+    "id": 569,
+    "word": "fröhlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "cheerful / happy",
+    "partizipII": null
+  },
+  {
+    "id": 570,
+    "word": "Frucht",
+    "note": "Pl. Früchte",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "fruit",
+    "partizipII": null
+  },
+  {
+    "id": 571,
+    "word": "früher/früher-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "earlier / former / in the past",
+    "partizipII": null
+  },
+  {
+    "id": 572,
+    "word": "führen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to lead / to run (a business)",
+    "partizipII": "geführt"
+  },
+  {
+    "id": 573,
+    "word": "Führerausweis",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "driving licence (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 574,
+    "word": "Fundbüro",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "lost property office",
+    "partizipII": null
+  },
+  {
+    "id": 575,
+    "word": "funktionieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to work / to function",
+    "partizipII": "funktioniert"
+  },
+  {
+    "id": 576,
+    "word": "fürchten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to fear / to be afraid (sich ~)",
+    "partizipII": "gefürchtet"
+  },
+  {
+    "id": 577,
+    "word": "Fußgänger",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "pedestrian",
+    "partizipII": null
+  },
+  {
+    "id": 578,
+    "word": "Fußgängerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "pedestrian (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 579,
+    "word": "Fußgängerzone",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "pedestrian zone",
+    "partizipII": null
+  },
+  {
+    "id": 580,
+    "word": "füttern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to feed (an animal)",
+    "partizipII": "gefüttert"
+  },
+  {
+    "id": 581,
+    "word": "Galerie",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "gallery",
+    "partizipII": null
+  },
+  {
+    "id": 582,
+    "word": "Gang",
+    "note": "Pl. Gänge",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "corridor / gear / course (of a meal)",
+    "partizipII": null
+  },
+  {
+    "id": 583,
+    "word": "gar",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "at all / even / cooked through",
+    "partizipII": null
+  },
+  {
+    "id": 584,
+    "word": "Garantie",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "guarantee / warranty",
+    "partizipII": null
+  },
+  {
+    "id": 585,
+    "word": "garantieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to guarantee",
+    "partizipII": "garantiert"
+  },
+  {
+    "id": 586,
+    "word": "Garderobe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "cloakroom / wardrobe",
+    "partizipII": null
+  },
+  {
+    "id": 587,
+    "word": "Gas",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "gas",
+    "partizipII": null
+  },
+  {
+    "id": 588,
+    "word": "Gasthaus",
+    "note": "Pl. Gasthäuser",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "inn / guesthouse",
+    "partizipII": null
+  },
+  {
+    "id": 589,
+    "word": "Gaststätte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "restaurant / pub",
+    "partizipII": null
+  },
+  {
+    "id": 590,
+    "word": "Gebäck",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "pastries / biscuits",
+    "partizipII": null
+  },
+  {
+    "id": 591,
+    "word": "Gebäude",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "building",
+    "partizipII": null
+  },
+  {
+    "id": 592,
+    "word": "Gebiet",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "area / region / field",
+    "partizipII": null
+  },
+  {
+    "id": 593,
+    "word": "Gebirge",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "mountains / mountain range",
+    "partizipII": null
+  },
+  {
+    "id": 594,
+    "word": "geboren werden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be born",
+    "partizipII": "geboren worden"
+  },
+  {
+    "id": 595,
+    "word": "gebrauchen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to use / to make use of",
+    "partizipII": "gebraucht"
+  },
+  {
+    "id": 596,
+    "word": "Gebrauchsanweisung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "instructions for use",
+    "partizipII": null
+  },
+  {
+    "id": 597,
+    "word": "Gebühr",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "fee / charge",
+    "partizipII": null
+  },
+  {
+    "id": 598,
+    "word": "Geburt",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "birth",
+    "partizipII": null
+  },
+  {
+    "id": 599,
+    "word": "Gedanke",
+    "note": "Pl. -n",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "thought / idea",
+    "partizipII": null
+  },
+  {
+    "id": 600,
+    "word": "Gedicht",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "poem",
+    "partizipII": null
+  },
+  {
+    "id": 601,
+    "word": "Geduld",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "patience",
+    "partizipII": null
+  },
+  {
+    "id": 602,
+    "word": "geehrt",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "honoured / dear (in letters)",
+    "partizipII": null
+  },
+  {
+    "id": 603,
+    "word": "geeignet",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "suitable / suited",
+    "partizipII": null
+  },
+  {
+    "id": 604,
+    "word": "Gefahr",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "danger / risk",
+    "partizipII": null
+  },
+  {
+    "id": 605,
+    "word": "gefallen lassen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to put up with (sich etwas ~)",
+    "partizipII": "etwas"
+  },
+  {
+    "id": 606,
+    "word": "Gefängnis",
+    "note": "Pl. -se",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "prison / jail",
+    "partizipII": null
+  },
+  {
+    "id": 607,
+    "word": "Gefühl",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "feeling / emotion",
+    "partizipII": null
+  },
+  {
+    "id": 608,
+    "word": "Gegend",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "area / region",
+    "partizipII": null
+  },
+  {
+    "id": 609,
+    "word": "Gegensatz",
+    "note": "Pl. Gegensätze",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "contrast / opposite",
+    "partizipII": null
+  },
+  {
+    "id": 610,
+    "word": "Gegenstand",
+    "note": "Pl. Gegenstände",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "object / item / subject",
+    "partizipII": null
+  },
+  {
+    "id": 611,
+    "word": "Gegner",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "opponent / adversary",
+    "partizipII": null
+  },
+  {
+    "id": 612,
+    "word": "geheim",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "secret",
+    "partizipII": null
+  },
+  {
+    "id": 613,
+    "word": "Geheimnis",
+    "note": "Pl. -se",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "secret",
+    "partizipII": null
+  },
+  {
+    "id": 614,
+    "word": "Gehsteig",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "pavement / sidewalk (A)",
+    "partizipII": null
+  },
+  {
+    "id": 615,
+    "word": "Geldautomat",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "cash machine / ATM",
+    "partizipII": null
+  },
+  {
+    "id": 616,
+    "word": "Gelegenheit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "opportunity / occasion",
+    "partizipII": null
+  },
+  {
+    "id": 617,
+    "word": "gelingen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to succeed / to turn out well",
+    "partizipII": "gelungen"
+  },
+  {
+    "id": 618,
+    "word": "gelten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be valid / to count / to apply",
+    "partizipII": "gegolten"
+  },
+  {
+    "id": 619,
+    "word": "gemeinsam",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "joint / together / common",
+    "partizipII": null
+  },
+  {
+    "id": 620,
+    "word": "Gemeinschaft",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "community",
+    "partizipII": null
+  },
+  {
+    "id": 621,
+    "word": "gemütlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "cosy / comfortable",
+    "partizipII": null
+  },
+  {
+    "id": 622,
+    "word": "genauso",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "just as / exactly the same",
+    "partizipII": null
+  },
+  {
+    "id": 623,
+    "word": "genehmigen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to approve / to authorise",
+    "partizipII": "genehmigt"
+  },
+  {
+    "id": 624,
+    "word": "Generation",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "generation",
+    "partizipII": null
+  },
+  {
+    "id": 625,
+    "word": "genießen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to enjoy",
+    "partizipII": "genossen"
+  },
+  {
+    "id": 626,
+    "word": "genügen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be enough / to suffice",
+    "partizipII": "genügt"
+  },
+  {
+    "id": 627,
+    "word": "gerecht",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "fair / just",
+    "partizipII": null
+  },
+  {
+    "id": 628,
+    "word": "gering",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "small / slight / low",
+    "partizipII": null
+  },
+  {
+    "id": 629,
+    "word": "gern/gerne",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "gladly / willingly / with pleasure",
+    "partizipII": null
+  },
+  {
+    "id": 630,
+    "word": "gesamt-/Gesamt-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "whole / entire / total",
+    "partizipII": null
+  },
+  {
+    "id": 631,
+    "word": "geschehen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to happen / to occur",
+    "partizipII": "geschehen"
+  },
+  {
+    "id": 632,
+    "word": "geschieden",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "divorced",
+    "partizipII": null
+  },
+  {
+    "id": 633,
+    "word": "Geschlecht",
+    "note": "Pl. -er",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "gender / sex",
+    "partizipII": null
+  },
+  {
+    "id": 634,
+    "word": "Geschmack",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "taste / flavour",
+    "partizipII": null
+  },
+  {
+    "id": 635,
+    "word": "Geschwindigkeit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "speed",
+    "partizipII": null
+  },
+  {
+    "id": 636,
+    "word": "Geschwindigkeitsbeschränkung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "speed limit",
+    "partizipII": null
+  },
+  {
+    "id": 637,
+    "word": "Geschwister",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "siblings",
+    "partizipII": null
+  },
+  {
+    "id": 638,
+    "word": "Gesellschaft",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "society / company",
+    "partizipII": null
+  },
+  {
+    "id": 639,
+    "word": "Gesetz",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "law / act",
+    "partizipII": null
+  },
+  {
+    "id": 640,
+    "word": "Gesicht",
+    "note": "Pl. -er",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "face",
+    "partizipII": null
+  },
+  {
+    "id": 641,
+    "word": "gespannt",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "eager / curious / tense",
+    "partizipII": null
+  },
+  {
+    "id": 642,
+    "word": "getrennt leben",
+    "note": null,
+    "artikel": null,
+    "type": "Mehrwortausdruck",
+    "english": "to live apart / to be separated",
+    "partizipII": null
+  },
+  {
+    "id": 643,
+    "word": "Gewalt",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "violence / force / power",
+    "partizipII": null
+  },
+  {
+    "id": 644,
+    "word": "Gewerkschaft",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "trade union",
+    "partizipII": null
+  },
+  {
+    "id": 645,
+    "word": "Gewinn",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "profit / prize / gain",
+    "partizipII": null
+  },
+  {
+    "id": 646,
+    "word": "Gewissen",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "conscience",
+    "partizipII": null
+  },
+  {
+    "id": 647,
+    "word": "gewöhnen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to get used to (sich ~ an)",
+    "partizipII": "gewöhnt/ist gewöhnt"
+  },
+  {
+    "id": 648,
+    "word": "Gewohnheit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "habit",
+    "partizipII": null
+  },
+  {
+    "id": 649,
+    "word": "gewöhnlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "usual / ordinary / usually",
+    "partizipII": null
+  },
+  {
+    "id": 650,
+    "word": "gewohnt",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "usual / accustomed to",
+    "partizipII": null
+  },
+  {
+    "id": 651,
+    "word": "Gewürz",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "spice / seasoning",
+    "partizipII": null
+  },
+  {
+    "id": 652,
+    "word": "gießen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to pour / to water (plants)",
+    "partizipII": "gegossen"
+  },
+  {
+    "id": 653,
+    "word": "Gift",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "poison",
+    "partizipII": null
+  },
+  {
+    "id": 654,
+    "word": "giftig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "poisonous / toxic",
+    "partizipII": null
+  },
+  {
+    "id": 655,
+    "word": "Girokonto",
+    "note": "Pl. -en",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "current account / checking account",
+    "partizipII": null
+  },
+  {
+    "id": 656,
+    "word": "Glace",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "ice cream (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 657,
+    "word": "glatt",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "smooth / slippery",
+    "partizipII": null
+  },
+  {
+    "id": 658,
+    "word": "gleichberechtigt",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "having equal rights",
+    "partizipII": null
+  },
+  {
+    "id": 659,
+    "word": "gleichfalls",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "likewise / the same to you",
+    "partizipII": null
+  },
+  {
+    "id": 660,
+    "word": "gleichzeitig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "simultaneous / at the same time",
+    "partizipII": null
+  },
+  {
+    "id": 661,
+    "word": "Gold",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "gold",
+    "partizipII": null
+  },
+  {
+    "id": 662,
+    "word": "Golfspiel",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "golf",
+    "partizipII": null
+  },
+  {
+    "id": 663,
+    "word": "Gott",
+    "note": "Pl. Götter",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "god",
+    "partizipII": null
+  },
+  {
+    "id": 664,
+    "word": "Grafik",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "graphic / chart",
+    "partizipII": null
+  },
+  {
+    "id": 665,
+    "word": "Gras",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "grass",
+    "partizipII": null
+  },
+  {
+    "id": 666,
+    "word": "gratis",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "free of charge / for free",
+    "partizipII": null
+  },
+  {
+    "id": 667,
+    "word": "Gratulation",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "congratulations",
+    "partizipII": null
+  },
+  {
+    "id": 668,
+    "word": "greifen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to grab / to reach",
+    "partizipII": "gegriffen"
+  },
+  {
+    "id": 669,
+    "word": "Grenze",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "border / limit",
+    "partizipII": null
+  },
+  {
+    "id": 670,
+    "word": "Grill",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "grill / barbecue",
+    "partizipII": null
+  },
+  {
+    "id": 671,
+    "word": "grillieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to grill / to barbecue (CH)",
+    "partizipII": "grilliert"
+  },
+  {
+    "id": 672,
+    "word": "Grund",
+    "note": "Pl. Gründe",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "reason / ground",
+    "partizipII": null
+  },
+  {
+    "id": 673,
+    "word": "gründen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to found / to set up",
+    "partizipII": "gegründet"
+  },
+  {
+    "id": 674,
+    "word": "gründlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "thorough / thoroughly",
+    "partizipII": null
+  },
+  {
+    "id": 675,
+    "word": "Grundstück",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "plot of land / property",
+    "partizipII": null
+  },
+  {
+    "id": 676,
+    "word": "grüßen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to greet / to say hello",
+    "partizipII": "gegrüßt"
+  },
+  {
+    "id": 677,
+    "word": "gucken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to look / to have a look",
+    "partizipII": "geguckt"
+  },
+  {
+    "id": 678,
+    "word": "Gymnastik",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "gymnastics / exercises",
+    "partizipII": null
+  },
+  {
+    "id": 679,
+    "word": "Hackfleisch",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "minced meat / ground beef",
+    "partizipII": null
+  },
+  {
+    "id": 680,
+    "word": "Hafen",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "port / harbour",
+    "partizipII": null
+  },
+  {
+    "id": 681,
+    "word": "hageln",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to hail",
+    "partizipII": "gehagelt"
+  },
+  {
+    "id": 682,
+    "word": "halb",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "half",
+    "partizipII": null
+  },
+  {
+    "id": 683,
+    "word": "halbtags",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "part-time / half-days",
+    "partizipII": null
+  },
+  {
+    "id": 684,
+    "word": "Hälfte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "half",
+    "partizipII": null
+  },
+  {
+    "id": 685,
+    "word": "Hallenbad",
+    "note": "Pl. Hallenbäder",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "indoor swimming pool",
+    "partizipII": null
+  },
+  {
+    "id": 686,
+    "word": "halt",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "just / simply (flavouring particle)",
+    "partizipII": null
+  },
+  {
+    "id": 687,
+    "word": "Halt",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "stop / hold / support",
+    "partizipII": null
+  },
+  {
+    "id": 688,
+    "word": "haltbar",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "durable / keeps well",
+    "partizipII": null
+  },
+  {
+    "id": 689,
+    "word": "Hammer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "hammer",
+    "partizipII": null
+  },
+  {
+    "id": 690,
+    "word": "Handel",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "trade / commerce",
+    "partizipII": null
+  },
+  {
+    "id": 691,
+    "word": "handeln",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to act / to trade / to be about (von)",
+    "partizipII": "gehandelt"
+  },
+  {
+    "id": 692,
+    "word": "Händler",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "dealer / trader",
+    "partizipII": null
+  },
+  {
+    "id": 693,
+    "word": "Händlerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "dealer / trader (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 694,
+    "word": "Handwerker",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "craftsman / tradesman",
+    "partizipII": null
+  },
+  {
+    "id": 695,
+    "word": "Handwerkerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "craftswoman / tradeswoman",
+    "partizipII": null
+  },
+  {
+    "id": 696,
+    "word": "hassen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to hate",
+    "partizipII": "gehasst"
+  },
+  {
+    "id": 697,
+    "word": "häufig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "frequent / often",
+    "partizipII": null
+  },
+  {
+    "id": 698,
+    "word": "Hauptbahnhof",
+    "note": "Pl. Hauptbahnhöfe",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "main station / central station",
+    "partizipII": null
+  },
+  {
+    "id": 699,
+    "word": "Hausfrau",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "housewife",
+    "partizipII": null
+  },
+  {
+    "id": 700,
+    "word": "Hausmann",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "househusband",
+    "partizipII": null
+  },
+  {
+    "id": 701,
+    "word": "Hausmeister",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "caretaker / janitor",
+    "partizipII": null
+  },
+  {
+    "id": 702,
+    "word": "Hausmeisterin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "caretaker / janitor (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 703,
+    "word": "Haustier",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "pet",
+    "partizipII": null
+  },
+  {
+    "id": 704,
+    "word": "Haut",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "skin",
+    "partizipII": null
+  },
+  {
+    "id": 705,
+    "word": "heben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to lift / to raise",
+    "partizipII": "gehoben"
+  },
+  {
+    "id": 706,
+    "word": "heim",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "home / homewards",
+    "partizipII": null
+  },
+  {
+    "id": 707,
+    "word": "Heim",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "home / residence",
+    "partizipII": null
+  },
+  {
+    "id": 708,
+    "word": "heimlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "secret / secretly",
+    "partizipII": null
+  },
+  {
+    "id": 709,
+    "word": "Heimweh",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "homesickness",
+    "partizipII": null
+  },
+  {
+    "id": 710,
+    "word": "heizen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to heat",
+    "partizipII": "geheizt"
+  },
+  {
+    "id": 711,
+    "word": "Held",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "hero",
+    "partizipII": null
+  },
+  {
+    "id": 712,
+    "word": "Heldin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "heroine",
+    "partizipII": null
+  },
+  {
+    "id": 713,
+    "word": "Hend",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "chicken (A)",
+    "partizipII": null
+  },
+  {
+    "id": 714,
+    "word": "her/her-",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "here / towards the speaker",
+    "partizipII": null
+  },
+  {
+    "id": 715,
+    "word": "Herausforderung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "challenge",
+    "partizipII": null
+  },
+  {
+    "id": 716,
+    "word": "herein-",
+    "note": "auch: rein-",
+    "artikel": null,
+    "type": "Affix",
+    "english": "in / inwards (prefix)",
+    "partizipII": null
+  },
+  {
+    "id": 717,
+    "word": "Herkunft",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "origin / background",
+    "partizipII": null
+  },
+  {
+    "id": 718,
+    "word": "Hersteller",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "manufacturer / producer",
+    "partizipII": null
+  },
+  {
+    "id": 719,
+    "word": "Herz",
+    "note": "Pl. -en",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "heart",
+    "partizipII": null
+  },
+  {
+    "id": 720,
+    "word": "heutig-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "today's / present-day",
+    "partizipII": null
+  },
+  {
+    "id": 721,
+    "word": "hier/hier-",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "here",
+    "partizipII": null
+  },
+  {
+    "id": 722,
+    "word": "hierher",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "here / to this place",
+    "partizipII": null
+  },
+  {
+    "id": 723,
+    "word": "hinter/hinter-",
+    "note": null,
+    "artikel": null,
+    "type": "Präposition",
+    "english": "behind",
+    "partizipII": null
+  },
+  {
+    "id": 724,
+    "word": "hinterher",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "afterwards / behind",
+    "partizipII": null
+  },
+  {
+    "id": 725,
+    "word": "hinterlassen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to leave behind",
+    "partizipII": "hinterlassen"
+  },
+  {
+    "id": 726,
+    "word": "Hinweis",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "hint / tip / note",
+    "partizipII": null
+  },
+  {
+    "id": 727,
+    "word": "hinweisen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to point out (auf = to)",
+    "partizipII": "hingewiesen"
+  },
+  {
+    "id": 728,
+    "word": "historisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "historical / historic",
+    "partizipII": null
+  },
+  {
+    "id": 729,
+    "word": "Hitze",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "heat",
+    "partizipII": null
+  },
+  {
+    "id": 730,
+    "word": "hochladen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to upload",
+    "partizipII": "hochgeladen"
+  },
+  {
+    "id": 731,
+    "word": "höchstens",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "at most / at the most",
+    "partizipII": null
+  },
+  {
+    "id": 732,
+    "word": "Hof",
+    "note": "Pl. Höfe",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "yard / courtyard",
+    "partizipII": null
+  },
+  {
+    "id": 733,
+    "word": "Hoffnung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "hope",
+    "partizipII": null
+  },
+  {
+    "id": 734,
+    "word": "höflich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "polite / courteous",
+    "partizipII": null
+  },
+  {
+    "id": 735,
+    "word": "Höhe",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "height / altitude / amount",
+    "partizipII": null
+  },
+  {
+    "id": 736,
+    "word": "Holz",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "wood",
+    "partizipII": null
+  },
+  {
+    "id": 737,
+    "word": "Honig",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "honey",
+    "partizipII": null
+  },
+  {
+    "id": 738,
+    "word": "Hörer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "listener / receiver",
+    "partizipII": null
+  },
+  {
+    "id": 739,
+    "word": "Hörerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "listener (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 740,
+    "word": "hübsch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "pretty / attractive",
+    "partizipII": null
+  },
+  {
+    "id": 741,
+    "word": "Hügel",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "hill",
+    "partizipII": null
+  },
+  {
+    "id": 742,
+    "word": "Humor",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "humour",
+    "partizipII": null
+  },
+  {
+    "id": 743,
+    "word": "hungrig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "hungry",
+    "partizipII": null
+  },
+  {
+    "id": 744,
+    "word": "hupen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to honk / to sound the horn",
+    "partizipII": "gehupt"
+  },
+  {
+    "id": 745,
+    "word": "Hut",
+    "note": "Pl. Hüte",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "hat",
+    "partizipII": null
+  },
+  {
+    "id": 746,
+    "word": "Hütte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "hut / cabin",
+    "partizipII": null
+  },
+  {
+    "id": 747,
+    "word": "ideal",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "ideal",
+    "partizipII": null
+  },
+  {
+    "id": 748,
+    "word": "illegal",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "illegal",
+    "partizipII": null
+  },
+  {
+    "id": 749,
+    "word": "im Freien",
+    "note": null,
+    "artikel": null,
+    "type": "Mehrwortausdruck",
+    "english": "outdoors / in the open air",
+    "partizipII": null
+  },
+  {
+    "id": 750,
+    "word": "Imbiss",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "snack / snack bar",
+    "partizipII": null
+  },
+  {
+    "id": 751,
+    "word": "Import",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "import",
+    "partizipII": null
+  },
+  {
+    "id": 752,
+    "word": "in Pension gehen/sein",
+    "note": null,
+    "artikel": null,
+    "type": "Mehrwortausdruck",
+    "english": "to retire / to be retired (A)",
+    "partizipII": null
+  },
+  {
+    "id": 753,
+    "word": "in Rente gehen/sein",
+    "note": null,
+    "artikel": null,
+    "type": "Mehrwortausdruck",
+    "english": "to retire / to be retired",
+    "partizipII": null
+  },
+  {
+    "id": 754,
+    "word": "indem",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "by (doing something) / while",
+    "partizipII": null
+  },
+  {
+    "id": 755,
+    "word": "individuell",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "individual",
+    "partizipII": null
+  },
+  {
+    "id": 756,
+    "word": "Industrie",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "industry",
+    "partizipII": null
+  },
+  {
+    "id": 757,
+    "word": "Infektion",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "infection",
+    "partizipII": null
+  },
+  {
+    "id": 758,
+    "word": "Ingenieur",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "engineer",
+    "partizipII": null
+  },
+  {
+    "id": 759,
+    "word": "Inhalt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "content / contents",
+    "partizipII": null
+  },
+  {
+    "id": 760,
+    "word": "inklusive",
+    "note": null,
+    "artikel": null,
+    "type": "Präposition",
+    "english": "including / inclusive",
+    "partizipII": null
+  },
+  {
+    "id": 761,
+    "word": "innen",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "inside / indoors",
+    "partizipII": null
+  },
+  {
+    "id": 762,
+    "word": "inner-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "inner / internal",
+    "partizipII": null
+  },
+  {
+    "id": 763,
+    "word": "innerhalb",
+    "note": null,
+    "artikel": null,
+    "type": "Präposition",
+    "english": "within / inside",
+    "partizipII": null
+  },
+  {
+    "id": 764,
+    "word": "Inserat",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "advertisement",
+    "partizipII": null
+  },
+  {
+    "id": 765,
+    "word": "insgesamt",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "in total / altogether",
+    "partizipII": null
+  },
+  {
+    "id": 766,
+    "word": "installieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to install",
+    "partizipII": "installiert"
+  },
+  {
+    "id": 767,
+    "word": "Institut",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "institute",
+    "partizipII": null
+  },
+  {
+    "id": 768,
+    "word": "Integration",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "integration",
+    "partizipII": null
+  },
+  {
+    "id": 769,
+    "word": "integrieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to integrate",
+    "partizipII": "integriert"
+  },
+  {
+    "id": 770,
+    "word": "Intelligenz",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "intelligence",
+    "partizipII": null
+  },
+  {
+    "id": 771,
+    "word": "intensiv",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "intensive / intense",
+    "partizipII": null
+  },
+  {
+    "id": 772,
+    "word": "Intensivkurs",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "intensive course",
+    "partizipII": null
+  },
+  {
+    "id": 773,
+    "word": "interessant",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "interesting",
+    "partizipII": null
+  },
+  {
+    "id": 774,
+    "word": "interessiert",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "interested",
+    "partizipII": null
+  },
+  {
+    "id": 775,
+    "word": "interkulturell",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "intercultural",
+    "partizipII": null
+  },
+  {
+    "id": 776,
+    "word": "inzwischen",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "meanwhile / by now",
+    "partizipII": null
+  },
+  {
+    "id": 777,
+    "word": "irgendein",
+    "note": null,
+    "artikel": null,
+    "type": "Indefinitpronomen",
+    "english": "some / any (at all)",
+    "partizipII": null
+  },
+  {
+    "id": 778,
+    "word": "irgendwann",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "sometime / at some point",
+    "partizipII": null
+  },
+  {
+    "id": 779,
+    "word": "irren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be mistaken / to err (sich ~)",
+    "partizipII": "geirrt"
+  },
+  {
+    "id": 780,
+    "word": "Jause",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "snack (A)",
+    "partizipII": null
+  },
+  {
+    "id": 781,
+    "word": "je",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "ever / each / per",
+    "partizipII": null
+  },
+  {
+    "id": 782,
+    "word": "je … desto …",
+    "note": null,
+    "artikel": null,
+    "type": "Mehrwortausdruck",
+    "english": "the ... the ... (e.g. the more, the better)",
+    "partizipII": null
+  },
+  {
+    "id": 783,
+    "word": "jeder",
+    "note": "auch: jedes, jede",
+    "artikel": null,
+    "type": "Indefinitpronomen",
+    "english": "each / every / everyone",
+    "partizipII": null
+  },
+  {
+    "id": 784,
+    "word": "jederzeit",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "at any time / always",
+    "partizipII": null
+  },
+  {
+    "id": 785,
+    "word": "jedes Mal",
+    "note": null,
+    "artikel": null,
+    "type": "Mehrwortausdruck",
+    "english": "every time",
+    "partizipII": null
+  },
+  {
+    "id": 786,
+    "word": "jedoch",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "however / but",
+    "partizipII": null
+  },
+  {
+    "id": 787,
+    "word": "jemals",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "ever",
+    "partizipII": null
+  },
+  {
+    "id": 788,
+    "word": "jeweils",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "in each case / respectively",
+    "partizipII": null
+  },
+  {
+    "id": 789,
+    "word": "Journalist",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "journalist",
+    "partizipII": null
+  },
+  {
+    "id": 790,
+    "word": "Journalistin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "journalist (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 791,
+    "word": "Jugend",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "youth",
+    "partizipII": null
+  },
+  {
+    "id": 792,
+    "word": "Kabel",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "cable / lead",
+    "partizipII": null
+  },
+  {
+    "id": 793,
+    "word": "Kabine",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "cabin / cubicle",
+    "partizipII": null
+  },
+  {
+    "id": 794,
+    "word": "Kaffeehaus",
+    "note": "Pl. Kaffeehäuser",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "coffee house (A)",
+    "partizipII": null
+  },
+  {
+    "id": 795,
+    "word": "Kakao",
+    "note": "Pl. -s",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "cocoa",
+    "partizipII": null
+  },
+  {
+    "id": 796,
+    "word": "Kälte",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "cold",
+    "partizipII": null
+  },
+  {
+    "id": 797,
+    "word": "Kampf",
+    "note": "Pl. Kämpfe",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "fight / struggle",
+    "partizipII": null
+  },
+  {
+    "id": 798,
+    "word": "kämpfen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to fight / to struggle",
+    "partizipII": "gekämpft"
+  },
+  {
+    "id": 799,
+    "word": "Kanal",
+    "note": "Pl. Kanäle",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "canal / channel",
+    "partizipII": null
+  },
+  {
+    "id": 800,
+    "word": "Kandidat",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "candidate",
+    "partizipII": null
+  },
+  {
+    "id": 801,
+    "word": "Kanne",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "pot / jug",
+    "partizipII": null
+  },
+  {
+    "id": 802,
+    "word": "Kantine",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "canteen",
+    "partizipII": null
+  },
+  {
+    "id": 803,
+    "word": "Kapitel",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "chapter",
+    "partizipII": null
+  },
+  {
+    "id": 804,
+    "word": "kaputtgehen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to break / to break down",
+    "partizipII": "kaputtgegangen"
+  },
+  {
+    "id": 805,
+    "word": "kaputtmachen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to break / to ruin",
+    "partizipII": "kaputtgemacht"
+  },
+  {
+    "id": 806,
+    "word": "Karneval",
+    "note": "Pl. -s/",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "carnival",
+    "partizipII": null
+  },
+  {
+    "id": 807,
+    "word": "Karotte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "carrot",
+    "partizipII": null
+  },
+  {
+    "id": 808,
+    "word": "Karriere",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "career",
+    "partizipII": null
+  },
+  {
+    "id": 809,
+    "word": "Kassette",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "cassette / box",
+    "partizipII": null
+  },
+  {
+    "id": 810,
+    "word": "Kasten",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "box / crate / cupboard",
+    "partizipII": null
+  },
+  {
+    "id": 811,
+    "word": "Katalog",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "catalogue",
+    "partizipII": null
+  },
+  {
+    "id": 812,
+    "word": "Katastrophe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "disaster / catastrophe",
+    "partizipII": null
+  },
+  {
+    "id": 813,
+    "word": "Kauf",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "purchase",
+    "partizipII": null
+  },
+  {
+    "id": 814,
+    "word": "Käufer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "buyer / purchaser",
+    "partizipII": null
+  },
+  {
+    "id": 815,
+    "word": "Käuferin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "buyer / purchaser (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 816,
+    "word": "kaum",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "hardly / barely",
+    "partizipII": null
+  },
+  {
+    "id": 817,
+    "word": "kein-",
+    "note": null,
+    "artikel": null,
+    "type": "Indefinitpronomen",
+    "english": "no / none / not any",
+    "partizipII": null
+  },
+  {
+    "id": 818,
+    "word": "Kellner",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "waiter",
+    "partizipII": null
+  },
+  {
+    "id": 819,
+    "word": "Kellnerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "waitress",
+    "partizipII": null
+  },
+  {
+    "id": 820,
+    "word": "Kenntnisse",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "knowledge / skills",
+    "partizipII": null
+  },
+  {
+    "id": 821,
+    "word": "Kennzeichen",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "number plate / characteristic",
+    "partizipII": null
+  },
+  {
+    "id": 822,
+    "word": "Kerze",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "candle",
+    "partizipII": null
+  },
+  {
+    "id": 823,
+    "word": "Kindheit",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "childhood",
+    "partizipII": null
+  },
+  {
+    "id": 824,
+    "word": "Kissen",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "cushion / pillow",
+    "partizipII": null
+  },
+  {
+    "id": 825,
+    "word": "Kiste",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "crate / box",
+    "partizipII": null
+  },
+  {
+    "id": 826,
+    "word": "klagen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to complain / to sue",
+    "partizipII": "geklagt"
+  },
+  {
+    "id": 827,
+    "word": "klären",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to clarify / to settle",
+    "partizipII": "geklärt"
+  },
+  {
+    "id": 828,
+    "word": "Klassenarbeit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "class test",
+    "partizipII": null
+  },
+  {
+    "id": 829,
+    "word": "kleben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to glue / to stick",
+    "partizipII": "geklebt"
+  },
+  {
+    "id": 830,
+    "word": "klettern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to climb",
+    "partizipII": "geklettert"
+  },
+  {
+    "id": 831,
+    "word": "Klick",
+    "note": "Pl. -s",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "click",
+    "partizipII": null
+  },
+  {
+    "id": 832,
+    "word": "klicken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to click",
+    "partizipII": "geklickt"
+  },
+  {
+    "id": 833,
+    "word": "Klima",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "climate",
+    "partizipII": null
+  },
+  {
+    "id": 834,
+    "word": "Klimaanlage",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "air conditioning",
+    "partizipII": null
+  },
+  {
+    "id": 835,
+    "word": "Klingel",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "bell / doorbell",
+    "partizipII": null
+  },
+  {
+    "id": 836,
+    "word": "klingeln",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to ring / to ring the bell",
+    "partizipII": "geklingelt"
+  },
+  {
+    "id": 837,
+    "word": "klingen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to sound",
+    "partizipII": "geklungen"
+  },
+  {
+    "id": 838,
+    "word": "Klinik",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "clinic / hospital",
+    "partizipII": null
+  },
+  {
+    "id": 839,
+    "word": "klopfen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to knock",
+    "partizipII": "geklopft"
+  },
+  {
+    "id": 840,
+    "word": "Kloß",
+    "note": "Pl. Klöße",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "dumpling",
+    "partizipII": null
+  },
+  {
+    "id": 841,
+    "word": "knapp",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "scarce / tight / just under",
+    "partizipII": null
+  },
+  {
+    "id": 842,
+    "word": "Kneipe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "pub / bar",
+    "partizipII": null
+  },
+  {
+    "id": 843,
+    "word": "Knie",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "knee",
+    "partizipII": null
+  },
+  {
+    "id": 844,
+    "word": "Knochen",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "bone",
+    "partizipII": null
+  },
+  {
+    "id": 845,
+    "word": "Knödel",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "dumpling",
+    "partizipII": null
+  },
+  {
+    "id": 846,
+    "word": "Knopf",
+    "note": "Pl. Knöpfe",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "button",
+    "partizipII": null
+  },
+  {
+    "id": 847,
+    "word": "Koch",
+    "note": "Pl. Köche",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "cook / chef",
+    "partizipII": null
+  },
+  {
+    "id": 848,
+    "word": "Köchin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "cook / chef (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 849,
+    "word": "Kollege",
+    "note": "Pl. -n",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "colleague",
+    "partizipII": null
+  },
+  {
+    "id": 850,
+    "word": "Kommunikation",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "communication",
+    "partizipII": null
+  },
+  {
+    "id": 851,
+    "word": "komplett",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "complete / completely",
+    "partizipII": null
+  },
+  {
+    "id": 852,
+    "word": "kompliziert",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "complicated",
+    "partizipII": null
+  },
+  {
+    "id": 853,
+    "word": "Kompromiss",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "compromise",
+    "partizipII": null
+  },
+  {
+    "id": 854,
+    "word": "Konferenz",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "conference",
+    "partizipII": null
+  },
+  {
+    "id": 855,
+    "word": "Konfitüre",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "jam / preserve",
+    "partizipII": null
+  },
+  {
+    "id": 856,
+    "word": "Konflikt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "conflict",
+    "partizipII": null
+  },
+  {
+    "id": 857,
+    "word": "König",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "king",
+    "partizipII": null
+  },
+  {
+    "id": 858,
+    "word": "Konkurrenz",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "competition",
+    "partizipII": null
+  },
+  {
+    "id": 859,
+    "word": "Konsulat",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "consulate",
+    "partizipII": null
+  },
+  {
+    "id": 860,
+    "word": "Konsum",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "consumption",
+    "partizipII": null
+  },
+  {
+    "id": 861,
+    "word": "konsumieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to consume",
+    "partizipII": "konsumiert"
+  },
+  {
+    "id": 862,
+    "word": "Kontrolle",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "check / inspection / control",
+    "partizipII": null
+  },
+  {
+    "id": 863,
+    "word": "konzentrieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to concentrate (sich ~ auf)",
+    "partizipII": "konzentriert"
+  },
+  {
+    "id": 864,
+    "word": "Kopie",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "copy",
+    "partizipII": null
+  },
+  {
+    "id": 865,
+    "word": "kopieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to copy / to photocopy",
+    "partizipII": "kopiert"
+  },
+  {
+    "id": 866,
+    "word": "Kopierer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "photocopier",
+    "partizipII": null
+  },
+  {
+    "id": 867,
+    "word": "körperlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "physical / bodily",
+    "partizipII": null
+  },
+  {
+    "id": 868,
+    "word": "korrekt",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "correct",
+    "partizipII": null
+  },
+  {
+    "id": 869,
+    "word": "Korridor",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "corridor / hallway",
+    "partizipII": null
+  },
+  {
+    "id": 870,
+    "word": "korrigieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to correct",
+    "partizipII": "korrigiert"
+  },
+  {
+    "id": 871,
+    "word": "Kostüm",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "costume / suit",
+    "partizipII": null
+  },
+  {
+    "id": 872,
+    "word": "Kraft",
+    "note": "Pl. Kräfte",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "strength / power / force",
+    "partizipII": null
+  },
+  {
+    "id": 873,
+    "word": "Kraftfahrzeug",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "motor vehicle",
+    "partizipII": null
+  },
+  {
+    "id": 874,
+    "word": "kräftig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "strong / powerful",
+    "partizipII": null
+  },
+  {
+    "id": 875,
+    "word": "Kraftwerk",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "power station",
+    "partizipII": null
+  },
+  {
+    "id": 876,
+    "word": "Kranke",
+    "note": "Pl. -n",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "sick person / patient",
+    "partizipII": null
+  },
+  {
+    "id": 877,
+    "word": "Krankenpfleger",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "nurse (m.)",
+    "partizipII": null
+  },
+  {
+    "id": 878,
+    "word": "Krankenschwester",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "nurse (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 879,
+    "word": "Krankenwagen",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "ambulance",
+    "partizipII": null
+  },
+  {
+    "id": 880,
+    "word": "kreativ",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "creative",
+    "partizipII": null
+  },
+  {
+    "id": 881,
+    "word": "Kreditkarte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "credit card",
+    "partizipII": null
+  },
+  {
+    "id": 882,
+    "word": "Kreis",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "circle / district",
+    "partizipII": null
+  },
+  {
+    "id": 883,
+    "word": "Kreuz",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "cross",
+    "partizipII": null
+  },
+  {
+    "id": 884,
+    "word": "Krieg",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "war",
+    "partizipII": null
+  },
+  {
+    "id": 885,
+    "word": "Krise",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "crisis",
+    "partizipII": null
+  },
+  {
+    "id": 886,
+    "word": "Kritik",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "criticism / review",
+    "partizipII": null
+  },
+  {
+    "id": 887,
+    "word": "kritisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "critical",
+    "partizipII": null
+  },
+  {
+    "id": 888,
+    "word": "kritisieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to criticise",
+    "partizipII": "kritisiert"
+  },
+  {
+    "id": 889,
+    "word": "Kuli",
+    "note": "Pl. -s",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "biro / ballpoint pen",
+    "partizipII": null
+  },
+  {
+    "id": 890,
+    "word": "Kunde",
+    "note": "Pl. -n",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "customer / client",
+    "partizipII": null
+  },
+  {
+    "id": 891,
+    "word": "Kündigung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "notice / termination",
+    "partizipII": null
+  },
+  {
+    "id": 892,
+    "word": "Kundin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "customer / client (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 893,
+    "word": "Künstler",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "artist",
+    "partizipII": null
+  },
+  {
+    "id": 894,
+    "word": "Künstlerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "artist (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 895,
+    "word": "künstlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "artificial",
+    "partizipII": null
+  },
+  {
+    "id": 896,
+    "word": "Kunststoff",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "plastic / synthetic material",
+    "partizipII": null
+  },
+  {
+    "id": 897,
+    "word": "Kursleiter",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "course instructor",
+    "partizipII": null
+  },
+  {
+    "id": 898,
+    "word": "Kurve",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "bend / curve",
+    "partizipII": null
+  },
+  {
+    "id": 899,
+    "word": "kürzlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "recently",
+    "partizipII": null
+  },
+  {
+    "id": 900,
+    "word": "Kuss",
+    "note": "Pl. Küsse",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "kiss",
+    "partizipII": null
+  },
+  {
+    "id": 901,
+    "word": "küssen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to kiss",
+    "partizipII": "geküsst"
+  },
+  {
+    "id": 902,
+    "word": "Küste",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "coast",
+    "partizipII": null
+  },
+  {
+    "id": 903,
+    "word": "Kuvert",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "envelope (A)",
+    "partizipII": null
+  },
+  {
+    "id": 904,
+    "word": "lächeln",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to smile",
+    "partizipII": "gelächelt"
+  },
+  {
+    "id": 905,
+    "word": "Lage",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "situation / position / location",
+    "partizipII": null
+  },
+  {
+    "id": 906,
+    "word": "Lager",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "warehouse / camp / stock",
+    "partizipII": null
+  },
+  {
+    "id": 907,
+    "word": "landen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to land",
+    "partizipII": "gelandet"
+  },
+  {
+    "id": 908,
+    "word": "Landung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "landing",
+    "partizipII": null
+  },
+  {
+    "id": 909,
+    "word": "Landwirtschaft",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "agriculture / farming",
+    "partizipII": null
+  },
+  {
+    "id": 910,
+    "word": "Länge",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "length",
+    "partizipII": null
+  },
+  {
+    "id": 911,
+    "word": "Langeweile",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "boredom",
+    "partizipII": null
+  },
+  {
+    "id": 912,
+    "word": "längst",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "long ago / for a long time now",
+    "partizipII": null
+  },
+  {
+    "id": 913,
+    "word": "langweilen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be bored / to bore (sich ~)",
+    "partizipII": "gelangweilt"
+  },
+  {
+    "id": 914,
+    "word": "Lärm",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "noise",
+    "partizipII": null
+  },
+  {
+    "id": 915,
+    "word": "Laster",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "lorry / truck / vice",
+    "partizipII": null
+  },
+  {
+    "id": 916,
+    "word": "Laufwerk",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "drive (computer)",
+    "partizipII": null
+  },
+  {
+    "id": 917,
+    "word": "Laune",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "mood",
+    "partizipII": null
+  },
+  {
+    "id": 918,
+    "word": "Lautsprecher",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "loudspeaker",
+    "partizipII": null
+  },
+  {
+    "id": 919,
+    "word": "Lebenslauf",
+    "note": "Pl. Lebensläufe",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "CV / résumé",
+    "partizipII": null
+  },
+  {
+    "id": 920,
+    "word": "Lebensmittel",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "food / groceries",
+    "partizipII": null
+  },
+  {
+    "id": 921,
+    "word": "lecker",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "tasty / delicious",
+    "partizipII": null
+  },
+  {
+    "id": 922,
+    "word": "Leder",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "leather",
+    "partizipII": null
+  },
+  {
+    "id": 923,
+    "word": "Lehre",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "apprenticeship / lesson / doctrine",
+    "partizipII": null
+  },
+  {
+    "id": 924,
+    "word": "Lehrer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "teacher",
+    "partizipII": null
+  },
+  {
+    "id": 925,
+    "word": "Lehrerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "teacher (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 926,
+    "word": "Lehrling",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "apprentice / trainee",
+    "partizipII": null
+  },
+  {
+    "id": 927,
+    "word": "Lehrstelle",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "apprenticeship position",
+    "partizipII": null
+  },
+  {
+    "id": 928,
+    "word": "leid tun",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be sorry / to feel sorry for",
+    "partizipII": "leidgetan"
+  },
+  {
+    "id": 929,
+    "word": "leiden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to suffer",
+    "partizipII": "gelitten"
+  },
+  {
+    "id": 930,
+    "word": "leisten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to achieve / to afford (sich ~)",
+    "partizipII": "geleistet"
+  },
+  {
+    "id": 931,
+    "word": "Leistung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "performance / achievement / benefit",
+    "partizipII": null
+  },
+  {
+    "id": 932,
+    "word": "leiten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to lead / to manage / to conduct",
+    "partizipII": "geleitet"
+  },
+  {
+    "id": 933,
+    "word": "Leiter",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "manager / head / ladder",
+    "partizipII": null
+  },
+  {
+    "id": 934,
+    "word": "Leiterin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "manager / head (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 935,
+    "word": "Leitung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "management / line / pipe",
+    "partizipII": null
+  },
+  {
+    "id": 936,
+    "word": "Lerner",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "learner",
+    "partizipII": null
+  },
+  {
+    "id": 937,
+    "word": "Lernerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "learner (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 938,
+    "word": "Leser",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "reader",
+    "partizipII": null
+  },
+  {
+    "id": 939,
+    "word": "Leserin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "reader (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 940,
+    "word": "Leute",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "people",
+    "partizipII": null
+  },
+  {
+    "id": 941,
+    "word": "Lexikon",
+    "note": "Pl. -Lexika",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "encyclopedia / dictionary",
+    "partizipII": null
+  },
+  {
+    "id": 942,
+    "word": "lieb",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "dear / kind / nice",
+    "partizipII": null
+  },
+  {
+    "id": 943,
+    "word": "Lieferung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "delivery / shipment",
+    "partizipII": null
+  },
+  {
+    "id": 944,
+    "word": "Lift",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "lift / elevator",
+    "partizipII": null
+  },
+  {
+    "id": 945,
+    "word": "Limonade",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "lemonade / soft drink",
+    "partizipII": null
+  },
+  {
+    "id": 946,
+    "word": "Linie",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "line / route",
+    "partizipII": null
+  },
+  {
+    "id": 947,
+    "word": "link-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "left",
+    "partizipII": null
+  },
+  {
+    "id": 948,
+    "word": "Lippe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "lip",
+    "partizipII": null
+  },
+  {
+    "id": 949,
+    "word": "Liste",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "list",
+    "partizipII": null
+  },
+  {
+    "id": 950,
+    "word": "Literatur",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "literature",
+    "partizipII": null
+  },
+  {
+    "id": 951,
+    "word": "loben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to praise",
+    "partizipII": "gelobt"
+  },
+  {
+    "id": 952,
+    "word": "Loch",
+    "note": "Pl. Löcher",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "hole",
+    "partizipII": null
+  },
+  {
+    "id": 953,
+    "word": "locker",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "loose / relaxed",
+    "partizipII": null
+  },
+  {
+    "id": 954,
+    "word": "Lohn",
+    "note": "Pl. Löhne",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "wage / pay",
+    "partizipII": null
+  },
+  {
+    "id": 955,
+    "word": "lohnen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be worth it (sich ~)",
+    "partizipII": "gelohnt"
+  },
+  {
+    "id": 956,
+    "word": "los/los-",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "off / away / loose",
+    "partizipII": null
+  },
+  {
+    "id": 957,
+    "word": "löschen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to delete / to extinguish",
+    "partizipII": "gelöscht"
+  },
+  {
+    "id": 958,
+    "word": "lösen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to solve / to buy (a ticket) / to loosen",
+    "partizipII": "gelöst"
+  },
+  {
+    "id": 959,
+    "word": "losfahren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to set off / to drive off",
+    "partizipII": "losgefahren"
+  },
+  {
+    "id": 960,
+    "word": "Luft",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "air",
+    "partizipII": null
+  },
+  {
+    "id": 961,
+    "word": "Magazin",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "magazine",
+    "partizipII": null
+  },
+  {
+    "id": 962,
+    "word": "mager",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "lean / low-fat / thin",
+    "partizipII": null
+  },
+  {
+    "id": 963,
+    "word": "Mahlzeit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "meal",
+    "partizipII": null
+  },
+  {
+    "id": 964,
+    "word": "Mahnung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "reminder / warning",
+    "partizipII": null
+  },
+  {
+    "id": 965,
+    "word": "Maler",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "painter",
+    "partizipII": null
+  },
+  {
+    "id": 966,
+    "word": "Malerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "painter (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 967,
+    "word": "manch-",
+    "note": null,
+    "artikel": null,
+    "type": "Indefinitpronomen",
+    "english": "some / many a",
+    "partizipII": null
+  },
+  {
+    "id": 968,
+    "word": "Mangel",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "lack / shortage / defect",
+    "partizipII": null
+  },
+  {
+    "id": 969,
+    "word": "Mappe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "folder / briefcase",
+    "partizipII": null
+  },
+  {
+    "id": 970,
+    "word": "Märchen",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "fairy tale",
+    "partizipII": null
+  },
+  {
+    "id": 971,
+    "word": "Margarine",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "margarine",
+    "partizipII": null
+  },
+  {
+    "id": 972,
+    "word": "Marille",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "apricot (A)",
+    "partizipII": null
+  },
+  {
+    "id": 973,
+    "word": "Marke",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "brand / stamp / mark",
+    "partizipII": null
+  },
+  {
+    "id": 974,
+    "word": "markieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to mark / to highlight",
+    "partizipII": "markiert"
+  },
+  {
+    "id": 975,
+    "word": "Marmelade",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "jam / marmalade",
+    "partizipII": null
+  },
+  {
+    "id": 976,
+    "word": "Material",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "material",
+    "partizipII": null
+  },
+  {
+    "id": 977,
+    "word": "Matura",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "school-leaving exam (A, CH)",
+    "partizipII": null
+  },
+  {
+    "id": 978,
+    "word": "Mauer",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "wall",
+    "partizipII": null
+  },
+  {
+    "id": 979,
+    "word": "maximal",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "maximum / at most",
+    "partizipII": null
+  },
+  {
+    "id": 980,
+    "word": "Mechaniker",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "mechanic",
+    "partizipII": null
+  },
+  {
+    "id": 981,
+    "word": "Mechanikerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "mechanic (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 982,
+    "word": "Medien",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "media",
+    "partizipII": null
+  },
+  {
+    "id": 983,
+    "word": "Medizin",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "medicine",
+    "partizipII": null
+  },
+  {
+    "id": 984,
+    "word": "Mehl",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "flour",
+    "partizipII": null
+  },
+  {
+    "id": 985,
+    "word": "mehrere",
+    "note": null,
+    "artikel": null,
+    "type": "Indefinitpronomen",
+    "english": "several",
+    "partizipII": null
+  },
+  {
+    "id": 986,
+    "word": "Mehrheit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "majority",
+    "partizipII": null
+  },
+  {
+    "id": 987,
+    "word": "Mehrwertsteuer",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "value-added tax / VAT",
+    "partizipII": null
+  },
+  {
+    "id": 988,
+    "word": "meinetwegen",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "because of me / as far as I'm concerned",
+    "partizipII": null
+  },
+  {
+    "id": 989,
+    "word": "meist(ens)",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "mostly / usually",
+    "partizipII": null
+  },
+  {
+    "id": 990,
+    "word": "Meister",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "master / champion",
+    "partizipII": null
+  },
+  {
+    "id": 991,
+    "word": "melden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to report / to register (sich ~)",
+    "partizipII": "gemeldet"
+  },
+  {
+    "id": 992,
+    "word": "Meldung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "report / announcement / message",
+    "partizipII": null
+  },
+  {
+    "id": 993,
+    "word": "Mensa",
+    "note": "Pl. -s/",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "university canteen / cafeteria",
+    "partizipII": null
+  },
+  {
+    "id": 994,
+    "word": "menschlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "human / humane",
+    "partizipII": null
+  },
+  {
+    "id": 995,
+    "word": "Menü",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "set meal / menu",
+    "partizipII": null
+  },
+  {
+    "id": 996,
+    "word": "merkwürdig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "strange / odd",
+    "partizipII": null
+  },
+  {
+    "id": 997,
+    "word": "messen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to measure",
+    "partizipII": "gemessen"
+  },
+  {
+    "id": 998,
+    "word": "Metall",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "metal",
+    "partizipII": null
+  },
+  {
+    "id": 999,
+    "word": "Methode",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "method",
+    "partizipII": null
+  },
+  {
+    "id": 1000,
+    "word": "Metropole",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "metropolis",
+    "partizipII": null
+  },
+  {
+    "id": 1001,
+    "word": "Metzger",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "butcher",
+    "partizipII": null
+  },
+  {
+    "id": 1002,
+    "word": "Mieter",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "tenant",
+    "partizipII": null
+  },
+  {
+    "id": 1003,
+    "word": "Mieterin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "tenant (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1004,
+    "word": "Migrant",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "migrant",
+    "partizipII": null
+  },
+  {
+    "id": 1005,
+    "word": "Migrantin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "migrant (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1006,
+    "word": "Migration",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "migration",
+    "partizipII": null
+  },
+  {
+    "id": 1007,
+    "word": "mild",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "mild / gentle",
+    "partizipII": null
+  },
+  {
+    "id": 1008,
+    "word": "Minderheit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "minority",
+    "partizipII": null
+  },
+  {
+    "id": 1009,
+    "word": "minimal",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "minimal / minimum",
+    "partizipII": null
+  },
+  {
+    "id": 1010,
+    "word": "mischen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to mix / to shuffle",
+    "partizipII": "gemischt"
+  },
+  {
+    "id": 1011,
+    "word": "miss-",
+    "note": null,
+    "artikel": null,
+    "type": "Affix",
+    "english": "mis- / wrongly (prefix)",
+    "partizipII": null
+  },
+  {
+    "id": 1012,
+    "word": "Mitarbeiterin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "employee / colleague (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1013,
+    "word": "miteinander",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "with each other / together",
+    "partizipII": null
+  },
+  {
+    "id": 1014,
+    "word": "Mitglied",
+    "note": "Pl. -er",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "member",
+    "partizipII": null
+  },
+  {
+    "id": 1015,
+    "word": "mitteilen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to inform / to communicate",
+    "partizipII": "mitgeteilt"
+  },
+  {
+    "id": 1016,
+    "word": "mitten",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "in the middle",
+    "partizipII": null
+  },
+  {
+    "id": 1017,
+    "word": "mittler-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "middle / medium / average",
+    "partizipII": null
+  },
+  {
+    "id": 1018,
+    "word": "mittlerweile",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "meanwhile / by now",
+    "partizipII": null
+  },
+  {
+    "id": 1019,
+    "word": "Möbel",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "furniture",
+    "partizipII": null
+  },
+  {
+    "id": 1020,
+    "word": "mobil/mobil-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "mobile",
+    "partizipII": null
+  },
+  {
+    "id": 1021,
+    "word": "Mobilbox",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "voicemail (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1022,
+    "word": "Mobilität",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "mobility",
+    "partizipII": null
+  },
+  {
+    "id": 1023,
+    "word": "möbliert",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "furnished",
+    "partizipII": null
+  },
+  {
+    "id": 1024,
+    "word": "Modell",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "model",
+    "partizipII": null
+  },
+  {
+    "id": 1025,
+    "word": "Möglichkeit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "possibility / option",
+    "partizipII": null
+  },
+  {
+    "id": 1026,
+    "word": "möglichst",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "as ... as possible / if possible",
+    "partizipII": null
+  },
+  {
+    "id": 1027,
+    "word": "Möhre",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "carrot",
+    "partizipII": null
+  },
+  {
+    "id": 1028,
+    "word": "Mond",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "moon",
+    "partizipII": null
+  },
+  {
+    "id": 1029,
+    "word": "Monitor",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "monitor / screen",
+    "partizipII": null
+  },
+  {
+    "id": 1030,
+    "word": "Motorrad",
+    "note": "Pl. Motorräder",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "motorcycle",
+    "partizipII": null
+  },
+  {
+    "id": 1031,
+    "word": "Müesli",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "muesli (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 1032,
+    "word": "Mühe",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "effort / trouble",
+    "partizipII": null
+  },
+  {
+    "id": 1033,
+    "word": "Müllabfuhr",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "rubbish collection / refuse disposal",
+    "partizipII": null
+  },
+  {
+    "id": 1034,
+    "word": "Mülltonne",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "rubbish bin / dustbin",
+    "partizipII": null
+  },
+  {
+    "id": 1035,
+    "word": "mündlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "oral / verbal",
+    "partizipII": null
+  },
+  {
+    "id": 1036,
+    "word": "Münze",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "coin",
+    "partizipII": null
+  },
+  {
+    "id": 1037,
+    "word": "musikalisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "musical",
+    "partizipII": null
+  },
+  {
+    "id": 1038,
+    "word": "Musiker",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "musician",
+    "partizipII": null
+  },
+  {
+    "id": 1039,
+    "word": "Musikerin",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "musician (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1040,
+    "word": "Muskel",
+    "note": "Pl. -n",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "muscle",
+    "partizipII": null
+  },
+  {
+    "id": 1041,
+    "word": "Mut",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "courage",
+    "partizipII": null
+  },
+  {
+    "id": 1042,
+    "word": "mutig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "brave / courageous",
+    "partizipII": null
+  },
+  {
+    "id": 1043,
+    "word": "Muttersprache",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "mother tongue / native language",
+    "partizipII": null
+  },
+  {
+    "id": 1044,
+    "word": "nachdem",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "after",
+    "partizipII": null
+  },
+  {
+    "id": 1045,
+    "word": "nachdenken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to think about / to reflect (über)",
+    "partizipII": "nachgedacht"
+  },
+  {
+    "id": 1046,
+    "word": "Nachfrage",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "demand / enquiry",
+    "partizipII": null
+  },
+  {
+    "id": 1047,
+    "word": "nachher",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "afterwards / later",
+    "partizipII": null
+  },
+  {
+    "id": 1048,
+    "word": "Nachhilfe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "private tuition / tutoring",
+    "partizipII": null
+  },
+  {
+    "id": 1049,
+    "word": "nachschlagen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to look up (in a book)",
+    "partizipII": "nachgeschlagen"
+  },
+  {
+    "id": 1050,
+    "word": "Nachspeise",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "dessert",
+    "partizipII": null
+  },
+  {
+    "id": 1051,
+    "word": "Nachteil",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "disadvantage / drawback",
+    "partizipII": null
+  },
+  {
+    "id": 1052,
+    "word": "Nachwuchs",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "offspring / new generation",
+    "partizipII": null
+  },
+  {
+    "id": 1053,
+    "word": "Nadel",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "needle",
+    "partizipII": null
+  },
+  {
+    "id": 1054,
+    "word": "Nagel",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "nail",
+    "partizipII": null
+  },
+  {
+    "id": 1055,
+    "word": "nah(e)",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "near / close",
+    "partizipII": null
+  },
+  {
+    "id": 1056,
+    "word": "nähen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to sew",
+    "partizipII": "genäht"
+  },
+  {
+    "id": 1057,
+    "word": "nähern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to approach / to get closer (sich ~)",
+    "partizipII": "genähert"
+  },
+  {
+    "id": 1058,
+    "word": "Nahrungsmittel",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "food / foodstuff",
+    "partizipII": null
+  },
+  {
+    "id": 1059,
+    "word": "nämlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "namely / you see / that is",
+    "partizipII": null
+  },
+  {
+    "id": 1060,
+    "word": "Nase",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "nose",
+    "partizipII": null
+  },
+  {
+    "id": 1061,
+    "word": "national/national-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "national",
+    "partizipII": null
+  },
+  {
+    "id": 1062,
+    "word": "Nebel",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "fog / mist",
+    "partizipII": null
+  },
+  {
+    "id": 1063,
+    "word": "nebenbei",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "on the side / incidentally",
+    "partizipII": null
+  },
+  {
+    "id": 1064,
+    "word": "neblig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "foggy / misty",
+    "partizipII": null
+  },
+  {
+    "id": 1065,
+    "word": "Neffe",
+    "note": "Pl. -n",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "nephew",
+    "partizipII": null
+  },
+  {
+    "id": 1066,
+    "word": "negativ",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "negative",
+    "partizipII": null
+  },
+  {
+    "id": 1067,
+    "word": "Nerv",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "nerve",
+    "partizipII": null
+  },
+  {
+    "id": 1068,
+    "word": "Netz",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "net / network / grid",
+    "partizipII": null
+  },
+  {
+    "id": 1069,
+    "word": "Netzwerk",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "network",
+    "partizipII": null
+  },
+  {
+    "id": 1070,
+    "word": "neugierig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "curious / nosy",
+    "partizipII": null
+  },
+  {
+    "id": 1071,
+    "word": "Neuigkeit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "piece of news",
+    "partizipII": null
+  },
+  {
+    "id": 1072,
+    "word": "neulich",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "recently / the other day",
+    "partizipII": null
+  },
+  {
+    "id": 1073,
+    "word": "Nichte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "niece",
+    "partizipII": null
+  },
+  {
+    "id": 1074,
+    "word": "Nichtraucher",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "non-smoker",
+    "partizipII": null
+  },
+  {
+    "id": 1075,
+    "word": "Nichtraucherin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "non-smoker (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1076,
+    "word": "niedrig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "low",
+    "partizipII": null
+  },
+  {
+    "id": 1077,
+    "word": "nirgendwo",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "nowhere",
+    "partizipII": null
+  },
+  {
+    "id": 1078,
+    "word": "noch mal",
+    "note": null,
+    "artikel": null,
+    "type": "Mehrwortausdruck",
+    "english": "again / once more",
+    "partizipII": null
+  },
+  {
+    "id": 1079,
+    "word": "nochmals",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "once again / once more",
+    "partizipII": null
+  },
+  {
+    "id": 1080,
+    "word": "normalerweise",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "normally / usually",
+    "partizipII": null
+  },
+  {
+    "id": 1081,
+    "word": "Notausgang",
+    "note": "Pl. Notausgänge",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "emergency exit",
+    "partizipII": null
+  },
+  {
+    "id": 1082,
+    "word": "Notfall",
+    "note": "Pl. Notfälle",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "emergency",
+    "partizipII": null
+  },
+  {
+    "id": 1083,
+    "word": "nötig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "necessary / needed",
+    "partizipII": null
+  },
+  {
+    "id": 1084,
+    "word": "Notruf",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "emergency call",
+    "partizipII": null
+  },
+  {
+    "id": 1085,
+    "word": "nun",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "now / well",
+    "partizipII": null
+  },
+  {
+    "id": 1086,
+    "word": "nutzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to use / to be of use",
+    "partizipII": "genutzt"
+  },
+  {
+    "id": 1087,
+    "word": "nützen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be of use / to benefit",
+    "partizipII": "genützt"
+  },
+  {
+    "id": 1088,
+    "word": "ob",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "whether / if",
+    "partizipII": null
+  },
+  {
+    "id": 1089,
+    "word": "Ober",
+    "note": "Pl. -Kellner",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "waiter (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1090,
+    "word": "ober-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "upper / top",
+    "partizipII": null
+  },
+  {
+    "id": 1091,
+    "word": "Obers",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "cream / whipped cream (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1092,
+    "word": "obwohl",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "although / even though",
+    "partizipII": null
+  },
+  {
+    "id": 1093,
+    "word": "Ofen",
+    "note": "Pl. Öfen",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "oven / stove",
+    "partizipII": null
+  },
+  {
+    "id": 1094,
+    "word": "offenbar",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "apparent / apparently / evidently",
+    "partizipII": null
+  },
+  {
+    "id": 1095,
+    "word": "öffentlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "public",
+    "partizipII": null
+  },
+  {
+    "id": 1096,
+    "word": "Öffentlichkeit",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "the public",
+    "partizipII": null
+  },
+  {
+    "id": 1097,
+    "word": "offiziell",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "official",
+    "partizipII": null
+  },
+  {
+    "id": 1098,
+    "word": "oft/öfter",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "often / more often",
+    "partizipII": null
+  },
+  {
+    "id": 1099,
+    "word": "Onkel",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "uncle",
+    "partizipII": null
+  },
+  {
+    "id": 1100,
+    "word": "Oper",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "opera",
+    "partizipII": null
+  },
+  {
+    "id": 1101,
+    "word": "Operation",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "operation / surgery",
+    "partizipII": null
+  },
+  {
+    "id": 1102,
+    "word": "operieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to operate (on)",
+    "partizipII": "operiert"
+  },
+  {
+    "id": 1103,
+    "word": "Opfer",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "victim / sacrifice",
+    "partizipII": null
+  },
+  {
+    "id": 1104,
+    "word": "optimistisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "optimistic",
+    "partizipII": null
+  },
+  {
+    "id": 1105,
+    "word": "Orchester",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "orchestra",
+    "partizipII": null
+  },
+  {
+    "id": 1106,
+    "word": "ordentlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "tidy / proper / decent",
+    "partizipII": null
+  },
+  {
+    "id": 1107,
+    "word": "Ordination",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "doctor's surgery (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1108,
+    "word": "ordnen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to arrange / to put in order",
+    "partizipII": "geordnet"
+  },
+  {
+    "id": 1109,
+    "word": "Ordner",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "folder / file",
+    "partizipII": null
+  },
+  {
+    "id": 1110,
+    "word": "Organisation",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "organisation",
+    "partizipII": null
+  },
+  {
+    "id": 1111,
+    "word": "original",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "original / genuine",
+    "partizipII": null
+  },
+  {
+    "id": 1112,
+    "word": "Original",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "original",
+    "partizipII": null
+  },
+  {
+    "id": 1113,
+    "word": "Ozean",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "ocean",
+    "partizipII": null
+  },
+  {
+    "id": 1114,
+    "word": "Panne",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "breakdown / mishap",
+    "partizipII": null
+  },
+  {
+    "id": 1115,
+    "word": "Paradeiser",
+    "note": "Pl. -Tomate",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "tomato (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1116,
+    "word": "parallel",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "parallel",
+    "partizipII": null
+  },
+  {
+    "id": 1117,
+    "word": "Parfüm",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "perfume",
+    "partizipII": null
+  },
+  {
+    "id": 1118,
+    "word": "Partner",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "partner",
+    "partizipII": null
+  },
+  {
+    "id": 1119,
+    "word": "Partnerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "partner (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1120,
+    "word": "Passagier",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "passenger",
+    "partizipII": null
+  },
+  {
+    "id": 1121,
+    "word": "Passagierin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "passenger (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1122,
+    "word": "passiv",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "passive",
+    "partizipII": null
+  },
+  {
+    "id": 1123,
+    "word": "Patient",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "patient",
+    "partizipII": null
+  },
+  {
+    "id": 1124,
+    "word": "Patientin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "patient (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1125,
+    "word": "pauschal",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "flat-rate / all-inclusive / sweeping",
+    "partizipII": null
+  },
+  {
+    "id": 1126,
+    "word": "Pech",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "bad luck / pitch",
+    "partizipII": null
+  },
+  {
+    "id": 1127,
+    "word": "peinlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "embarrassing / awkward",
+    "partizipII": null
+  },
+  {
+    "id": 1128,
+    "word": "Pension",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "pension / guesthouse",
+    "partizipII": null
+  },
+  {
+    "id": 1129,
+    "word": "pensioniert werden/sein",
+    "note": null,
+    "artikel": null,
+    "type": "Mehrwortausdruck",
+    "english": "to be retired / to be pensioned off",
+    "partizipII": null
+  },
+  {
+    "id": 1130,
+    "word": "Pensionist",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "pensioner (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1131,
+    "word": "Pensionistin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "pensioner (f., A)",
+    "partizipII": null
+  },
+  {
+    "id": 1132,
+    "word": "per",
+    "note": null,
+    "artikel": null,
+    "type": "Präposition",
+    "english": "by / per",
+    "partizipII": null
+  },
+  {
+    "id": 1133,
+    "word": "perfekt",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "perfect",
+    "partizipII": null
+  },
+  {
+    "id": 1134,
+    "word": "Perron",
+    "note": "Pl. -s",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "platform (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 1135,
+    "word": "Personal",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "staff / personnel",
+    "partizipII": null
+  },
+  {
+    "id": 1136,
+    "word": "Personalien",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "personal details",
+    "partizipII": null
+  },
+  {
+    "id": 1137,
+    "word": "Personenstand",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "marital status",
+    "partizipII": null
+  },
+  {
+    "id": 1138,
+    "word": "persönlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "personal / in person",
+    "partizipII": null
+  },
+  {
+    "id": 1139,
+    "word": "Pfanne",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "pan / frying pan",
+    "partizipII": null
+  },
+  {
+    "id": 1140,
+    "word": "Pfeffer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "pepper",
+    "partizipII": null
+  },
+  {
+    "id": 1141,
+    "word": "pflanzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to plant",
+    "partizipII": "gepflanzt"
+  },
+  {
+    "id": 1142,
+    "word": "Pflaster",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "plaster / band-aid",
+    "partizipII": null
+  },
+  {
+    "id": 1143,
+    "word": "Pflaume",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "plum",
+    "partizipII": null
+  },
+  {
+    "id": 1144,
+    "word": "pflegen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to care for / to look after",
+    "partizipII": "gepflegt"
+  },
+  {
+    "id": 1145,
+    "word": "Pfleger",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "carer / nurse",
+    "partizipII": null
+  },
+  {
+    "id": 1146,
+    "word": "Pflegerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "carer / nurse (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1147,
+    "word": "Pflicht",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "duty / obligation",
+    "partizipII": null
+  },
+  {
+    "id": 1148,
+    "word": "Phantasie",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "imagination / fantasy",
+    "partizipII": null
+  },
+  {
+    "id": 1149,
+    "word": "Picknick",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "picnic",
+    "partizipII": null
+  },
+  {
+    "id": 1150,
+    "word": "Pille",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "pill",
+    "partizipII": null
+  },
+  {
+    "id": 1151,
+    "word": "Pilz",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "mushroom / fungus",
+    "partizipII": null
+  },
+  {
+    "id": 1152,
+    "word": "Planung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "planning",
+    "partizipII": null
+  },
+  {
+    "id": 1153,
+    "word": "Plastik",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "plastic / sculpture",
+    "partizipII": null
+  },
+  {
+    "id": 1154,
+    "word": "Politik",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "politics / policy",
+    "partizipII": null
+  },
+  {
+    "id": 1155,
+    "word": "Politiker",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "politician",
+    "partizipII": null
+  },
+  {
+    "id": 1156,
+    "word": "Politikerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "politician (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1157,
+    "word": "politisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "political",
+    "partizipII": null
+  },
+  {
+    "id": 1158,
+    "word": "Polizist",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "police officer",
+    "partizipII": null
+  },
+  {
+    "id": 1159,
+    "word": "Polizistin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "police officer (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1160,
+    "word": "Pommes",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "chips / french fries",
+    "partizipII": null
+  },
+  {
+    "id": 1161,
+    "word": "populär",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "popular",
+    "partizipII": null
+  },
+  {
+    "id": 1162,
+    "word": "Portemonnaie",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "purse / wallet",
+    "partizipII": null
+  },
+  {
+    "id": 1163,
+    "word": "positiv",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "positive",
+    "partizipII": null
+  },
+  {
+    "id": 1164,
+    "word": "Pöstler",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "postman / mail carrier (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 1165,
+    "word": "Poulet",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "chicken (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 1166,
+    "word": "Praktikant",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "intern / trainee",
+    "partizipII": null
+  },
+  {
+    "id": 1167,
+    "word": "Praktikantin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "intern / trainee (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1168,
+    "word": "Präsentation",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "presentation",
+    "partizipII": null
+  },
+  {
+    "id": 1169,
+    "word": "präsentieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to present",
+    "partizipII": "präsentiert"
+  },
+  {
+    "id": 1170,
+    "word": "Presse",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "press",
+    "partizipII": null
+  },
+  {
+    "id": 1171,
+    "word": "prima",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "great / excellent",
+    "partizipII": null
+  },
+  {
+    "id": 1172,
+    "word": "Produktion",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "production",
+    "partizipII": null
+  },
+  {
+    "id": 1173,
+    "word": "produzieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to produce",
+    "partizipII": "produziert"
+  },
+  {
+    "id": 1174,
+    "word": "Professor",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "professor",
+    "partizipII": null
+  },
+  {
+    "id": 1175,
+    "word": "Professorin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "professor (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1176,
+    "word": "Profi",
+    "note": "Pl. -s",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "professional / pro",
+    "partizipII": null
+  },
+  {
+    "id": 1177,
+    "word": "Profisportler",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "professional athlete",
+    "partizipII": null
+  },
+  {
+    "id": 1178,
+    "word": "Profisportlerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "professional athlete (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1179,
+    "word": "Protest",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "protest",
+    "partizipII": null
+  },
+  {
+    "id": 1180,
+    "word": "protestieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to protest",
+    "partizipII": "protestiert"
+  },
+  {
+    "id": 1181,
+    "word": "Prozess",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "process / trial",
+    "partizipII": null
+  },
+  {
+    "id": 1182,
+    "word": "Publikum",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "audience / public",
+    "partizipII": null
+  },
+  {
+    "id": 1183,
+    "word": "Punkt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "point / dot / full stop",
+    "partizipII": null
+  },
+  {
+    "id": 1184,
+    "word": "Puppe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "doll / puppet",
+    "partizipII": null
+  },
+  {
+    "id": 1185,
+    "word": "Qualifikation",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "qualification",
+    "partizipII": null
+  },
+  {
+    "id": 1186,
+    "word": "Quartier",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "accommodation / district",
+    "partizipII": null
+  },
+  {
+    "id": 1187,
+    "word": "quer",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "crosswise / diagonally / across",
+    "partizipII": null
+  },
+  {
+    "id": 1188,
+    "word": "Quittung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "receipt",
+    "partizipII": null
+  },
+  {
+    "id": 1189,
+    "word": "Rabatt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "discount",
+    "partizipII": null
+  },
+  {
+    "id": 1190,
+    "word": "Radfahrer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "cyclist",
+    "partizipII": null
+  },
+  {
+    "id": 1191,
+    "word": "Radfahrerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "cyclist (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1192,
+    "word": "Rahm",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "cream / whipped cream (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 1193,
+    "word": "Rand",
+    "note": "Pl. Ränder",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "edge / margin / rim",
+    "partizipII": null
+  },
+  {
+    "id": 1194,
+    "word": "Rasen",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "lawn",
+    "partizipII": null
+  },
+  {
+    "id": 1195,
+    "word": "rasieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to shave (sich ~)",
+    "partizipII": "rasiert"
+  },
+  {
+    "id": 1196,
+    "word": "Rat",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "advice / council",
+    "partizipII": null
+  },
+  {
+    "id": 1197,
+    "word": "Raucher",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "smoker",
+    "partizipII": null
+  },
+  {
+    "id": 1198,
+    "word": "Raucherin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "smoker (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1199,
+    "word": "rauf/rauf-",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "up / upwards",
+    "partizipII": null
+  },
+  {
+    "id": 1200,
+    "word": "raus/raus-",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "out / outwards",
+    "partizipII": null
+  },
+  {
+    "id": 1201,
+    "word": "reagieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to react",
+    "partizipII": "reagiert"
+  },
+  {
+    "id": 1202,
+    "word": "Reaktion",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "reaction / response",
+    "partizipII": null
+  },
+  {
+    "id": 1203,
+    "word": "realisieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to realise / to implement",
+    "partizipII": "realisiert"
+  },
+  {
+    "id": 1204,
+    "word": "realistisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "realistic",
+    "partizipII": null
+  },
+  {
+    "id": 1205,
+    "word": "Realität",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "reality",
+    "partizipII": null
+  },
+  {
+    "id": 1206,
+    "word": "Recherche",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "research / investigation",
+    "partizipII": null
+  },
+  {
+    "id": 1207,
+    "word": "Rechner",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "computer / calculator",
+    "partizipII": null
+  },
+  {
+    "id": 1208,
+    "word": "recht-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "right / right-hand",
+    "partizipII": null
+  },
+  {
+    "id": 1209,
+    "word": "rechtlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "legal / in law",
+    "partizipII": null
+  },
+  {
+    "id": 1210,
+    "word": "rechtzeitig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "on time / in good time",
+    "partizipII": null
+  },
+  {
+    "id": 1211,
+    "word": "Rede",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "speech / talk",
+    "partizipII": null
+  },
+  {
+    "id": 1212,
+    "word": "reduzieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to reduce",
+    "partizipII": "reduziert"
+  },
+  {
+    "id": 1213,
+    "word": "Referat",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "presentation / paper / department",
+    "partizipII": null
+  },
+  {
+    "id": 1214,
+    "word": "Reform",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "reform",
+    "partizipII": null
+  },
+  {
+    "id": 1215,
+    "word": "Regal",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "shelf / shelving unit",
+    "partizipII": null
+  },
+  {
+    "id": 1216,
+    "word": "Regel",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "rule",
+    "partizipII": null
+  },
+  {
+    "id": 1217,
+    "word": "regelmäßig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "regular / regularly",
+    "partizipII": null
+  },
+  {
+    "id": 1218,
+    "word": "regeln",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to regulate / to settle",
+    "partizipII": "geregelt"
+  },
+  {
+    "id": 1219,
+    "word": "Region",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "region",
+    "partizipII": null
+  },
+  {
+    "id": 1220,
+    "word": "regional",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "regional",
+    "partizipII": null
+  },
+  {
+    "id": 1221,
+    "word": "reichen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be enough / to pass / to reach",
+    "partizipII": "gereicht"
+  },
+  {
+    "id": 1222,
+    "word": "reif",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "ripe / mature",
+    "partizipII": null
+  },
+  {
+    "id": 1223,
+    "word": "Reihenfolge",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "order / sequence",
+    "partizipII": null
+  },
+  {
+    "id": 1224,
+    "word": "reinigen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to clean",
+    "partizipII": "gereinigt"
+  },
+  {
+    "id": 1225,
+    "word": "Reklame",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "advertising / commercial",
+    "partizipII": null
+  },
+  {
+    "id": 1226,
+    "word": "Rekord",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "record (best performance)",
+    "partizipII": null
+  },
+  {
+    "id": 1227,
+    "word": "relativ",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "relative / relatively",
+    "partizipII": null
+  },
+  {
+    "id": 1228,
+    "word": "Religion",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "religion",
+    "partizipII": null
+  },
+  {
+    "id": 1229,
+    "word": "rennen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to run / to race",
+    "partizipII": "gerannt"
+  },
+  {
+    "id": 1230,
+    "word": "Rente",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "pension",
+    "partizipII": null
+  },
+  {
+    "id": 1231,
+    "word": "Reportage",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "report / feature",
+    "partizipII": null
+  },
+  {
+    "id": 1232,
+    "word": "Reporter",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "reporter",
+    "partizipII": null
+  },
+  {
+    "id": 1233,
+    "word": "Reporterin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "reporter (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1234,
+    "word": "Reservierung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "reservation / booking",
+    "partizipII": null
+  },
+  {
+    "id": 1235,
+    "word": "Respekt",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "respect",
+    "partizipII": null
+  },
+  {
+    "id": 1236,
+    "word": "retten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to rescue / to save",
+    "partizipII": "gerettet"
+  },
+  {
+    "id": 1237,
+    "word": "Richter",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "judge",
+    "partizipII": null
+  },
+  {
+    "id": 1238,
+    "word": "Richterin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "judge (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1239,
+    "word": "Richtung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "direction",
+    "partizipII": null
+  },
+  {
+    "id": 1240,
+    "word": "riesig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "huge / enormous",
+    "partizipII": null
+  },
+  {
+    "id": 1241,
+    "word": "Risiko",
+    "note": "Pl. Risiken",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "risk",
+    "partizipII": null
+  },
+  {
+    "id": 1242,
+    "word": "roh",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "raw / uncooked / crude",
+    "partizipII": null
+  },
+  {
+    "id": 1243,
+    "word": "Rohr",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "oven / pipe / tube (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1244,
+    "word": "Rolle",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "role / roll",
+    "partizipII": null
+  },
+  {
+    "id": 1245,
+    "word": "Roman",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "novel",
+    "partizipII": null
+  },
+  {
+    "id": 1246,
+    "word": "Rückfahrt",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "return journey / journey back",
+    "partizipII": null
+  },
+  {
+    "id": 1247,
+    "word": "Rückkehr",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "return",
+    "partizipII": null
+  },
+  {
+    "id": 1248,
+    "word": "Rücksicht",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "consideration / regard",
+    "partizipII": null
+  },
+  {
+    "id": 1249,
+    "word": "rückwärts",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "backwards / in reverse",
+    "partizipII": null
+  },
+  {
+    "id": 1250,
+    "word": "Rüebli",
+    "note": "Pl. -Karotte",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "carrot (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 1251,
+    "word": "Rufnummer",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "phone number",
+    "partizipII": null
+  },
+  {
+    "id": 1252,
+    "word": "Runde",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "round / lap",
+    "partizipII": null
+  },
+  {
+    "id": 1253,
+    "word": "Rundfahrt",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "tour / sightseeing trip",
+    "partizipII": null
+  },
+  {
+    "id": 1254,
+    "word": "runterwerfen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to throw down",
+    "partizipII": "runtergeworfen"
+  },
+  {
+    "id": 1255,
+    "word": "Saal",
+    "note": "Pl. Säle",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "hall / large room",
+    "partizipII": null
+  },
+  {
+    "id": 1256,
+    "word": "Sack",
+    "note": "Pl. Säcke",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "sack / bag",
+    "partizipII": null
+  },
+  {
+    "id": 1257,
+    "word": "Sahne",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "cream / whipped cream",
+    "partizipII": null
+  },
+  {
+    "id": 1258,
+    "word": "Saison",
+    "note": "Pl. -s",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "season",
+    "partizipII": null
+  },
+  {
+    "id": 1259,
+    "word": "Salbe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "ointment / cream",
+    "partizipII": null
+  },
+  {
+    "id": 1260,
+    "word": "Salon",
+    "note": "Pl. -s",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "salon",
+    "partizipII": null
+  },
+  {
+    "id": 1261,
+    "word": "salzig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "salty",
+    "partizipII": null
+  },
+  {
+    "id": 1262,
+    "word": "sämtliche",
+    "note": null,
+    "artikel": null,
+    "type": "Indefinitpronomen",
+    "english": "all / entire",
+    "partizipII": null
+  },
+  {
+    "id": 1263,
+    "word": "Sand",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "sand",
+    "partizipII": null
+  },
+  {
+    "id": 1264,
+    "word": "Sänger",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "singer",
+    "partizipII": null
+  },
+  {
+    "id": 1265,
+    "word": "Sängerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "singer (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1266,
+    "word": "satt",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "full / satisfied (after eating)",
+    "partizipII": null
+  },
+  {
+    "id": 1267,
+    "word": "Schachtel",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "box / packet",
+    "partizipII": null
+  },
+  {
+    "id": 1268,
+    "word": "Schaden",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "damage / harm",
+    "partizipII": null
+  },
+  {
+    "id": 1269,
+    "word": "schaden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to harm / to damage",
+    "partizipII": "geschadet"
+  },
+  {
+    "id": 1270,
+    "word": "schalten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to switch / to change gear",
+    "partizipII": "geschaltet"
+  },
+  {
+    "id": 1271,
+    "word": "Schatten",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "shadow / shade",
+    "partizipII": null
+  },
+  {
+    "id": 1272,
+    "word": "schätzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to estimate / to appreciate",
+    "partizipII": "geschätzt"
+  },
+  {
+    "id": 1273,
+    "word": "schauen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to look / to watch",
+    "partizipII": "geschaut"
+  },
+  {
+    "id": 1274,
+    "word": "Schaufenster",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "shop window",
+    "partizipII": null
+  },
+  {
+    "id": 1275,
+    "word": "Schauspieler",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "actor",
+    "partizipII": null
+  },
+  {
+    "id": 1276,
+    "word": "Schauspielerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "actress",
+    "partizipII": null
+  },
+  {
+    "id": 1277,
+    "word": "Scheibe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "slice / pane / disc",
+    "partizipII": null
+  },
+  {
+    "id": 1278,
+    "word": "scheiden lassen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to get divorced (sich ~)",
+    "partizipII": "scheiden"
+  },
+  {
+    "id": 1279,
+    "word": "Scheidung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "divorce",
+    "partizipII": null
+  },
+  {
+    "id": 1280,
+    "word": "Schein",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "note (money) / certificate / appearance",
+    "partizipII": null
+  },
+  {
+    "id": 1281,
+    "word": "schieben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to push / to shove",
+    "partizipII": "geschoben"
+  },
+  {
+    "id": 1282,
+    "word": "schief",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "crooked / slanting / askew",
+    "partizipII": null
+  },
+  {
+    "id": 1283,
+    "word": "schießen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to shoot",
+    "partizipII": "geschossen"
+  },
+  {
+    "id": 1284,
+    "word": "Schlaf",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "sleep",
+    "partizipII": null
+  },
+  {
+    "id": 1285,
+    "word": "schlagen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to hit / to beat",
+    "partizipII": "geschlagen"
+  },
+  {
+    "id": 1286,
+    "word": "Schlange",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "snake / queue",
+    "partizipII": null
+  },
+  {
+    "id": 1287,
+    "word": "schlank",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "slim / slender",
+    "partizipII": null
+  },
+  {
+    "id": 1288,
+    "word": "schließlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "finally / after all / in the end",
+    "partizipII": null
+  },
+  {
+    "id": 1289,
+    "word": "schmal",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "narrow / slim",
+    "partizipII": null
+  },
+  {
+    "id": 1290,
+    "word": "Schmerzmittel",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "painkiller",
+    "partizipII": null
+  },
+  {
+    "id": 1291,
+    "word": "schminken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to put on make-up (sich ~)",
+    "partizipII": "geschminkt"
+  },
+  {
+    "id": 1292,
+    "word": "Schmuck",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "jewellery / decoration",
+    "partizipII": null
+  },
+  {
+    "id": 1293,
+    "word": "Schmutz",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "dirt",
+    "partizipII": null
+  },
+  {
+    "id": 1294,
+    "word": "Schnitzel",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "schnitzel / escalope",
+    "partizipII": null
+  },
+  {
+    "id": 1295,
+    "word": "Schnupfen",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "cold / runny nose",
+    "partizipII": null
+  },
+  {
+    "id": 1296,
+    "word": "Schreck",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "fright / shock",
+    "partizipII": null
+  },
+  {
+    "id": 1297,
+    "word": "schreien",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to shout / to scream",
+    "partizipII": "geschrien"
+  },
+  {
+    "id": 1298,
+    "word": "Schrift",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "writing / script / font",
+    "partizipII": null
+  },
+  {
+    "id": 1299,
+    "word": "Schriftsteller",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "writer / author",
+    "partizipII": null
+  },
+  {
+    "id": 1300,
+    "word": "Schriftstellerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "writer / author (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1301,
+    "word": "Schritt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "step / pace",
+    "partizipII": null
+  },
+  {
+    "id": 1302,
+    "word": "Schularbeit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "school test (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1303,
+    "word": "schuld",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "to blame / at fault",
+    "partizipII": null
+  },
+  {
+    "id": 1304,
+    "word": "Schuld",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "guilt / fault / blame",
+    "partizipII": null
+  },
+  {
+    "id": 1305,
+    "word": "Schulden",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "debts",
+    "partizipII": null
+  },
+  {
+    "id": 1306,
+    "word": "schuldig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "guilty / owing",
+    "partizipII": null
+  },
+  {
+    "id": 1307,
+    "word": "Schüler",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "pupil / student",
+    "partizipII": null
+  },
+  {
+    "id": 1308,
+    "word": "Schulter",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "shoulder",
+    "partizipII": null
+  },
+  {
+    "id": 1309,
+    "word": "Schüssel",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "bowl / dish",
+    "partizipII": null
+  },
+  {
+    "id": 1310,
+    "word": "schütteln",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to shake",
+    "partizipII": "geschüttelt"
+  },
+  {
+    "id": 1311,
+    "word": "Schutz",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "protection",
+    "partizipII": null
+  },
+  {
+    "id": 1312,
+    "word": "schützen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to protect",
+    "partizipII": "geschützt"
+  },
+  {
+    "id": 1313,
+    "word": "Schwammerl",
+    "note": "Pl. -n",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "mushroom (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1314,
+    "word": "Schwangerschaft",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "pregnancy",
+    "partizipII": null
+  },
+  {
+    "id": 1315,
+    "word": "schweigen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be silent / to say nothing",
+    "partizipII": "geschwiegen"
+  },
+  {
+    "id": 1316,
+    "word": "Schwierigkeit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "difficulty",
+    "partizipII": null
+  },
+  {
+    "id": 1317,
+    "word": "schwitzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to sweat",
+    "partizipII": "geschwitzt"
+  },
+  {
+    "id": 1318,
+    "word": "seitdem",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "since / since then",
+    "partizipII": null
+  },
+  {
+    "id": 1319,
+    "word": "Sekretär",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "secretary",
+    "partizipII": null
+  },
+  {
+    "id": 1320,
+    "word": "Sekretärin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "secretary (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1321,
+    "word": "selb-",
+    "note": null,
+    "artikel": null,
+    "type": "Pronomen",
+    "english": "same / self",
+    "partizipII": null
+  },
+  {
+    "id": 1322,
+    "word": "selber",
+    "note": null,
+    "artikel": null,
+    "type": "Pronomen",
+    "english": "myself / yourself / oneself",
+    "partizipII": null
+  },
+  {
+    "id": 1323,
+    "word": "selbstverständlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "of course / natural / self-evident",
+    "partizipII": null
+  },
+  {
+    "id": 1324,
+    "word": "selten",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "rare / rarely / seldom",
+    "partizipII": null
+  },
+  {
+    "id": 1325,
+    "word": "seltsam",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "strange / odd",
+    "partizipII": null
+  },
+  {
+    "id": 1326,
+    "word": "Semester",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "semester / term",
+    "partizipII": null
+  },
+  {
+    "id": 1327,
+    "word": "Seminar",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "seminar / course",
+    "partizipII": null
+  },
+  {
+    "id": 1328,
+    "word": "Semmel",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "bread roll (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1329,
+    "word": "senden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to send / to broadcast",
+    "partizipII": "gesendet/gesandt"
+  },
+  {
+    "id": 1330,
+    "word": "Sender",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "broadcaster / channel / transmitter",
+    "partizipII": null
+  },
+  {
+    "id": 1331,
+    "word": "Senioren",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "senior citizens",
+    "partizipII": null
+  },
+  {
+    "id": 1332,
+    "word": "senkrecht",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "vertical / perpendicular",
+    "partizipII": null
+  },
+  {
+    "id": 1333,
+    "word": "Serie",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "series",
+    "partizipII": null
+  },
+  {
+    "id": 1334,
+    "word": "Serviceangestellte",
+    "note": "Pl. -n",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "waiter / service employee (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 1335,
+    "word": "Sessel",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "armchair / chair (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1336,
+    "word": "Sicherheit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "safety / security / certainty",
+    "partizipII": null
+  },
+  {
+    "id": 1337,
+    "word": "sichtbar",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "visible",
+    "partizipII": null
+  },
+  {
+    "id": 1338,
+    "word": "Sieg",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "victory / win",
+    "partizipII": null
+  },
+  {
+    "id": 1339,
+    "word": "siegen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to win / to be victorious",
+    "partizipII": "gesiegt"
+  },
+  {
+    "id": 1340,
+    "word": "Sieger",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "winner",
+    "partizipII": null
+  },
+  {
+    "id": 1341,
+    "word": "Siegerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "winner (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1342,
+    "word": "siezen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to address formally (with 'Sie')",
+    "partizipII": "gesiezt"
+  },
+  {
+    "id": 1343,
+    "word": "sinken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to sink / to fall / to drop",
+    "partizipII": "gesunken"
+  },
+  {
+    "id": 1344,
+    "word": "Sinn",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "sense / meaning / point",
+    "partizipII": null
+  },
+  {
+    "id": 1345,
+    "word": "sinnlos",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "pointless / senseless",
+    "partizipII": null
+  },
+  {
+    "id": 1346,
+    "word": "sinnvoll",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "sensible / meaningful",
+    "partizipII": null
+  },
+  {
+    "id": 1347,
+    "word": "Sitz",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "seat / headquarters",
+    "partizipII": null
+  },
+  {
+    "id": 1348,
+    "word": "Ski",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "ski",
+    "partizipII": null
+  },
+  {
+    "id": 1349,
+    "word": "so viel/so viel wie",
+    "note": null,
+    "artikel": null,
+    "type": "Mehrwortausdruck",
+    "english": "as much / as much as",
+    "partizipII": null
+  },
+  {
+    "id": 1350,
+    "word": "sobald",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "as soon as",
+    "partizipII": null
+  },
+  {
+    "id": 1351,
+    "word": "Socke",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "sock",
+    "partizipII": null
+  },
+  {
+    "id": 1352,
+    "word": "sodass",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "so that",
+    "partizipII": null
+  },
+  {
+    "id": 1353,
+    "word": "sogenannt-",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "so-called",
+    "partizipII": null
+  },
+  {
+    "id": 1354,
+    "word": "solange",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "as long as",
+    "partizipII": null
+  },
+  {
+    "id": 1355,
+    "word": "solch-",
+    "note": null,
+    "artikel": null,
+    "type": "Indefinitpronomen",
+    "english": "such / such a",
+    "partizipII": null
+  },
+  {
+    "id": 1356,
+    "word": "sondern",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "but (rather) / but instead",
+    "partizipII": null
+  },
+  {
+    "id": 1357,
+    "word": "Sorge",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "worry / concern",
+    "partizipII": null
+  },
+  {
+    "id": 1358,
+    "word": "sorgen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to take care (für) / to worry (sich ~)",
+    "partizipII": "gesorgt"
+  },
+  {
+    "id": 1359,
+    "word": "Soße",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "sauce / gravy",
+    "partizipII": null
+  },
+  {
+    "id": 1360,
+    "word": "Souvenir",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "souvenir",
+    "partizipII": null
+  },
+  {
+    "id": 1361,
+    "word": "soviel",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "as far as (I know)",
+    "partizipII": null
+  },
+  {
+    "id": 1362,
+    "word": "sowieso",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "anyway / in any case",
+    "partizipII": null
+  },
+  {
+    "id": 1363,
+    "word": "sowohl … als auch",
+    "note": null,
+    "artikel": null,
+    "type": "Mehrwortausdruck",
+    "english": "both ... and / as well as",
+    "partizipII": null
+  },
+  {
+    "id": 1364,
+    "word": "sozial",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "social",
+    "partizipII": null
+  },
+  {
+    "id": 1365,
+    "word": "Sozialarbeiter",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "social worker",
+    "partizipII": null
+  },
+  {
+    "id": 1366,
+    "word": "Sozialarbeiterin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "social worker (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1367,
+    "word": "sparsam",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "thrifty / economical",
+    "partizipII": null
+  },
+  {
+    "id": 1368,
+    "word": "Spaß",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "fun / joke",
+    "partizipII": null
+  },
+  {
+    "id": 1369,
+    "word": "spätestens",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "at the latest",
+    "partizipII": null
+  },
+  {
+    "id": 1370,
+    "word": "spazieren gehen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to go for a walk",
+    "partizipII": "spazieren gegangen"
+  },
+  {
+    "id": 1371,
+    "word": "speichern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to save / to store",
+    "partizipII": "gespeichert"
+  },
+  {
+    "id": 1372,
+    "word": "Speisewagen",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "dining car",
+    "partizipII": null
+  },
+  {
+    "id": 1373,
+    "word": "Spezialist",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "specialist",
+    "partizipII": null
+  },
+  {
+    "id": 1374,
+    "word": "Spezialistin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "specialist (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1375,
+    "word": "speziell",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "special / specific",
+    "partizipII": null
+  },
+  {
+    "id": 1376,
+    "word": "Spiegel",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "mirror",
+    "partizipII": null
+  },
+  {
+    "id": 1377,
+    "word": "Spieler",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "player",
+    "partizipII": null
+  },
+  {
+    "id": 1378,
+    "word": "Spielerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "player (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1379,
+    "word": "Spielplatz",
+    "note": "Pl. Spielplätze",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "playground",
+    "partizipII": null
+  },
+  {
+    "id": 1380,
+    "word": "Spielzeug",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "toy / toys",
+    "partizipII": null
+  },
+  {
+    "id": 1381,
+    "word": "spitz",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "pointed / sharp",
+    "partizipII": null
+  },
+  {
+    "id": 1382,
+    "word": "Sportart",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "type of sport / discipline",
+    "partizipII": null
+  },
+  {
+    "id": 1383,
+    "word": "Sportler",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "athlete / sportsman",
+    "partizipII": null
+  },
+  {
+    "id": 1384,
+    "word": "Sportlerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "athlete / sportswoman",
+    "partizipII": null
+  },
+  {
+    "id": 1385,
+    "word": "springen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to jump",
+    "partizipII": "gesprungen"
+  },
+  {
+    "id": 1386,
+    "word": "Spritze",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "injection / syringe",
+    "partizipII": null
+  },
+  {
+    "id": 1387,
+    "word": "spülen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to rinse / to wash up",
+    "partizipII": "gespült"
+  },
+  {
+    "id": 1388,
+    "word": "Spur",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "trace / track / lane",
+    "partizipII": null
+  },
+  {
+    "id": 1389,
+    "word": "spüren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to feel / to sense",
+    "partizipII": "gespürt"
+  },
+  {
+    "id": 1390,
+    "word": "Stadion",
+    "note": "Pl. Stadien",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "stadium",
+    "partizipII": null
+  },
+  {
+    "id": 1391,
+    "word": "städtisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "urban / municipal",
+    "partizipII": null
+  },
+  {
+    "id": 1392,
+    "word": "stammen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to come from / to originate",
+    "partizipII": "gestammt"
+  },
+  {
+    "id": 1393,
+    "word": "ständig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "constant / permanent / constantly",
+    "partizipII": null
+  },
+  {
+    "id": 1394,
+    "word": "Standpunkt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "point of view / standpoint",
+    "partizipII": null
+  },
+  {
+    "id": 1395,
+    "word": "Start",
+    "note": "Pl. -s",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "start / take-off",
+    "partizipII": null
+  },
+  {
+    "id": 1396,
+    "word": "starten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to start / to take off",
+    "partizipII": "gestartet"
+  },
+  {
+    "id": 1397,
+    "word": "Station",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "station / stop / ward",
+    "partizipII": null
+  },
+  {
+    "id": 1398,
+    "word": "Statistik",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "statistics",
+    "partizipII": null
+  },
+  {
+    "id": 1399,
+    "word": "statistisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "statistical",
+    "partizipII": null
+  },
+  {
+    "id": 1400,
+    "word": "statt",
+    "note": null,
+    "artikel": null,
+    "type": "Präposition",
+    "english": "instead of",
+    "partizipII": null
+  },
+  {
+    "id": 1401,
+    "word": "Stau",
+    "note": "Pl. -s",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "traffic jam",
+    "partizipII": null
+  },
+  {
+    "id": 1402,
+    "word": "Staub",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "dust",
+    "partizipII": null
+  },
+  {
+    "id": 1403,
+    "word": "staubsaugen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to vacuum / to hoover",
+    "partizipII": "gestaubsaugt"
+  },
+  {
+    "id": 1404,
+    "word": "stechen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to sting / to prick",
+    "partizipII": "gestochen"
+  },
+  {
+    "id": 1405,
+    "word": "Steckdose",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "socket / power outlet",
+    "partizipII": null
+  },
+  {
+    "id": 1406,
+    "word": "stecken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to put / to stick / to be stuck",
+    "partizipII": "gesteckt"
+  },
+  {
+    "id": 1407,
+    "word": "Stecker",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "plug",
+    "partizipII": null
+  },
+  {
+    "id": 1408,
+    "word": "stehen bleiben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to stop / to stand still / to be left",
+    "partizipII": "stehen geblieben"
+  },
+  {
+    "id": 1409,
+    "word": "stehlen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to steal",
+    "partizipII": "gestohlen"
+  },
+  {
+    "id": 1410,
+    "word": "steigen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to rise / to climb",
+    "partizipII": "gestiegen"
+  },
+  {
+    "id": 1411,
+    "word": "steil",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "steep",
+    "partizipII": null
+  },
+  {
+    "id": 1412,
+    "word": "Stein",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "stone / rock",
+    "partizipII": null
+  },
+  {
+    "id": 1413,
+    "word": "Stempel",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "stamp",
+    "partizipII": null
+  },
+  {
+    "id": 1414,
+    "word": "Stern",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "star",
+    "partizipII": null
+  },
+  {
+    "id": 1415,
+    "word": "Steuer",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "tax / steering wheel",
+    "partizipII": null
+  },
+  {
+    "id": 1416,
+    "word": "Steward",
+    "note": "Pl. -s",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "steward / flight attendant",
+    "partizipII": null
+  },
+  {
+    "id": 1417,
+    "word": "Stewardess",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "stewardess / flight attendant",
+    "partizipII": null
+  },
+  {
+    "id": 1418,
+    "word": "Stiege",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "stairs / staircase (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1419,
+    "word": "Stiegenhaus",
+    "note": "Pl. Stiegenhäuser",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "stairwell (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1420,
+    "word": "Stil",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "style",
+    "partizipII": null
+  },
+  {
+    "id": 1421,
+    "word": "stilistisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "stylistic",
+    "partizipII": null
+  },
+  {
+    "id": 1422,
+    "word": "still",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "quiet / silent / still",
+    "partizipII": null
+  },
+  {
+    "id": 1423,
+    "word": "Stimme",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "voice / vote",
+    "partizipII": null
+  },
+  {
+    "id": 1424,
+    "word": "stimmen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be right / to vote / to tune",
+    "partizipII": "gestimmt"
+  },
+  {
+    "id": 1425,
+    "word": "Stimmung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "mood / atmosphere",
+    "partizipII": null
+  },
+  {
+    "id": 1426,
+    "word": "stinken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to stink / to smell bad",
+    "partizipII": "gestunken"
+  },
+  {
+    "id": 1427,
+    "word": "Stoff",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "material / fabric / substance",
+    "partizipII": null
+  },
+  {
+    "id": 1428,
+    "word": "stolz",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "proud",
+    "partizipII": null
+  },
+  {
+    "id": 1429,
+    "word": "stoppen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to stop",
+    "partizipII": "gestoppt"
+  },
+  {
+    "id": 1430,
+    "word": "Störung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "disturbance / fault / interference",
+    "partizipII": null
+  },
+  {
+    "id": 1431,
+    "word": "stoßen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to push / to bump / to come across (auf)",
+    "partizipII": "gestoßen"
+  },
+  {
+    "id": 1432,
+    "word": "strafbar",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "punishable / a criminal offence",
+    "partizipII": null
+  },
+  {
+    "id": 1433,
+    "word": "Strafe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "punishment / fine / penalty",
+    "partizipII": null
+  },
+  {
+    "id": 1434,
+    "word": "Strafzettel",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "parking ticket / fine",
+    "partizipII": null
+  },
+  {
+    "id": 1435,
+    "word": "Strecke",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "route / distance / stretch",
+    "partizipII": null
+  },
+  {
+    "id": 1436,
+    "word": "Streichholz",
+    "note": "Pl. Streichhölzer",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "match",
+    "partizipII": null
+  },
+  {
+    "id": 1437,
+    "word": "Streik",
+    "note": "Pl. -s",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "strike",
+    "partizipII": null
+  },
+  {
+    "id": 1438,
+    "word": "streiken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to strike / to go on strike",
+    "partizipII": "gestreikt"
+  },
+  {
+    "id": 1439,
+    "word": "Streit",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "argument / quarrel / dispute",
+    "partizipII": null
+  },
+  {
+    "id": 1440,
+    "word": "Strom",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "electricity / current / stream",
+    "partizipII": null
+  },
+  {
+    "id": 1441,
+    "word": "Strumpf",
+    "note": "Pl. Strümpfe",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "stocking",
+    "partizipII": null
+  },
+  {
+    "id": 1442,
+    "word": "Student",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "student",
+    "partizipII": null
+  },
+  {
+    "id": 1443,
+    "word": "Studie",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "study",
+    "partizipII": null
+  },
+  {
+    "id": 1444,
+    "word": "Studierende",
+    "note": "Pl. -n",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "student",
+    "partizipII": null
+  },
+  {
+    "id": 1445,
+    "word": "Studio",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "studio",
+    "partizipII": null
+  },
+  {
+    "id": 1446,
+    "word": "Stufe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "step / level / stage",
+    "partizipII": null
+  },
+  {
+    "id": 1447,
+    "word": "stumm",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "mute / silent",
+    "partizipII": null
+  },
+  {
+    "id": 1448,
+    "word": "Sturm",
+    "note": "Pl. Stürme",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "storm",
+    "partizipII": null
+  },
+  {
+    "id": 1449,
+    "word": "stürzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to fall / to plunge / to topple",
+    "partizipII": "gestürzt"
+  },
+  {
+    "id": 1450,
+    "word": "Sucht",
+    "note": "Pl. Süchte",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "addiction",
+    "partizipII": null
+  },
+  {
+    "id": 1451,
+    "word": "süchtig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "addicted",
+    "partizipII": null
+  },
+  {
+    "id": 1452,
+    "word": "Suchtmittel",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "addictive substance / drug",
+    "partizipII": null
+  },
+  {
+    "id": 1453,
+    "word": "Summe",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "sum / total",
+    "partizipII": null
+  },
+  {
+    "id": 1454,
+    "word": "Symbol",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "symbol",
+    "partizipII": null
+  },
+  {
+    "id": 1455,
+    "word": "System",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "system",
+    "partizipII": null
+  },
+  {
+    "id": 1456,
+    "word": "Szene",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "scene",
+    "partizipII": null
+  },
+  {
+    "id": 1457,
+    "word": "Tabelle",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "table / chart",
+    "partizipII": null
+  },
+  {
+    "id": 1458,
+    "word": "Tagesablauf",
+    "note": "Pl. Tagesabläufe",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "daily routine",
+    "partizipII": null
+  },
+  {
+    "id": 1459,
+    "word": "Tal",
+    "note": "Pl. Täler",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "valley",
+    "partizipII": null
+  },
+  {
+    "id": 1460,
+    "word": "Talent",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "talent",
+    "partizipII": null
+  },
+  {
+    "id": 1461,
+    "word": "tanken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to fill up (with fuel)",
+    "partizipII": "getankt"
+  },
+  {
+    "id": 1462,
+    "word": "Tankstelle",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "petrol station / gas station",
+    "partizipII": null
+  },
+  {
+    "id": 1463,
+    "word": "Tante",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "aunt",
+    "partizipII": null
+  },
+  {
+    "id": 1464,
+    "word": "Tanz",
+    "note": "Pl. Tänze",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "dance",
+    "partizipII": null
+  },
+  {
+    "id": 1465,
+    "word": "Taschentuch",
+    "note": "Pl. Taschentücher",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "handkerchief / tissue",
+    "partizipII": null
+  },
+  {
+    "id": 1466,
+    "word": "Tastatur",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "keyboard",
+    "partizipII": null
+  },
+  {
+    "id": 1467,
+    "word": "Taste",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "key / button",
+    "partizipII": null
+  },
+  {
+    "id": 1468,
+    "word": "Tat",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "act / deed",
+    "partizipII": null
+  },
+  {
+    "id": 1469,
+    "word": "Täter",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "offender / culprit",
+    "partizipII": null
+  },
+  {
+    "id": 1470,
+    "word": "Täterin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "offender / culprit (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1471,
+    "word": "Tätigkeit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "activity / occupation",
+    "partizipII": null
+  },
+  {
+    "id": 1472,
+    "word": "Tatsache",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "fact",
+    "partizipII": null
+  },
+  {
+    "id": 1473,
+    "word": "tatsächlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "actual / actually / in fact",
+    "partizipII": null
+  },
+  {
+    "id": 1474,
+    "word": "taub",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "deaf / numb",
+    "partizipII": null
+  },
+  {
+    "id": 1475,
+    "word": "tauchen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to dive",
+    "partizipII": "getaucht"
+  },
+  {
+    "id": 1476,
+    "word": "Technik",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "technology / technique",
+    "partizipII": null
+  },
+  {
+    "id": 1477,
+    "word": "technisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "technical",
+    "partizipII": null
+  },
+  {
+    "id": 1478,
+    "word": "Technologie",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "technology",
+    "partizipII": null
+  },
+  {
+    "id": 1479,
+    "word": "Teilnahme",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "participation / attendance",
+    "partizipII": null
+  },
+  {
+    "id": 1480,
+    "word": "Teilnehmer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "participant",
+    "partizipII": null
+  },
+  {
+    "id": 1481,
+    "word": "Teilnehmerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "participant (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1482,
+    "word": "Teilzeit",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "part-time work",
+    "partizipII": null
+  },
+  {
+    "id": 1483,
+    "word": "Temperatur",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "temperature",
+    "partizipII": null
+  },
+  {
+    "id": 1484,
+    "word": "Tempo",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "speed / pace",
+    "partizipII": null
+  },
+  {
+    "id": 1485,
+    "word": "Teppich",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "carpet / rug",
+    "partizipII": null
+  },
+  {
+    "id": 1486,
+    "word": "Terminkalender",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "appointment diary / planner",
+    "partizipII": null
+  },
+  {
+    "id": 1487,
+    "word": "Terrasse",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "terrace / patio",
+    "partizipII": null
+  },
+  {
+    "id": 1488,
+    "word": "testen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to test",
+    "partizipII": "getestet"
+  },
+  {
+    "id": 1489,
+    "word": "theoretisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "theoretical / in theory",
+    "partizipII": null
+  },
+  {
+    "id": 1490,
+    "word": "Theorie",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "theory",
+    "partizipII": null
+  },
+  {
+    "id": 1491,
+    "word": "Therapie",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "therapy / treatment",
+    "partizipII": null
+  },
+  {
+    "id": 1492,
+    "word": "Tierpark",
+    "note": "Pl. -s",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "zoo / wildlife park",
+    "partizipII": null
+  },
+  {
+    "id": 1493,
+    "word": "tippen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to type / to guess",
+    "partizipII": "getippt"
+  },
+  {
+    "id": 1494,
+    "word": "Tod",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "death",
+    "partizipII": null
+  },
+  {
+    "id": 1495,
+    "word": "tödlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "fatal / deadly",
+    "partizipII": null
+  },
+  {
+    "id": 1496,
+    "word": "tolerant",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "tolerant",
+    "partizipII": null
+  },
+  {
+    "id": 1497,
+    "word": "Tor",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "gate / goal",
+    "partizipII": null
+  },
+  {
+    "id": 1498,
+    "word": "Tote",
+    "note": "Pl. -n",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "dead person / fatality",
+    "partizipII": null
+  },
+  {
+    "id": 1499,
+    "word": "Tourismus",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "tourism",
+    "partizipII": null
+  },
+  {
+    "id": 1500,
+    "word": "Tradition",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "tradition",
+    "partizipII": null
+  },
+  {
+    "id": 1501,
+    "word": "traditionell",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "traditional",
+    "partizipII": null
+  },
+  {
+    "id": 1502,
+    "word": "Trainer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "coach / trainer",
+    "partizipII": null
+  },
+  {
+    "id": 1503,
+    "word": "Trainerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "coach / trainer (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1504,
+    "word": "Tram",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "tram (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 1505,
+    "word": "Träne",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "tear",
+    "partizipII": null
+  },
+  {
+    "id": 1506,
+    "word": "Transport",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "transport / transportation",
+    "partizipII": null
+  },
+  {
+    "id": 1507,
+    "word": "transportieren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to transport",
+    "partizipII": "transportiert"
+  },
+  {
+    "id": 1508,
+    "word": "Treffpunkt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "meeting point",
+    "partizipII": null
+  },
+  {
+    "id": 1509,
+    "word": "treiben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to drive / to do (sport) / to drift",
+    "partizipII": "getrieben"
+  },
+  {
+    "id": 1510,
+    "word": "trennen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to separate / to split up (sich ~)",
+    "partizipII": "getrennt"
+  },
+  {
+    "id": 1511,
+    "word": "Trennung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "separation / split",
+    "partizipII": null
+  },
+  {
+    "id": 1512,
+    "word": "Treppenhaus",
+    "note": "Pl. Treppenhäuser",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "stairwell",
+    "partizipII": null
+  },
+  {
+    "id": 1513,
+    "word": "treten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to step / to kick",
+    "partizipII": "getreten"
+  },
+  {
+    "id": 1514,
+    "word": "treu",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "faithful / loyal",
+    "partizipII": null
+  },
+  {
+    "id": 1515,
+    "word": "Trinkgeld",
+    "note": "Pl. -er",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "tip / gratuity",
+    "partizipII": null
+  },
+  {
+    "id": 1516,
+    "word": "trocknen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to dry",
+    "partizipII": "getrocknet"
+  },
+  {
+    "id": 1517,
+    "word": "Tropfen",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "drops",
+    "partizipII": null
+  },
+  {
+    "id": 1518,
+    "word": "Trottoir",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "pavement / sidewalk (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 1519,
+    "word": "trotz",
+    "note": null,
+    "artikel": null,
+    "type": "Präposition",
+    "english": "despite / in spite of",
+    "partizipII": null
+  },
+  {
+    "id": 1520,
+    "word": "trotzdem",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "nevertheless / all the same",
+    "partizipII": null
+  },
+  {
+    "id": 1521,
+    "word": "Tuch",
+    "note": "Pl. Tücher",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "cloth / scarf",
+    "partizipII": null
+  },
+  {
+    "id": 1522,
+    "word": "Turm",
+    "note": "Pl. Türme",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "tower",
+    "partizipII": null
+  },
+  {
+    "id": 1523,
+    "word": "Tüte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "bag",
+    "partizipII": null
+  },
+  {
+    "id": 1524,
+    "word": "Typ",
+    "note": "Pl. -en",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "type / guy",
+    "partizipII": null
+  },
+  {
+    "id": 1525,
+    "word": "U-Bahn",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "underground / subway",
+    "partizipII": null
+  },
+  {
+    "id": 1526,
+    "word": "überfahren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to run over",
+    "partizipII": "überfahren"
+  },
+  {
+    "id": 1527,
+    "word": "überhaupt",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "at all / generally / anyway",
+    "partizipII": null
+  },
+  {
+    "id": 1528,
+    "word": "überholen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to overtake / to pass",
+    "partizipII": "überholt"
+  },
+  {
+    "id": 1529,
+    "word": "überlegen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to think over / to consider (sich ~)",
+    "partizipII": "überlegt"
+  },
+  {
+    "id": 1530,
+    "word": "Übernachtung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "overnight stay",
+    "partizipII": null
+  },
+  {
+    "id": 1531,
+    "word": "übernehmen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to take over / to take on",
+    "partizipII": "übernommen"
+  },
+  {
+    "id": 1532,
+    "word": "überprüfen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to check / to verify",
+    "partizipII": "überprüft"
+  },
+  {
+    "id": 1533,
+    "word": "überqueren",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to cross",
+    "partizipII": "überquert"
+  },
+  {
+    "id": 1534,
+    "word": "überraschen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to surprise",
+    "partizipII": "überrascht"
+  },
+  {
+    "id": 1535,
+    "word": "Überraschung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "surprise",
+    "partizipII": null
+  },
+  {
+    "id": 1536,
+    "word": "überreden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to persuade / to talk into",
+    "partizipII": "überredet"
+  },
+  {
+    "id": 1537,
+    "word": "Überschrift",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "heading / headline",
+    "partizipII": null
+  },
+  {
+    "id": 1538,
+    "word": "Übersetzer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "translator",
+    "partizipII": null
+  },
+  {
+    "id": 1539,
+    "word": "Übersetzerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "translator (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1540,
+    "word": "Überstunde",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "hour of overtime",
+    "partizipII": null
+  },
+  {
+    "id": 1541,
+    "word": "übertreiben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to exaggerate / to overdo",
+    "partizipII": "übertrieben"
+  },
+  {
+    "id": 1542,
+    "word": "Überweisung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "transfer / referral",
+    "partizipII": null
+  },
+  {
+    "id": 1543,
+    "word": "überzeugen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to convince",
+    "partizipII": "überzeugt"
+  },
+  {
+    "id": 1544,
+    "word": "Überzeugung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "conviction / belief",
+    "partizipII": null
+  },
+  {
+    "id": 1545,
+    "word": "üblich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "usual / customary",
+    "partizipII": null
+  },
+  {
+    "id": 1546,
+    "word": "übrig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "remaining / left over",
+    "partizipII": null
+  },
+  {
+    "id": 1547,
+    "word": "übrigens",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "by the way / incidentally",
+    "partizipII": null
+  },
+  {
+    "id": 1548,
+    "word": "Übung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "exercise / practice",
+    "partizipII": null
+  },
+  {
+    "id": 1549,
+    "word": "Ufer",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "shore / bank",
+    "partizipII": null
+  },
+  {
+    "id": 1550,
+    "word": "um … zu",
+    "note": null,
+    "artikel": null,
+    "type": "Mehrwortausdruck",
+    "english": "in order to",
+    "partizipII": null
+  },
+  {
+    "id": 1551,
+    "word": "umarmen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to hug / to embrace",
+    "partizipII": "umarmt"
+  },
+  {
+    "id": 1552,
+    "word": "umdrehen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to turn around / to turn over",
+    "partizipII": "umgedreht"
+  },
+  {
+    "id": 1553,
+    "word": "Umfrage",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "survey / poll",
+    "partizipII": null
+  },
+  {
+    "id": 1554,
+    "word": "Umgebung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "surroundings / vicinity",
+    "partizipII": null
+  },
+  {
+    "id": 1555,
+    "word": "umgehen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to deal with (mit) / to get around",
+    "partizipII": "umgegangen"
+  },
+  {
+    "id": 1556,
+    "word": "umgekehrt",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "the other way round / conversely",
+    "partizipII": null
+  },
+  {
+    "id": 1557,
+    "word": "Umleitung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "diversion / detour",
+    "partizipII": null
+  },
+  {
+    "id": 1558,
+    "word": "umso",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "all the / the (more/less)",
+    "partizipII": null
+  },
+  {
+    "id": 1559,
+    "word": "umsonst",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "for free / in vain",
+    "partizipII": null
+  },
+  {
+    "id": 1560,
+    "word": "Umtausch",
+    "note": "Pl. Umtäusche",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "exchange / return",
+    "partizipII": null
+  },
+  {
+    "id": 1561,
+    "word": "umtauschen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to exchange / to swap",
+    "partizipII": "umgetauscht"
+  },
+  {
+    "id": 1562,
+    "word": "Umwelt",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "environment",
+    "partizipII": null
+  },
+  {
+    "id": 1563,
+    "word": "Umweltschutz",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "environmental protection",
+    "partizipII": null
+  },
+  {
+    "id": 1564,
+    "word": "Umweltverschmutzung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "environmental pollution",
+    "partizipII": null
+  },
+  {
+    "id": 1565,
+    "word": "un-",
+    "note": null,
+    "artikel": null,
+    "type": "Affix",
+    "english": "un- / not (prefix)",
+    "partizipII": null
+  },
+  {
+    "id": 1566,
+    "word": "unentschieden",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "undecided / drawn (a match)",
+    "partizipII": null
+  },
+  {
+    "id": 1567,
+    "word": "ungefähr",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "approximately / about",
+    "partizipII": null
+  },
+  {
+    "id": 1568,
+    "word": "ungewöhnlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "unusual",
+    "partizipII": null
+  },
+  {
+    "id": 1569,
+    "word": "unglaublich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "incredible / unbelievable",
+    "partizipII": null
+  },
+  {
+    "id": 1570,
+    "word": "Unglück",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "accident / misfortune",
+    "partizipII": null
+  },
+  {
+    "id": 1571,
+    "word": "unheimlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "eerie / creepy / incredibly",
+    "partizipII": null
+  },
+  {
+    "id": 1572,
+    "word": "Uniform",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "uniform",
+    "partizipII": null
+  },
+  {
+    "id": 1573,
+    "word": "unter-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "lower / under-",
+    "partizipII": null
+  },
+  {
+    "id": 1574,
+    "word": "unterbrechen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to interrupt",
+    "partizipII": "unterbrochen"
+  },
+  {
+    "id": 1575,
+    "word": "Unterhaltung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "entertainment / conversation",
+    "partizipII": null
+  },
+  {
+    "id": 1576,
+    "word": "Unterlagen",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "documents / paperwork",
+    "partizipII": null
+  },
+  {
+    "id": 1577,
+    "word": "unterlassen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to refrain from / to omit",
+    "partizipII": "unterlassen"
+  },
+  {
+    "id": 1578,
+    "word": "Unternehmer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "entrepreneur / businessman",
+    "partizipII": null
+  },
+  {
+    "id": 1579,
+    "word": "Unternehmerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "entrepreneur / businesswoman",
+    "partizipII": null
+  },
+  {
+    "id": 1580,
+    "word": "unterrichten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to teach / to inform",
+    "partizipII": "unterrichtet"
+  },
+  {
+    "id": 1581,
+    "word": "untersagt",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "prohibited / forbidden",
+    "partizipII": null
+  },
+  {
+    "id": 1582,
+    "word": "unterscheiden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to distinguish / to differ (sich ~)",
+    "partizipII": "unterschieden"
+  },
+  {
+    "id": 1583,
+    "word": "unterschiedlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "different / varying",
+    "partizipII": null
+  },
+  {
+    "id": 1584,
+    "word": "unterstreichen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to underline / to emphasise",
+    "partizipII": "unterstrichen"
+  },
+  {
+    "id": 1585,
+    "word": "unterstützen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to support",
+    "partizipII": "unterstützt"
+  },
+  {
+    "id": 1586,
+    "word": "Unterstützung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "support / assistance",
+    "partizipII": null
+  },
+  {
+    "id": 1587,
+    "word": "Untersuchung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "examination / investigation",
+    "partizipII": null
+  },
+  {
+    "id": 1588,
+    "word": "Urkunde",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "certificate / document",
+    "partizipII": null
+  },
+  {
+    "id": 1589,
+    "word": "Ursache",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "cause / reason",
+    "partizipII": null
+  },
+  {
+    "id": 1590,
+    "word": "ursprünglich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "original / originally",
+    "partizipII": null
+  },
+  {
+    "id": 1591,
+    "word": "Urteil",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "judgement / verdict",
+    "partizipII": null
+  },
+  {
+    "id": 1592,
+    "word": "Vase",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "vase",
+    "partizipII": null
+  },
+  {
+    "id": 1593,
+    "word": "vegetarisch",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "vegetarian",
+    "partizipII": null
+  },
+  {
+    "id": 1594,
+    "word": "Velo",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "bicycle (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 1595,
+    "word": "verabredet",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "arranged / having an appointment",
+    "partizipII": null
+  },
+  {
+    "id": 1596,
+    "word": "Verabredung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "appointment / date",
+    "partizipII": null
+  },
+  {
+    "id": 1597,
+    "word": "verabschieden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to say goodbye (sich ~) / to pass (a law)",
+    "partizipII": "verabschiedet"
+  },
+  {
+    "id": 1598,
+    "word": "verändern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to change / to alter",
+    "partizipII": "verändert"
+  },
+  {
+    "id": 1599,
+    "word": "verantwortlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "responsible",
+    "partizipII": null
+  },
+  {
+    "id": 1600,
+    "word": "Verantwortung",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "responsibility",
+    "partizipII": null
+  },
+  {
+    "id": 1601,
+    "word": "verbessern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to improve / to correct",
+    "partizipII": "verbessert"
+  },
+  {
+    "id": 1602,
+    "word": "verbinden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to connect / to bandage / to put through",
+    "partizipII": "verbunden"
+  },
+  {
+    "id": 1603,
+    "word": "Verbindung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "connection / link",
+    "partizipII": null
+  },
+  {
+    "id": 1604,
+    "word": "Verbot",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "ban / prohibition",
+    "partizipII": null
+  },
+  {
+    "id": 1605,
+    "word": "verbrauchen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to use up / to consume",
+    "partizipII": "verbraucht"
+  },
+  {
+    "id": 1606,
+    "word": "Verbrecher",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "criminal",
+    "partizipII": null
+  },
+  {
+    "id": 1607,
+    "word": "Verbrecherin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "criminal (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1608,
+    "word": "verbrennen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to burn",
+    "partizipII": "verbrannt"
+  },
+  {
+    "id": 1609,
+    "word": "verbringen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to spend (time)",
+    "partizipII": "verbracht"
+  },
+  {
+    "id": 1610,
+    "word": "Verdacht",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "suspicion",
+    "partizipII": null
+  },
+  {
+    "id": 1611,
+    "word": "verdächtig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "suspicious / suspect",
+    "partizipII": null
+  },
+  {
+    "id": 1612,
+    "word": "Vergangenheit",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "past",
+    "partizipII": null
+  },
+  {
+    "id": 1613,
+    "word": "vergeblich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "in vain / futile",
+    "partizipII": null
+  },
+  {
+    "id": 1614,
+    "word": "Vergleich",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "comparison",
+    "partizipII": null
+  },
+  {
+    "id": 1615,
+    "word": "Vergnügen",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "pleasure / enjoyment",
+    "partizipII": null
+  },
+  {
+    "id": 1616,
+    "word": "vergnügen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to enjoy oneself (sich ~)",
+    "partizipII": "vergnügt"
+  },
+  {
+    "id": 1617,
+    "word": "vergnügt",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "cheerful / merry",
+    "partizipII": null
+  },
+  {
+    "id": 1618,
+    "word": "vergrößern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to enlarge / to expand",
+    "partizipII": "vergrößert"
+  },
+  {
+    "id": 1619,
+    "word": "verhaften",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to arrest",
+    "partizipII": "verhaftet"
+  },
+  {
+    "id": 1620,
+    "word": "Verhalten",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "behaviour / conduct",
+    "partizipII": null
+  },
+  {
+    "id": 1621,
+    "word": "verhalten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to behave (sich ~)",
+    "partizipII": "verhalten"
+  },
+  {
+    "id": 1622,
+    "word": "Verhältnis",
+    "note": "Pl. -se",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "relationship / ratio / conditions",
+    "partizipII": null
+  },
+  {
+    "id": 1623,
+    "word": "verhindern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to prevent",
+    "partizipII": "verhindert"
+  },
+  {
+    "id": 1624,
+    "word": "Verkäufer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "salesperson / shop assistant",
+    "partizipII": null
+  },
+  {
+    "id": 1625,
+    "word": "Verkäuferin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "salesperson / shop assistant (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1626,
+    "word": "Verkehrszeichen",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "road sign / traffic sign",
+    "partizipII": null
+  },
+  {
+    "id": 1627,
+    "word": "Verlag",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "publishing house / publisher",
+    "partizipII": null
+  },
+  {
+    "id": 1628,
+    "word": "verlangen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to demand / to ask for",
+    "partizipII": "verlangt"
+  },
+  {
+    "id": 1629,
+    "word": "verlängern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to extend / to renew",
+    "partizipII": "verlängert"
+  },
+  {
+    "id": 1630,
+    "word": "verlassen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to leave / to rely on (sich ~ auf)",
+    "partizipII": "verlassen"
+  },
+  {
+    "id": 1631,
+    "word": "verlaufen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to go / to proceed / to get lost (sich ~)",
+    "partizipII": "verlaufen"
+  },
+  {
+    "id": 1632,
+    "word": "Verletzung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "injury / violation",
+    "partizipII": null
+  },
+  {
+    "id": 1633,
+    "word": "verliebt",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "in love",
+    "partizipII": null
+  },
+  {
+    "id": 1634,
+    "word": "Verlierer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "loser",
+    "partizipII": null
+  },
+  {
+    "id": 1635,
+    "word": "Verliererin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "loser (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1636,
+    "word": "Verlust",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "loss",
+    "partizipII": null
+  },
+  {
+    "id": 1637,
+    "word": "vermeiden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to avoid",
+    "partizipII": "vermieden"
+  },
+  {
+    "id": 1638,
+    "word": "Vermietung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "renting out / hire",
+    "partizipII": null
+  },
+  {
+    "id": 1639,
+    "word": "vermissen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to miss (someone)",
+    "partizipII": "vermisst"
+  },
+  {
+    "id": 1640,
+    "word": "Vermittlung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "mediation / placement / switchboard",
+    "partizipII": null
+  },
+  {
+    "id": 1641,
+    "word": "vermuten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to suspect / to presume",
+    "partizipII": "vermutet"
+  },
+  {
+    "id": 1642,
+    "word": "vermutlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "presumable / presumably / probably",
+    "partizipII": null
+  },
+  {
+    "id": 1643,
+    "word": "vernünftig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "sensible / reasonable",
+    "partizipII": null
+  },
+  {
+    "id": 1644,
+    "word": "veröffentlichen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to publish",
+    "partizipII": "veröffentlicht"
+  },
+  {
+    "id": 1645,
+    "word": "verpacken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to pack / to wrap",
+    "partizipII": "verpackt"
+  },
+  {
+    "id": 1646,
+    "word": "verpflegen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to cater for / to feed",
+    "partizipII": "verpflegt"
+  },
+  {
+    "id": 1647,
+    "word": "verpflichtet",
+    "note": null,
+    "artikel": null,
+    "type": "part. Adjektiv",
+    "english": "obliged / obligated",
+    "partizipII": null
+  },
+  {
+    "id": 1648,
+    "word": "verraten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to betray / to give away",
+    "partizipII": "verraten"
+  },
+  {
+    "id": 1649,
+    "word": "verrückt",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "crazy / mad",
+    "partizipII": null
+  },
+  {
+    "id": 1650,
+    "word": "Versammlung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "meeting / assembly",
+    "partizipII": null
+  },
+  {
+    "id": 1651,
+    "word": "versäumen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to miss / to fail to do",
+    "partizipII": "versäumt"
+  },
+  {
+    "id": 1652,
+    "word": "verschmutzen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to pollute / to dirty",
+    "partizipII": "verschmutzt"
+  },
+  {
+    "id": 1653,
+    "word": "verschreiben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to prescribe",
+    "partizipII": "verschrieben"
+  },
+  {
+    "id": 1654,
+    "word": "verschwinden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to disappear",
+    "partizipII": "verschwunden"
+  },
+  {
+    "id": 1655,
+    "word": "versichern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to insure / to assure",
+    "partizipII": "versichert"
+  },
+  {
+    "id": 1656,
+    "word": "Versichertenkarte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "health insurance card",
+    "partizipII": null
+  },
+  {
+    "id": 1657,
+    "word": "Versicherung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "insurance",
+    "partizipII": null
+  },
+  {
+    "id": 1658,
+    "word": "versprechen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to promise",
+    "partizipII": "versprochen"
+  },
+  {
+    "id": 1659,
+    "word": "verständlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "understandable / comprehensible",
+    "partizipII": null
+  },
+  {
+    "id": 1660,
+    "word": "Verständnis",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "understanding / sympathy",
+    "partizipII": null
+  },
+  {
+    "id": 1661,
+    "word": "verstecken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to hide",
+    "partizipII": "versteckt"
+  },
+  {
+    "id": 1662,
+    "word": "Versuch",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "attempt / experiment",
+    "partizipII": null
+  },
+  {
+    "id": 1663,
+    "word": "verteilen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to distribute / to hand out",
+    "partizipII": "verteilt"
+  },
+  {
+    "id": 1664,
+    "word": "Vertrauen",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "trust / confidence",
+    "partizipII": null
+  },
+  {
+    "id": 1665,
+    "word": "vertrauen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to trust",
+    "partizipII": "vertraut"
+  },
+  {
+    "id": 1666,
+    "word": "vertreten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to represent / to stand in for",
+    "partizipII": "vertreten"
+  },
+  {
+    "id": 1667,
+    "word": "Vertreter",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "representative / agent",
+    "partizipII": null
+  },
+  {
+    "id": 1668,
+    "word": "Vertreterin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "representative / agent (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1669,
+    "word": "Vertretung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "representation / stand-in",
+    "partizipII": null
+  },
+  {
+    "id": 1670,
+    "word": "verursachen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to cause",
+    "partizipII": "verursacht"
+  },
+  {
+    "id": 1671,
+    "word": "verurteilen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to convict / to condemn",
+    "partizipII": "verurteilt"
+  },
+  {
+    "id": 1672,
+    "word": "Verwaltung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "administration / management",
+    "partizipII": null
+  },
+  {
+    "id": 1673,
+    "word": "verwandt",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "related",
+    "partizipII": null
+  },
+  {
+    "id": 1674,
+    "word": "verwechseln",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to confuse / to mix up",
+    "partizipII": "verwechselt"
+  },
+  {
+    "id": 1675,
+    "word": "verwenden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to use / to employ",
+    "partizipII": "verwendet"
+  },
+  {
+    "id": 1676,
+    "word": "verzeihen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to forgive / to pardon",
+    "partizipII": "verziehen"
+  },
+  {
+    "id": 1677,
+    "word": "verzichten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to do without / to give up (auf)",
+    "partizipII": "verzichtet"
+  },
+  {
+    "id": 1678,
+    "word": "Video",
+    "note": "Pl. -s",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "video",
+    "partizipII": null
+  },
+  {
+    "id": 1679,
+    "word": "viel/viele",
+    "note": null,
+    "artikel": null,
+    "type": "Indefinitpronomen",
+    "english": "much / many / a lot",
+    "partizipII": null
+  },
+  {
+    "id": 1680,
+    "word": "Viertel",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "quarter / district",
+    "partizipII": null
+  },
+  {
+    "id": 1681,
+    "word": "virtuell",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "virtual",
+    "partizipII": null
+  },
+  {
+    "id": 1682,
+    "word": "Virus",
+    "note": "Pl. Viren",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "virus",
+    "partizipII": null
+  },
+  {
+    "id": 1683,
+    "word": "Visitenkarte",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "business card",
+    "partizipII": null
+  },
+  {
+    "id": 1684,
+    "word": "Visum",
+    "note": "Pl. Visa",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "visa",
+    "partizipII": null
+  },
+  {
+    "id": 1685,
+    "word": "Vitamin",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "vitamin",
+    "partizipII": null
+  },
+  {
+    "id": 1686,
+    "word": "völlig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "complete / completely / totally",
+    "partizipII": null
+  },
+  {
+    "id": 1687,
+    "word": "Vollzeit",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "full-time work",
+    "partizipII": null
+  },
+  {
+    "id": 1688,
+    "word": "voneinander",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "from each other / of each other",
+    "partizipII": null
+  },
+  {
+    "id": 1689,
+    "word": "vor allem",
+    "note": null,
+    "artikel": null,
+    "type": "Mehrwortausdruck",
+    "english": "above all / especially",
+    "partizipII": null
+  },
+  {
+    "id": 1690,
+    "word": "voraus",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "ahead / in advance",
+    "partizipII": null
+  },
+  {
+    "id": 1691,
+    "word": "Voraussetzung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "prerequisite / requirement",
+    "partizipII": null
+  },
+  {
+    "id": 1692,
+    "word": "voraussichtlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "expected / probably / due to",
+    "partizipII": null
+  },
+  {
+    "id": 1693,
+    "word": "vorbei/vorbei-",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "past / over / by",
+    "partizipII": null
+  },
+  {
+    "id": 1694,
+    "word": "Vorbereitung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "preparation",
+    "partizipII": null
+  },
+  {
+    "id": 1695,
+    "word": "vorder-",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "front",
+    "partizipII": null
+  },
+  {
+    "id": 1696,
+    "word": "Vorfahrt",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "right of way",
+    "partizipII": null
+  },
+  {
+    "id": 1697,
+    "word": "vorhaben",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to plan / to intend",
+    "partizipII": "vorgehabt"
+  },
+  {
+    "id": 1698,
+    "word": "vorhin",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "just now / a moment ago",
+    "partizipII": null
+  },
+  {
+    "id": 1699,
+    "word": "vorkommen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to occur / to happen / to seem",
+    "partizipII": "vorgekommen"
+  },
+  {
+    "id": 1700,
+    "word": "vorläufig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "provisional / for the time being",
+    "partizipII": null
+  },
+  {
+    "id": 1701,
+    "word": "vorlesen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to read aloud",
+    "partizipII": "vorgelesen"
+  },
+  {
+    "id": 1702,
+    "word": "vorn",
+    "note": "auch: vorne",
+    "artikel": null,
+    "type": "Adverb",
+    "english": "at the front / in front",
+    "partizipII": null
+  },
+  {
+    "id": 1703,
+    "word": "Vorort",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "suburb",
+    "partizipII": null
+  },
+  {
+    "id": 1704,
+    "word": "vorschlagen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to suggest / to propose",
+    "partizipII": "vorgeschlagen"
+  },
+  {
+    "id": 1705,
+    "word": "Vorschrift",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "regulation / rule",
+    "partizipII": null
+  },
+  {
+    "id": 1706,
+    "word": "vorsichtig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "careful / cautious",
+    "partizipII": null
+  },
+  {
+    "id": 1707,
+    "word": "Vorstellung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "idea / performance / introduction",
+    "partizipII": null
+  },
+  {
+    "id": 1708,
+    "word": "Vorstellungsgespräch",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "job interview",
+    "partizipII": null
+  },
+  {
+    "id": 1709,
+    "word": "Vorteil",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "advantage / benefit",
+    "partizipII": null
+  },
+  {
+    "id": 1710,
+    "word": "Vortrag",
+    "note": "Pl. Vorträge",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "talk / lecture / presentation",
+    "partizipII": null
+  },
+  {
+    "id": 1711,
+    "word": "Vorwurf",
+    "note": "Pl. Vorwürfe",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "reproach / accusation",
+    "partizipII": null
+  },
+  {
+    "id": 1712,
+    "word": "waagerecht",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "horizontal / level",
+    "partizipII": null
+  },
+  {
+    "id": 1713,
+    "word": "wachsen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to grow",
+    "partizipII": "gewachsen"
+  },
+  {
+    "id": 1714,
+    "word": "Wagen",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "car / carriage / cart",
+    "partizipII": null
+  },
+  {
+    "id": 1715,
+    "word": "Wahl",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "choice / election",
+    "partizipII": null
+  },
+  {
+    "id": 1716,
+    "word": "wahnsinnig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "insane / incredibly",
+    "partizipII": null
+  },
+  {
+    "id": 1717,
+    "word": "während",
+    "note": null,
+    "artikel": null,
+    "type": "Konjunktion",
+    "english": "during / while",
+    "partizipII": null
+  },
+  {
+    "id": 1718,
+    "word": "Wahrheit",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "truth",
+    "partizipII": null
+  },
+  {
+    "id": 1719,
+    "word": "Wand",
+    "note": "Pl. Wände",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "wall",
+    "partizipII": null
+  },
+  {
+    "id": 1720,
+    "word": "Wanderung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "hike / walk",
+    "partizipII": null
+  },
+  {
+    "id": 1721,
+    "word": "Ware",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "goods / merchandise",
+    "partizipII": null
+  },
+  {
+    "id": 1722,
+    "word": "Wärme",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "warmth / heat",
+    "partizipII": null
+  },
+  {
+    "id": 1723,
+    "word": "warnen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to warn",
+    "partizipII": "gewarnt"
+  },
+  {
+    "id": 1724,
+    "word": "was für ein-",
+    "note": null,
+    "artikel": null,
+    "type": "Fragewort",
+    "english": "what kind of",
+    "partizipII": null
+  },
+  {
+    "id": 1725,
+    "word": "Waschmittel",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "detergent / washing powder",
+    "partizipII": null
+  },
+  {
+    "id": 1726,
+    "word": "Wecker",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "alarm clock",
+    "partizipII": null
+  },
+  {
+    "id": 1727,
+    "word": "weder … noch",
+    "note": null,
+    "artikel": null,
+    "type": "Mehrwortausdruck",
+    "english": "neither ... nor",
+    "partizipII": null
+  },
+  {
+    "id": 1728,
+    "word": "weg/weg-",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "away / gone",
+    "partizipII": null
+  },
+  {
+    "id": 1729,
+    "word": "wehtun",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to hurt / to ache",
+    "partizipII": "wehgetan"
+  },
+  {
+    "id": 1730,
+    "word": "weigern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to refuse (sich ~)",
+    "partizipII": "geweigert"
+  },
+  {
+    "id": 1731,
+    "word": "weiter/weiter-",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "further / on / continue",
+    "partizipII": null
+  },
+  {
+    "id": 1732,
+    "word": "Weiterbildung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "further education / training",
+    "partizipII": null
+  },
+  {
+    "id": 1733,
+    "word": "welcher",
+    "note": "auch: welche, welches",
+    "artikel": null,
+    "type": "Fragewort",
+    "english": "which / which one",
+    "partizipII": null
+  },
+  {
+    "id": 1734,
+    "word": "weltweit",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "worldwide / global",
+    "partizipII": null
+  },
+  {
+    "id": 1735,
+    "word": "wenden",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to turn / to turn around / to turn to (sich ~ an)",
+    "partizipII": "gewendet"
+  },
+  {
+    "id": 1736,
+    "word": "wenig/wenige",
+    "note": null,
+    "artikel": null,
+    "type": "Indefinitpronomen",
+    "english": "little / few",
+    "partizipII": null
+  },
+  {
+    "id": 1737,
+    "word": "Werbung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "advertising / commercial",
+    "partizipII": null
+  },
+  {
+    "id": 1738,
+    "word": "werfen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to throw",
+    "partizipII": "geworfen"
+  },
+  {
+    "id": 1739,
+    "word": "Werk",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "work / plant / factory",
+    "partizipII": null
+  },
+  {
+    "id": 1740,
+    "word": "Werkzeug",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "tool / tools",
+    "partizipII": null
+  },
+  {
+    "id": 1741,
+    "word": "wert",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "worth / worthy",
+    "partizipII": null
+  },
+  {
+    "id": 1742,
+    "word": "Wert",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "value / worth",
+    "partizipII": null
+  },
+  {
+    "id": 1743,
+    "word": "wertlos",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "worthless",
+    "partizipII": null
+  },
+  {
+    "id": 1744,
+    "word": "wertvoll",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "valuable",
+    "partizipII": null
+  },
+  {
+    "id": 1745,
+    "word": "weshalb",
+    "note": null,
+    "artikel": null,
+    "type": "Fragewort",
+    "english": "why / which is why",
+    "partizipII": null
+  },
+  {
+    "id": 1746,
+    "word": "wetten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to bet",
+    "partizipII": "gewettet"
+  },
+  {
+    "id": 1747,
+    "word": "Wetterbericht",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "weather report",
+    "partizipII": null
+  },
+  {
+    "id": 1748,
+    "word": "Wettervorhersage",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "weather forecast",
+    "partizipII": null
+  },
+  {
+    "id": 1749,
+    "word": "widersprechen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to contradict",
+    "partizipII": "widersprochen"
+  },
+  {
+    "id": 1750,
+    "word": "wie viel(e)",
+    "note": null,
+    "artikel": null,
+    "type": "Fragewort",
+    "english": "how much / how many",
+    "partizipII": null
+  },
+  {
+    "id": 1751,
+    "word": "wieder/wieder-",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "again / back",
+    "partizipII": null
+  },
+  {
+    "id": 1752,
+    "word": "Wiederholung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "repetition / repeat",
+    "partizipII": null
+  },
+  {
+    "id": 1753,
+    "word": "wiegen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to weigh",
+    "partizipII": "gewogen"
+  },
+  {
+    "id": 1754,
+    "word": "Wiese",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "meadow / lawn",
+    "partizipII": null
+  },
+  {
+    "id": 1755,
+    "word": "wieso",
+    "note": null,
+    "artikel": null,
+    "type": "Fragewort",
+    "english": "why / how come",
+    "partizipII": null
+  },
+  {
+    "id": 1756,
+    "word": "wild",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "wild",
+    "partizipII": null
+  },
+  {
+    "id": 1757,
+    "word": "winken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to wave",
+    "partizipII": "gewinkt"
+  },
+  {
+    "id": 1758,
+    "word": "wirken",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to have an effect / to seem",
+    "partizipII": "gewirkt"
+  },
+  {
+    "id": 1759,
+    "word": "Wirklichkeit",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "reality",
+    "partizipII": null
+  },
+  {
+    "id": 1760,
+    "word": "Wirkung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "effect / impact",
+    "partizipII": null
+  },
+  {
+    "id": 1761,
+    "word": "Wirt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "landlord / innkeeper",
+    "partizipII": null
+  },
+  {
+    "id": 1762,
+    "word": "Wirtin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "landlady / innkeeper (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1763,
+    "word": "Wirtschaft",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "economy / pub",
+    "partizipII": null
+  },
+  {
+    "id": 1764,
+    "word": "Wissenschaft",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "science / scholarship",
+    "partizipII": null
+  },
+  {
+    "id": 1765,
+    "word": "Wissenschaftler",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "scientist / scholar",
+    "partizipII": null
+  },
+  {
+    "id": 1766,
+    "word": "Wissenschaftlerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "scientist / scholar (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1767,
+    "word": "wohl",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "probably / presumably / well",
+    "partizipII": null
+  },
+  {
+    "id": 1768,
+    "word": "Wohnort",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "place of residence",
+    "partizipII": null
+  },
+  {
+    "id": 1769,
+    "word": "Wohnsitz",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "place of residence / domicile",
+    "partizipII": null
+  },
+  {
+    "id": 1770,
+    "word": "Wolle",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "wool",
+    "partizipII": null
+  },
+  {
+    "id": 1771,
+    "word": "Wörterbuch",
+    "note": "Pl. Wörterbücher",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "dictionary",
+    "partizipII": null
+  },
+  {
+    "id": 1772,
+    "word": "worüber",
+    "note": null,
+    "artikel": null,
+    "type": "Fragewort",
+    "english": "about what / what ... about",
+    "partizipII": null
+  },
+  {
+    "id": 1773,
+    "word": "worum",
+    "note": null,
+    "artikel": null,
+    "type": "Fragewort",
+    "english": "about what / what ... about",
+    "partizipII": null
+  },
+  {
+    "id": 1774,
+    "word": "Wunde",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "wound",
+    "partizipII": null
+  },
+  {
+    "id": 1775,
+    "word": "Wunder",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "miracle / wonder",
+    "partizipII": null
+  },
+  {
+    "id": 1776,
+    "word": "wundern",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be surprised (sich ~)",
+    "partizipII": "gewundert"
+  },
+  {
+    "id": 1777,
+    "word": "wunderschön",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "beautiful / gorgeous",
+    "partizipII": null
+  },
+  {
+    "id": 1778,
+    "word": "wütend",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "furious / angry",
+    "partizipII": null
+  },
+  {
+    "id": 1779,
+    "word": "zählen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to count",
+    "partizipII": "gezählt"
+  },
+  {
+    "id": 1780,
+    "word": "zahlreich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "numerous",
+    "partizipII": null
+  },
+  {
+    "id": 1781,
+    "word": "Zahlung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "payment",
+    "partizipII": null
+  },
+  {
+    "id": 1782,
+    "word": "Zahnbürste",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "toothbrush",
+    "partizipII": null
+  },
+  {
+    "id": 1783,
+    "word": "Zahncreme",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "toothpaste",
+    "partizipII": null
+  },
+  {
+    "id": 1784,
+    "word": "Zange",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "pliers / tongs",
+    "partizipII": null
+  },
+  {
+    "id": 1785,
+    "word": "Zeichen",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "sign / signal / character",
+    "partizipII": null
+  },
+  {
+    "id": 1786,
+    "word": "Zeichnung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "drawing",
+    "partizipII": null
+  },
+  {
+    "id": 1787,
+    "word": "Zeile",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "line (of text)",
+    "partizipII": null
+  },
+  {
+    "id": 1788,
+    "word": "Zeitpunkt",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "point in time / moment",
+    "partizipII": null
+  },
+  {
+    "id": 1789,
+    "word": "zelten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to camp / to go camping",
+    "partizipII": "gezeltet"
+  },
+  {
+    "id": 1790,
+    "word": "zentral",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "central",
+    "partizipII": null
+  },
+  {
+    "id": 1791,
+    "word": "zerstören",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to destroy",
+    "partizipII": "zerstört"
+  },
+  {
+    "id": 1792,
+    "word": "Zertifikat",
+    "note": "Pl. -e",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "certificate",
+    "partizipII": null
+  },
+  {
+    "id": 1793,
+    "word": "Zeug",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "stuff / things",
+    "partizipII": null
+  },
+  {
+    "id": 1794,
+    "word": "Zeuge",
+    "note": "Pl. -n",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "witness",
+    "partizipII": null
+  },
+  {
+    "id": 1795,
+    "word": "Zeugin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "witness (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1796,
+    "word": "ziehen lassen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to let steep / to let brew",
+    "partizipII": "ziehen lassen"
+  },
+  {
+    "id": 1797,
+    "word": "ziemlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "quite / fairly / rather",
+    "partizipII": null
+  },
+  {
+    "id": 1798,
+    "word": "Zinsen",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "interest (on money)",
+    "partizipII": null
+  },
+  {
+    "id": 1799,
+    "word": "Zirkus",
+    "note": "Pl. -se",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "circus",
+    "partizipII": null
+  },
+  {
+    "id": 1800,
+    "word": "Zivilstand",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "marital status (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 1801,
+    "word": "Zone",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "zone",
+    "partizipII": null
+  },
+  {
+    "id": 1802,
+    "word": "zu sein",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to be closed / to be shut",
+    "partizipII": "zu gewesen"
+  },
+  {
+    "id": 1803,
+    "word": "zubereiten",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to prepare (food)",
+    "partizipII": "zubereitet"
+  },
+  {
+    "id": 1804,
+    "word": "Zufall",
+    "note": "Pl. Zufälle",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "coincidence / chance",
+    "partizipII": null
+  },
+  {
+    "id": 1805,
+    "word": "zufällig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "accidental / by chance",
+    "partizipII": null
+  },
+  {
+    "id": 1806,
+    "word": "Zugang",
+    "note": "Pl. Zugänge",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "access / entrance",
+    "partizipII": null
+  },
+  {
+    "id": 1807,
+    "word": "zugänglich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "accessible",
+    "partizipII": null
+  },
+  {
+    "id": 1808,
+    "word": "zugehen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to approach / to close / to happen",
+    "partizipII": "zugegangen"
+  },
+  {
+    "id": 1809,
+    "word": "Zuhause",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "home",
+    "partizipII": null
+  },
+  {
+    "id": 1810,
+    "word": "Zuhörer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "listener / member of the audience",
+    "partizipII": null
+  },
+  {
+    "id": 1811,
+    "word": "Zuhörerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "listener (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1812,
+    "word": "Zukunft",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "future",
+    "partizipII": null
+  },
+  {
+    "id": 1813,
+    "word": "zukünftig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "future / in future",
+    "partizipII": null
+  },
+  {
+    "id": 1814,
+    "word": "zumindest",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "at least",
+    "partizipII": null
+  },
+  {
+    "id": 1815,
+    "word": "zunächst",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "at first / to begin with",
+    "partizipII": null
+  },
+  {
+    "id": 1816,
+    "word": "Zünder",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "matches (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1817,
+    "word": "Zündholz",
+    "note": "Pl. Zündhölzer",
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "match (A)",
+    "partizipII": null
+  },
+  {
+    "id": 1818,
+    "word": "zunehmen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to increase / to put on weight",
+    "partizipII": "zugenommen"
+  },
+  {
+    "id": 1819,
+    "word": "zurechtkommen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to cope / to manage",
+    "partizipII": "zurechtgekommen"
+  },
+  {
+    "id": 1820,
+    "word": "zurück/zurück-",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "back / backwards",
+    "partizipII": null
+  },
+  {
+    "id": 1821,
+    "word": "zusagen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to accept (an invitation) / to appeal to",
+    "partizipII": "zugesagt"
+  },
+  {
+    "id": 1822,
+    "word": "zusammen/zusammen-",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "together",
+    "partizipII": null
+  },
+  {
+    "id": 1823,
+    "word": "Zusammenarbeit",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "cooperation / collaboration",
+    "partizipII": null
+  },
+  {
+    "id": 1824,
+    "word": "zusammenfassen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to summarise",
+    "partizipII": "zusammengefasst"
+  },
+  {
+    "id": 1825,
+    "word": "Zusammenhang",
+    "note": "Pl. Zusammenhänge",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "connection / context",
+    "partizipII": null
+  },
+  {
+    "id": 1826,
+    "word": "zusätzlich",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "additional / in addition",
+    "partizipII": null
+  },
+  {
+    "id": 1827,
+    "word": "zuschauen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to watch / to look on",
+    "partizipII": "zugeschaut"
+  },
+  {
+    "id": 1828,
+    "word": "Zuschauer",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "spectator / viewer",
+    "partizipII": null
+  },
+  {
+    "id": 1829,
+    "word": "Zuschauerin",
+    "note": "Pl. -nen",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "spectator / viewer (f.)",
+    "partizipII": null
+  },
+  {
+    "id": 1830,
+    "word": "Zuschlag",
+    "note": "Pl. Zuschläge",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "surcharge / supplement",
+    "partizipII": null
+  },
+  {
+    "id": 1831,
+    "word": "Zustand",
+    "note": "Pl. Zustände",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "condition / state",
+    "partizipII": null
+  },
+  {
+    "id": 1832,
+    "word": "zuständig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "responsible / in charge",
+    "partizipII": null
+  },
+  {
+    "id": 1833,
+    "word": "zustimmen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to agree / to consent",
+    "partizipII": "zugestimmt"
+  },
+  {
+    "id": 1834,
+    "word": "Zustimmung",
+    "note": "Pl. -en",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "consent / approval",
+    "partizipII": null
+  },
+  {
+    "id": 1835,
+    "word": "Zutaten",
+    "note": null,
+    "artikel": "die",
+    "type": "Substantiv (Pl.)",
+    "english": "ingredients",
+    "partizipII": null
+  },
+  {
+    "id": 1836,
+    "word": "zuverlässig",
+    "note": null,
+    "artikel": null,
+    "type": "Adjektiv",
+    "english": "reliable / dependable",
+    "partizipII": null
+  },
+  {
+    "id": 1837,
+    "word": "Zvieri",
+    "note": null,
+    "artikel": "das",
+    "type": "Substantiv",
+    "english": "afternoon snack (CH)",
+    "partizipII": null
+  },
+  {
+    "id": 1838,
+    "word": "zwar",
+    "note": null,
+    "artikel": null,
+    "type": "Adverb",
+    "english": "admittedly / to be precise",
+    "partizipII": null
+  },
+  {
+    "id": 1839,
+    "word": "Zweck",
+    "note": "Pl. -e",
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "purpose / point",
+    "partizipII": null
+  },
+  {
+    "id": 1840,
+    "word": "Zweifel",
+    "note": null,
+    "artikel": "der",
+    "type": "Substantiv",
+    "english": "doubt",
+    "partizipII": null
+  },
+  {
+    "id": 1841,
+    "word": "zweifeln",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to doubt",
+    "partizipII": "gezweifelt"
+  },
+  {
+    "id": 1842,
+    "word": "Zweitsprache",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "second language",
+    "partizipII": null
+  },
+  {
+    "id": 1843,
+    "word": "Zwiebel",
+    "note": "Pl. -n",
+    "artikel": "die",
+    "type": "Substantiv",
+    "english": "onion",
+    "partizipII": null
+  },
+  {
+    "id": 1844,
+    "word": "zwingen",
+    "note": null,
+    "artikel": null,
+    "type": "Verb",
+    "english": "to force / to compel",
+    "partizipII": "gezwungen"
+  }
+];
