@@ -185,8 +185,39 @@ function sortKey(word) {
   return stripped || word;
 }
 
+// Dictionary order (DIN 5007-1): umlauts file under their base letter, ß under
+// ss. Folding to a plain ASCII key keeps ordering identical across engines and
+// avoids localeCompare, which on the phone app's Hermes engine calls out to
+// platform collation for every comparison and made starting a session slow.
+function collationKey(word) {
+  return sortKey(word)
+    .toLowerCase()
+    .replace(/ä/g, 'a')
+    .replace(/ö/g, 'o')
+    .replace(/ü/g, 'u')
+    .replace(/ß/g, 'ss');
+}
+
 function byAlphabet(a, b) {
-  return sortKey(a).localeCompare(sortKey(b), 'de');
+  const ka = collationKey(a);
+  const kb = collationKey(b);
+  if (ka < kb) return -1;
+  return ka > kb ? 1 : 0;
+}
+
+// A level's word list in dictionary order. The order never changes, so it is
+// computed once per level and reused: starting a session is then a filter over
+// a ready-made array rather than a fresh sort of up to 1,845 words.
+const alphabeticalCache = {};
+
+function alphabeticalWords(levelId) {
+  const id = levelId || activeLevel;
+  if (!alphabeticalCache[id]) {
+    const keyed = words(id).map(e => ({ entry: e, key: collationKey(e.word) }));
+    keyed.sort((x, y) => (x.key < y.key ? -1 : x.key > y.key ? 1 : 0));
+    alphabeticalCache[id] = keyed.map(x => x.entry);
+  }
+  return alphabeticalCache[id];
 }
 
 function shuffle(arr) {
@@ -406,7 +437,7 @@ function buildStudyWordList(levelId, n, currentLesson) {
   // level 4 words only resurface once every 10 - and it's still fundamentally
   // an alphabetical scan, so early sessions are dominated by A-words and later
   // sessions drift into B, C, ... as earlier words become due less often.
-  const alphabetical = words(levelId).slice().sort((a, b) => byAlphabet(a.word, b.word));
+  const alphabetical = alphabeticalWords(levelId);
 
   const selected = new Set();
   function addUpTo(predicate) {
@@ -444,13 +475,9 @@ function startStudySession(length, direction) {
 }
 
 function startFlashSession(levelId, direction, order) {
-  const list = words(levelId);
-  let ids = list.map(e => e.id);
-  if (order === 'shuffle') {
-    ids = shuffle(ids);
-  } else {
-    ids = ids.slice().sort((a, b) => byAlphabet(list[a].word, list[b].word));
-  }
+  const ids = order === 'shuffle'
+    ? shuffle(words(levelId).map(e => e.id))
+    : alphabeticalWords(levelId).map(e => e.id);
   session = {
     mode: 'flash',
     levelId,

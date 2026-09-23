@@ -119,8 +119,38 @@ export function sortKey(word) {
   return stripped || word;
 }
 
+// Dictionary order (DIN 5007-1): umlauts file under their base letter, ß under
+// ss. Folding to a plain ASCII key keeps ordering identical across engines and
+// avoids localeCompare, which on Hermes calls out to platform collation for
+// every single comparison and made starting a session take seconds.
+function collationKey(word) {
+  return sortKey(word)
+    .toLowerCase()
+    .replace(/ä/g, 'a')
+    .replace(/ö/g, 'o')
+    .replace(/ü/g, 'u')
+    .replace(/ß/g, 'ss');
+}
+
 export function byAlphabet(a, b) {
-  return sortKey(a).localeCompare(sortKey(b), 'de');
+  const ka = collationKey(a);
+  const kb = collationKey(b);
+  if (ka < kb) return -1;
+  return ka > kb ? 1 : 0;
+}
+
+// A level's word list in dictionary order. The order never changes, so it is
+// computed once per level and reused: starting a session is then a filter over
+// a ready-made array rather than a fresh sort of up to 1,845 words.
+const alphabeticalCache = {};
+
+export function alphabeticalWords(levelId) {
+  if (!alphabeticalCache[levelId]) {
+    const keyed = wordsOf(levelId).map(e => ({ entry: e, key: collationKey(e.word) }));
+    keyed.sort((x, y) => (x.key < y.key ? -1 : x.key > y.key ? 1 : 0));
+    alphabeticalCache[levelId] = keyed.map(x => x.entry);
+  }
+  return alphabeticalCache[levelId];
 }
 
 export function shuffle(arr) {
@@ -138,7 +168,7 @@ export function buildStudyWordList(levelId, levelProgress, n, currentLesson) {
   // and its level's cooldown has elapsed since it was last rated. Early
   // sessions are therefore dominated by A-words, drifting further into the
   // alphabet as earlier words become due less often.
-  const alphabetical = wordsOf(levelId).slice().sort((a, b) => byAlphabet(a.word, b.word));
+  const alphabetical = alphabeticalWords(levelId);
 
   const selected = new Set();
   function addUpTo(predicate) {
@@ -156,9 +186,8 @@ export function buildStudyWordList(levelId, levelProgress, n, currentLesson) {
 }
 
 export function buildFlashWordList(levelId, order) {
-  const list = wordsOf(levelId);
-  const ids = list.map(e => e.id);
-  return order === 'shuffle' ? shuffle(ids) : ids.slice().sort((a, b) => byAlphabet(list[a].word, list[b].word));
+  if (order === 'shuffle') return shuffle(wordsOf(levelId).map(e => e.id));
+  return alphabeticalWords(levelId).map(e => e.id);
 }
 
 // ---------- Display and answer checking ----------
